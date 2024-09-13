@@ -1,40 +1,11 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_abilities
-
-test_query query markdown_file="../Rules/Draw Steel Rules.md":
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    mkcat "{{markdown_file}}" | mkql '{{query}}' | mkout > "../Rules/Draw Steel Rules query.md"
-
-generate_html_markdown markdown_file="../Rules/Draw Steel Rules.md":
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    python3 -m markdown "{{markdown_file}}" > "../Rules/Draw Steel Rules markdown.html"
-
-generate_html_mistune markdown_file="../Rules/Draw Steel Rules.md":
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    python3 -m mistune -f "{{markdown_file}}" > "../Rules/Draw Steel Rules mistune.html"
+generate: generate_json generate_html_pandoc generate_abilities
 
 generate_html_pandoc:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    pandoc --wrap=none \
-        --self-contained \
-        --section-divs \
-        --template="template.html" \
-        -f markdown_strict+header_attributes+yaml_metadata_block+pipe_tables \
-        -t html5 \
-        "../Rules/Draw Steel Rules.md" > "../Rules/Draw Steel Rules.html"
-
-generate_html_pandoc2:
-    #!/usr/bin/env bash
-    set -euo pipefail
+    echo >&2 "[JUST] --- Generating html --- "
 
     pandoc --wrap=none \
         --standalone \

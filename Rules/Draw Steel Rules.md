@@ -1,5 +1,3 @@
-# Draw Steel C
-
 Draw Steel Compendium is an independent product published under the DRAW STEEL Creator License and is not affiliated with MCDM Productions, LLC. DRAW STEEL © 2024 MCDM Productions, LLC.
 
 ## WHAT IS THIS GAME?
@@ -3027,7 +3025,7 @@ You hurl a ball of elemental energy at a nearby foe.
 
 Some of your heroic abilities have the Persistent keyword. Whenever you use a persistent ability, you decide whether you want to maintain it. If you maintain a persistent ability in combat, you reduce the amount of essence you earn at the start of your turn by an amount equal to the ability’s persistent value, which enables the ability’s persistent effect. All your active persistent abilities end when combat ends.
 
-You can maintain a persistent ability outs[justfile](..%2Futil%2Fjustfile)ide of combat as long as you have Victories equal to or greater than its persistent value. If you maintain a persistent ability outside of combat, the maximum essence you can use on other abilities is reduced by the ability’s persistent value. For instance, if you have 4 Victories and maintain the Stone Ward ability (a persistent ability with a cost of 1 essence), you can only use abilities costing 3 essence or less outside of combat.
+You can maintain a persistent ability outside of combat as long as you have Victories equal to or greater than its persistent value. If you maintain a persistent ability outside of combat, the maximum essence you can use on other abilities is reduced by the ability’s persistent value. For instance, if you have 4 Victories and maintain the Stone Ward ability (a persistent ability with a cost of 1 essence), you can only use abilities costing 3 essence or less outside of combat.
 
 You can’t maintain any abilities that would make you earn a negative amount of essence at the start of your turn or have a negative amount of essence outside of combat. You can stop maintaining an ability at any time (no action required).
 
