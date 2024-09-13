@@ -68,7 +68,6 @@ ability_entry_to_markdown() {
     echo "${filename}.md" >> "$links"
 }
 
-
 # Prints out markdown for an ability
 ability_to_markdown() {
     # String of the ability name - expected to be all uppercase

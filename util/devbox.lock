@@ -125,6 +125,54 @@
         }
       }
     },
+    "html-tidy@latest": {
+      "last_modified": "2024-09-12T11:58:09Z",
+      "resolved": "github:NixOS/nixpkgs/280db3decab4cbeb22a4599bd472229ab74d25e1#html-tidy",
+      "source": "devbox-search",
+      "version": "5.8.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fyi0dqq74idm6ab8i135ynb49aaigh1h-html-tidy-5.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fyi0dqq74idm6ab8i135ynb49aaigh1h-html-tidy-5.8.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mnxvz4s5mqf62nrsig7b4yn1bvlsys9c-html-tidy-5.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mnxvz4s5mqf62nrsig7b4yn1bvlsys9c-html-tidy-5.8.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x7zcq44klyq8hbwg621x042vzzxha6s7-html-tidy-5.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x7zcq44klyq8hbwg621x042vzzxha6s7-html-tidy-5.8.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cq3v2crp5np9361br7kn5kg7vh3n4b90-html-tidy-5.8.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cq3v2crp5np9361br7kn5kg7vh3n4b90-html-tidy-5.8.0"
+        }
+      }
+    },
     "jq@latest": {
       "last_modified": "2024-09-09T01:53:33Z",
       "resolved": "github:NixOS/nixpkgs/03e62e5bc3a6dd3203c3fc6f87aec7684a57da75#jq",

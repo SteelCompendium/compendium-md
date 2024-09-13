@@ -7,11 +7,19 @@ generate_html_pandoc:
     set -euo pipefail
     echo >&2 "[JUST] --- Generating html --- "
 
+    # convert from markdown to html
     pandoc --wrap=none \
         --standalone \
         --section-divs \
         -o "../Rules/Draw Steel Rules.html" \
         "../Rules/Draw Steel Rules.md"
+
+    # avoiding some cdata mess
+    sed -i 's/<style>/<style type="text\/css">/g' "../Rules/Draw Steel Rules.html"
+
+    # tidy up the html
+    tidy -i "../Rules/Draw Steel Rules.html" > .tmp || true
+    mv .tmp "../Rules/Draw Steel Rules.html"
 
 generate_json:
     #!/usr/bin/env bash
@@ -40,6 +48,18 @@ generate_abilities:
     generate_abilities_for_class "FURY"
     generate_abilities_for_class "SHADOW"
     generate_abilities_for_class "TACTICIAN"
+
+test_query:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    xpath="//section[@id='conduit']//section[@id='st-level-features']//section[@id='triggered-action']"
+    temp=$(mktemp)
+    xidel --output-node-format html -e "$xpath" "../Rules/Draw Steel Rules2.html" > "$temp"
+    pandoc --wrap=none \
+            --from html --to markdown_strict \
+            -o "test.md" \
+            "$temp"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
