@@ -341,71 +341,6 @@
         }
       }
     },
-    "nodejs@18": {
-      "last_modified": "2024-08-31T10:12:23Z",
-      "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#nodejs_18",
-      "source": "devbox-search",
-      "version": "18.20.4",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/5k3b4l24qray412x35q95y067ll51rv5-nodejs-18.20.4",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/8caswslyz5x5y9sl44bx7vbdy67a92px-nodejs-18.20.4-libv8"
-            }
-          ],
-          "store_path": "/nix/store/5k3b4l24qray412x35q95y067ll51rv5-nodejs-18.20.4"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/577kjc9ygkxrfrbxillh7dgdhka8ic2w-nodejs-18.20.4",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/nm6szz0g799gfpwhsnv14nmjvzk8mi0c-nodejs-18.20.4-libv8"
-            }
-          ],
-          "store_path": "/nix/store/577kjc9ygkxrfrbxillh7dgdhka8ic2w-nodejs-18.20.4"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/djai3vmv7w8aivdld68jcn04kw0j0b6s-nodejs-18.20.4",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/g0prz3qlq0mmifmd9l1wikx7prgg02sb-nodejs-18.20.4-libv8"
-            }
-          ],
-          "store_path": "/nix/store/djai3vmv7w8aivdld68jcn04kw0j0b6s-nodejs-18.20.4"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/cs678lm3zzl18wnfr88sag2c0j3y5ya9-nodejs-18.20.4",
-              "default": true
-            },
-            {
-              "name": "libv8",
-              "path": "/nix/store/k1gnid54y4nw7kgysw9ik29as6wqak9k-nodejs-18.20.4-libv8"
-            }
-          ],
-          "store_path": "/nix/store/cs678lm3zzl18wnfr88sag2c0j3y5ya9-nodejs-18.20.4"
-        }
-      }
-    },
     "pandoc@latest": {
       "last_modified": "2024-09-05T02:32:14Z",
       "resolved": "github:NixOS/nixpkgs/fcb54ddcc974cff59bdfb7c1ac9e080299763d2d#pandoc",
@@ -508,6 +443,54 @@
             }
           ],
           "store_path": "/nix/store/pgb120fb7srbh418v4i2a70aq1w9dawd-python3-3.12.5"
+        }
+      }
+    },
+    "xidel@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#xidel",
+      "source": "devbox-search",
+      "version": "2022-11-01",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g1ylfgrgkigmjywvfygz8wafg0dy0816-xidel-unstable-2022-11-01",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g1ylfgrgkigmjywvfygz8wafg0dy0816-xidel-unstable-2022-11-01"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kbr4gb9mmmqj1f3bdm74r264r3flivv5-xidel-unstable-2022-11-01",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kbr4gb9mmmqj1f3bdm74r264r3flivv5-xidel-unstable-2022-11-01"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f0cn9y82kpajqcqpfm7iv52fmhbp1wq1-xidel-unstable-2022-11-01",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f0cn9y82kpajqcqpfm7iv52fmhbp1wq1-xidel-unstable-2022-11-01"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ji42da2c2lmjl7whnvgv0qm9f716aiq5-xidel-unstable-2022-11-01",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ji42da2c2lmjl7whnvgv0qm9f716aiq5-xidel-unstable-2022-11-01"
         }
       }
     }
