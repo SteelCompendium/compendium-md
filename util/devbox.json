@@ -6,22 +6,22 @@
     "just@latest",
     "jq@latest",
     "pandoc@latest",
-    "xidel@latest",
-    "html-tidy@latest",
+    "html-tidy@latest"
   ],
   "env": {
-    "DEVBOX_COREPACK_ENABLED": "true",
+    "DEVBOX_COREPACK_ENABLED": "true"
   },
   "shell": {
     "init_hook": [
       "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
       ". $VENV_DIR/bin/activate",
-      "pip install markdown-to-json"
+      "pip install markdown-to-json",
+      "pip install lxml"
     ],
     "scripts": {
-      "generate":           "just generate",
-      "generate_json":      "just generate_json",
+      "generate": "just generate",
+      "generate_json": "just generate_json",
       "generate_abilities": "just generate_abilities"
-    },
-  },
+    }
+  }
 }

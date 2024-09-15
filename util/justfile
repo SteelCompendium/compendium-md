@@ -21,6 +21,9 @@ generate_html_pandoc:
     tidy -i "../Rules/Draw Steel Rules.html" > .tmp || true
     mv .tmp "../Rules/Draw Steel Rules.html"
 
+    # Replace unnecessary spaces
+    sed -i 's/\&nbsp\;/ /g' "../Rules/Draw Steel Rules.html"
+
 generate_json:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -49,13 +52,24 @@ generate_abilities:
     generate_abilities_for_class "SHADOW"
     generate_abilities_for_class "TACTICIAN"
 
-test_query:
+generate_kits:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    source ./query.bash
-    xpath="//section[@id='conduit']//section[@id='st-level-features']//section[@id='triggered-action']"
-    query_md "$xpath" "../Rules/Draw Steel Rules.html"
+    source ./util.bash
+
+    martial_path="../Kits/Martial Kits"
+    caster_path="../Kits/Caster Kits"
+    rm -rf "$martial_path"
+    rm -rf "$caster_path"
+
+    xpath="//section[@id='kits']//section[@id='martial-kits']//section[@class='level4']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$martial_path"
+    html_folder_to_md "$martial_path"
+
+    xpath="//section[@id='kits']//section[@id='caster-kits']//section[@class='level4']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$caster_path"
+    html_folder_to_md "$caster_path"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:

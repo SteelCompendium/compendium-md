@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+source ./util.bash
+
 # For a given class, parses the rules json doc to extract abilities and create dedicated files for them
 generate_abilities_for_class() {
     local class="${1:-}"
@@ -225,28 +227,4 @@ generate_ability_index_markdown() {
     done
 
     cat "$markdown_path"
-}
-
-# Source: https://stackoverflow.com/a/76503202
-title_case() {
-   ((CHR_PTR=0))
-   set ${*,,}
-   for f in ${*} ; do
-      case $f in
-         ebay) c+="eBay " ;;
-         mcdonalds|"mcdonald's") c+="McDonald's " ;;
-         vs) c+="vs. " ;;
-         a|about|and|but|by|for|in|is|of|or|the|to) \
-             [ "$CHR_PTR" -eq "0" ] && {
-                c+="${f^} "
-             } || {
-                c+="$f "
-             } ;;
-         bbq|diy|hdtv|hf|kfc|mdf|sdtv|shf|tv|uhf|vlf|vhf) c+="${f^^} " ;;
-         *) c+="${f^} " ;;
-      esac
-      ((CHR_PTR++))
-   done
-   x=${c## } ; c=${x%% }
-   echo "$c"
 }
