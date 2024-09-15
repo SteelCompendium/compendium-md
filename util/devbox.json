@@ -21,7 +21,7 @@
     "scripts": {
       "generate": "just generate",
       "generate_json": "just generate_json",
-      "generate_abilities": "just generate_abilities"
+      "generate_html": "just generate_html_pandoc"
     }
   }
 }

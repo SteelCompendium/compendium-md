@@ -43,7 +43,11 @@ html_to_md() {
     markdown_filename="$(title_case "$h_filename" | sed -e 's/html/md/' -e 's/_/ /g' -e "s/’//g" -e "s/'//g")"
 
     # convert html to markdown
-    pandoc --wrap=none -f html -t markdown_strict -o "${h_folder_path}/${markdown_filename}" "${h_folder_path}/${h_filename}"
+    pandoc --wrap=none --standalone \
+        --from=html \
+        --to=markdown_strict+pipe_tables \
+        -o "${h_folder_path}/${markdown_filename}" \
+        "${h_folder_path}/${h_filename}"
 
     # Cleanup the markdown files
     reduce_headers_in_md "${h_folder_path}/${markdown_filename}"

@@ -21,8 +21,9 @@ generate_html_pandoc:
     tidy -i "../Rules/Draw Steel Rules.html" > .tmp || true
     mv .tmp "../Rules/Draw Steel Rules.html"
 
-    # Replace unnecessary spaces
-    sed -i 's/\&nbsp\;/ /g' "../Rules/Draw Steel Rules.html"
+    # Replace html entities
+    sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "../Rules/Draw Steel Rules.html"
+    sed -i "s/&#8217;/'/g; s/’/'/g;" "../Rules/Draw Steel Rules.html"
 
 generate_json:
     #!/usr/bin/env bash
@@ -133,6 +134,29 @@ generate_cultures:
 
     # removes any extra sections
     rm "${cultures_path}/Upbringing/But i really want alertness.md"
+
+generate_skills:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    source ./util.bash
+    echo >&2 "[JUST] --- Generating skills --- "
+
+    skills_path="../Skills"
+    rm -rf "$skills_path"
+
+    xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level5']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$skills_path"
+    html_folder_to_md "$skills_path"
+
+    # removes any extra sections
+    rm "${skills_path}/Are all skills equal?.md"
+    rm "${skills_path}/For the director: make your own skills.md"
+
+# TODO - this isnt quite ready
+# - criminal career links to itself instead of Criminal Underworld Skill
+auto_link:
+    python3 obs-auto-linker.py ../
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
