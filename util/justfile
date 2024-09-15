@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers
+generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -57,6 +57,7 @@ generate_kits:
     set -euo pipefail
 
     source ./util.bash
+    echo >&2 "[JUST] --- Generating kits --- "
 
     martial_path="../Kits/Martial Kits"
     caster_path="../Kits/Caster Kits"
@@ -76,6 +77,7 @@ generate_ancestries:
     set -euo pipefail
 
     source ./util.bash
+    echo >&2 "[JUST] --- Generating ancestries --- "
 
     ancestries_path="../Ancestries"
     rm -rf "$ancestries_path"
@@ -93,6 +95,7 @@ generate_careers:
     set -euo pipefail
 
     source ./util.bash
+    echo >&2 "[JUST] --- Generating careers --- "
 
     careers_path="../Careers"
     rm -rf "$careers_path"
@@ -105,6 +108,31 @@ generate_careers:
     rm "${careers_path}/Career benefits.md"
     rm "${careers_path}/Career questions.md"
     rm "${careers_path}/Inciting incident.md"
+
+generate_cultures:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    source ./util.bash
+    echo >&2 "[JUST] --- Generating cultures --- "
+
+    cultures_path="../Cultures"
+    rm -rf "$cultures_path"
+
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$cultures_path/Environments"
+    html_folder_to_md "$cultures_path/Environments"
+
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='organization']//section[@class='level5']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$cultures_path/Organizations"
+    html_folder_to_md "$cultures_path/Organizations"
+
+    xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level5']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$cultures_path/Upbringing"
+    html_folder_to_md "$cultures_path/Upbringing"
+
+    # removes any extra sections
+    rm "${cultures_path}/Upbringing/But i really want alertness.md"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
