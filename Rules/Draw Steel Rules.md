@@ -6309,7 +6309,7 @@ Rewards for tests made with interpersonal skills typically include gaining an ex
 
 Failure consequences for tests made with interpersonal skills include making the person you’re interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable, which might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
 
-##### INTERPERSONAL SKILLS
+###### INTERPERSONAL SKILLS TABLE
 
 | Skill          | Use                                                                     |
 | -------------- | ----------------------------------------------------------------------- |

@@ -1,5 +1,13 @@
 # Interpersonal Skills
 
+Skills from the interpersonal skill group are used to socially interact with other creatures and are particularly useful during negotiations. Aside from the Handle Animals skill, you can generally only use interpersonal skills when you attempt to influence creatures who have emotions and who can understand you.
+
+Rewards for tests made with interpersonal skills typically include gaining an extra favor, item, or piece of information from the person or people you interact with.
+
+Failure consequences for tests made with interpersonal skills include making the person you’re interacting with angry, sad, embarrassed, offended, or otherwise upset or uncomfortable, which might cause them to ignore you, storm off, spread rumors about you, attack you, betray you, blackmail you, or otherwise attempt to harm you.
+
+## Interpersonal Skills Table
+
 <table style="width:99%;">
 <colgroup>
 <col style="width: 16%" />
