@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures
+generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_skills
 
 generate_html_pandoc:
     #!/usr/bin/env bash

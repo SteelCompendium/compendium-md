@@ -6360,7 +6360,7 @@ Rewards for tests made with lore skills typically include learning an extra piec
 
 Failure consequences for tests made with lore skills typically include learning an incorrect piece of information that seems useful, but which actually makes things worse or wastes time. (It’s fun to roleplay these sorts of moments, so lean in!) Alternatively, the Director can make medium and hard lore tests for each hero in secret and let the players know the narrative outcome without revealing the result of the dice.
 
-##### LORE SKILLS TABLE
+###### LORE SKILLS TABLE
 
 | Skill               | Use                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------ |
