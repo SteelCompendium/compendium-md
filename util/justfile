@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries
+generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -87,6 +87,24 @@ generate_ancestries:
     # removes any extra sections
     rm "${ancestries_path}/Starting size and speed.md"
     rm "${ancestries_path}/On the origin of species.md"
+
+generate_careers:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    source ./util.bash
+
+    careers_path="../Careers"
+    rm -rf "$careers_path"
+
+    xpath="//section[@id='career-1']//section[@class='level3']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$careers_path"
+    html_folder_to_md "$careers_path"
+
+    # removes any extra sections
+    rm "${careers_path}/Career benefits.md"
+    rm "${careers_path}/Career questions.md"
+    rm "${careers_path}/Inciting incident.md"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
