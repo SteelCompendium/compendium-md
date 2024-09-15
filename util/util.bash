@@ -55,13 +55,7 @@ html_to_md() {
 reduce_headers_in_md() {
     local md_file_path="${1:-}"
 
-    # Find the level of the first header (number of # symbols)
-    first_header_level=$(grep -m 1 "^#" "$md_file_path" | grep -o '^#*' | wc -c)
-
-    # Subtract 1 to get the level shift needed
-    # TODO - this should be `-1` NOT `-2` - there is something wrong...
-    header_shift=$((first_header_level - 2))
-    headers_to_remove=$(printf '#%.0s' $(seq 1 $header_shift))
-
+    # Find the extra levels of the first header (number of # symbols - 1); then remove them
+    headers_to_remove=$(grep --color=never -m 1 "^#" "$md_file_path" | sed -E 's/(\#+)\#.*/\1/g')
     sed -i "s/$headers_to_remove//g" "$md_file_path"
 }
