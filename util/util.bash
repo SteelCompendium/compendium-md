@@ -45,8 +45,9 @@ html_to_md() {
     # convert html to markdown
     pandoc --wrap=none -f html -t markdown_strict -o "${h_folder_path}/${markdown_filename}" "${h_folder_path}/${h_filename}"
 
-    # Reduce the nested headers
+    # Cleanup the markdown files
     reduce_headers_in_md "${h_folder_path}/${markdown_filename}"
+    title_case_headers_in_md "${h_folder_path}/${markdown_filename}"
 
     # Delete html file
     rm "$html_file_path"
@@ -58,4 +59,10 @@ reduce_headers_in_md() {
     # Find the extra levels of the first header (number of # symbols - 1); then remove them
     headers_to_remove=$(grep --color=never -m 1 "^#" "$md_file_path" | sed -E 's/(\#+)\#.*/\1/g')
     sed -i "s/$headers_to_remove//g" "$md_file_path"
+}
+
+title_case_headers_in_md() {
+    local md_file_path="${1:-}"
+    sed -E '/^#+ /{s/(#+)\s*(.*)/\1 \L\2/g; s/(#+\s*)([a-z])/\1\u\2/g; s/\s([a-z])/ \u\1/g}' "$md_file_path" > .tmp
+    mv .tmp "$md_file_path"
 }
