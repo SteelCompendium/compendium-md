@@ -1,11 +1,11 @@
 ---
-name: "Punch the Earth (3 Essence)"
+name: "Punch The Earth (3 Essence)"
 type: "3-essence Abilities"
 source: "Elementalist"
 cost: "3 ESSENCE"
 ---
 
-# Punch the Earth (3 Essence)
+# Punch The Earth (3 Essence)
 
 *You slam the ground, which buckles out from you in every direction.*
 

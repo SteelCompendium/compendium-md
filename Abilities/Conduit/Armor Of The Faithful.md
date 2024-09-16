@@ -1,11 +1,11 @@
 ---
-name: "Armor of the Faithful (5 Piety)"
+name: "Armor Of The Faithful (5 Piety)"
 type: "5-piety Abilities"
 source: "Conduit"
 cost: "5 PIETY"
 ---
 
-# Armor of the Faithful (5 Piety)
+# Armor Of The Faithful (5 Piety)
 
 *The divine light of protection surrounds your allies.*
 

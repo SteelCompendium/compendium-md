@@ -1,25 +1,8 @@
-# Source: https://stackoverflow.com/a/76503202
+# Source: https://stackoverflow.com/a/42943426
+# I dont understand why this works, but it works
 title_case() {
-   ((CHR_PTR=0))
-   set ${*,,}
-   for f in ${*} ; do
-      case $f in
-         ebay) c+="eBay " ;;
-         mcdonalds|"mcdonald's") c+="McDonald's " ;;
-         vs) c+="vs. " ;;
-         a|about|and|but|by|for|in|is|of|or|the|to) \
-             [ "$CHR_PTR" -eq "0" ] && {
-                c+="${f^} "
-             } || {
-                c+="$f "
-             } ;;
-         bbq|diy|hdtv|hf|kfc|mdf|sdtv|shf|tv|uhf|vlf|vhf) c+="${f^^} " ;;
-         *) c+="${f^} " ;;
-      esac
-      ((CHR_PTR++))
-   done
-   x=${c## } ; c=${x%% }
-   echo "$c"
+    set ${*,,}
+    echo ${*^}
 }
 
 # converts all files in the folder from html to md
@@ -40,7 +23,8 @@ html_to_md() {
     h_filename="$(basename "$h_path")"
 
     # build the md filename, formatted
-    markdown_filename="$(title_case "$h_filename" | sed -e 's/html/md/' -e 's/_/ /g' -e "s/’//g" -e "s/'//g")"
+    markdown_filename=$(echo "$h_filename" | sed -e 's/html/md/' -e 's/_/ /g' -e "s/’//g" -e "s/'//g")
+    markdown_filename="$(title_case "$markdown_filename")"
 
     # convert html to markdown
     pandoc --wrap=none --standalone \

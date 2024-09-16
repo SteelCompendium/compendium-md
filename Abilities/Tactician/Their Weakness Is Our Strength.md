@@ -1,11 +1,11 @@
 ---
-name: "Their Weakness is Our Strength (5 Focus)"
+name: "Their Weakness Is Our Strength (5 Focus)"
 type: "5-focus Abilities"
 source: "Tactician"
 cost: "5 FOCUS"
 ---
 
-# Their Weakness is Our Strength (5 Focus)
+# Their Weakness Is Our Strength (5 Focus)
 
 *Leaving your foe struggling gives your allies a strategic opening.*
 

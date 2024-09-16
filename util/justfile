@@ -73,8 +73,8 @@ generate_ancestries:
     just generate_section "$ancestries_path" "$xpath"
 
     # removes any extra sections
-    rm "${ancestries_path}/Starting size and speed.md"
-    rm "${ancestries_path}/On the origin of species.md"
+    rm "${ancestries_path}/Starting Size And Speed.md"
+    rm "${ancestries_path}/On The Origin Of Species.md"
 
 generate_careers:
     #!/usr/bin/env bash
@@ -84,9 +84,9 @@ generate_careers:
     just generate_section "$careers_path" "$xpath"
 
     # removes any extra sections
-    rm "${careers_path}/Career benefits.md"
-    rm "${careers_path}/Career questions.md"
-    rm "${careers_path}/Inciting incident.md"
+    rm "${careers_path}/Career Benefits.md"
+    rm "${careers_path}/Career Questions.md"
+    rm "${careers_path}/Inciting Incident.md"
 
 generate_cultures:
     #!/usr/bin/env bash
@@ -103,7 +103,7 @@ generate_cultures:
     just generate_section "$cultures_path/Upbringing" "$xpath"
 
     # removes any extra sections
-    rm "${cultures_path}/Upbringing/But i really want alertness.md"
+    rm "${cultures_path}/Upbringing/But I Really Want Alertness.md"
 
 generate_skills:
     #!/usr/bin/env bash
@@ -113,8 +113,8 @@ generate_skills:
     just generate_section "$skills_path" "$xpath"
 
     # removes any extra sections
-    rm "${skills_path}/Are all skills equal?.md"
-    rm "${skills_path}/For the director: make your own skills.md"
+    rm "${skills_path}/Are All Skills Equal?.md"
+    rm "${skills_path}/For The Director: Make Your Own Skills.md"
 
 generate_conditions:
     #!/usr/bin/env bash
@@ -132,9 +132,10 @@ generate_section destination_path xpath:
     python3 ./query.py "{{xpath}}" "../Rules/Draw Steel Rules.html" "{{destination_path}}"
     html_folder_to_md "{{destination_path}}"
 
-# TODO - this isnt quite ready
-# - criminal career links to itself instead of Criminal Underworld Skill
 auto_link:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Linking generated notes to each other --- "
     python3 obs-auto-linker.py ../
 
 # Parses all the ability value strings in a json file to be formatted as a json object

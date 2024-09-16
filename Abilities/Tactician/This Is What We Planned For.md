@@ -1,11 +1,11 @@
 ---
-name: "This is What We Planned for (5 Focus)"
+name: "This Is What We Planned For (5 Focus)"
 type: "5-focus Abilities"
 source: "Tactician"
 cost: "5 FOCUS"
 ---
 
-# This is What We Planned for (5 Focus)
+# This Is What We Planned For (5 Focus)
 
 *A quick signal from you gives your allies a chance to turn the tide of battle.*
 

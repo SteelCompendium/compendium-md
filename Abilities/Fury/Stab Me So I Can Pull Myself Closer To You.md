@@ -1,11 +1,11 @@
 ---
-name: "Stab Me So I Can Pull Myself Closer to You (3 Rage)"
+name: "Stab Me So I Can Pull Myself Closer To You (3 Rage)"
 type: "3-rage Abilities"
 source: "Fury"
 cost: "3 RAGE"
 ---
 
-# Stab Me So I Can Pull Myself Closer to You (3 Rage)
+# Stab Me So I Can Pull Myself Closer To You (3 Rage)
 
 *When you barrel through your foes, they feel your wrath.*
 

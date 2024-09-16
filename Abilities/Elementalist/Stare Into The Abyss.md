@@ -1,11 +1,11 @@
 ---
-name: "Stare Into the Abyss (3 Essence)"
+name: "Stare Into The Abyss (3 Essence)"
 type: "3-essence Abilities"
 source: "Elementalist"
 cost: "3 ESSENCE"
 ---
 
-# Stare Into the Abyss (3 Essence)
+# Stare Into The Abyss (3 Essence)
 
 *You open a rift into the void to harry your enemies.*
 

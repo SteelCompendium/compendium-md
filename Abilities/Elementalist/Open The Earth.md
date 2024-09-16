@@ -1,11 +1,11 @@
 ---
-name: "Open the Earth (5 Essence)"
+name: "Open The Earth (5 Essence)"
 type: "5-essence Abilities"
 source: "Elementalist"
 cost: "5 ESSENCE"
 ---
 
-# Open the Earth (5 Essence)
+# Open The Earth (5 Essence)
 
 *The surface of the world around you opens up at your command.*
 

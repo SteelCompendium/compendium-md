@@ -6,6 +6,7 @@ def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []
     for root, a, files in os.walk(directory):
+        # TODO - these should be taken in as script args
         if "../Rules" in root or "../Cultures" in root or "../Skills" in root:
             continue
         for file in files:

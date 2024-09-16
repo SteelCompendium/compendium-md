@@ -1,11 +1,11 @@
 ---
-name: "Hit and Run"
+name: "Hit And Run"
 type: "Signature Ability"
 source: "Fury"
 cost: ""
 ---
 
-# Hit and Run
+# Hit And Run
 
 *Keeping in constant motion helps you slip out of reach after a brutal assault.*
 

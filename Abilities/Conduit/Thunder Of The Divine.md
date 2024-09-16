@@ -1,11 +1,11 @@
 ---
-name: "Thunder of the Divine (3 Piety)"
+name: "Thunder Of The Divine (3 Piety)"
 type: "3-piety Abilities"
 source: "Conduit"
 cost: "3 PIETY"
 ---
 
-# Thunder of the Divine (3 Piety)
+# Thunder Of The Divine (3 Piety)
 
 *A resounding clap of thunder disrupts your foes.*
 

@@ -1,11 +1,11 @@
 ---
-name: "Blood for Blood! (5 Rage)"
+name: "Blood For Blood! (5 Rage)"
 type: "5-rage Abilities"
 source: "Fury"
 cost: "5 RAGE"
 ---
 
-# Blood for Blood! (5 Rage)
+# Blood For Blood! (5 Rage)
 
 *A mighty strike leaves your foe reeling.*
 

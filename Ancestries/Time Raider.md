@@ -58,7 +58,7 @@ Slowly everyone assembled could make out the sounds of a conversation, quiet wit
 
 “Oh, thank you for the brilliant tactical advice,” another voice, high pitched, piped up.
 
-Suddenly, the images became three dimensional, solid, and four heroes stood among them. A [[Human|human]] in working battle plate. A [[Polder|polder]] with twin rapiers in his hands. A tall willowy high elf with night-black skin and golden hair. And a [[Dragon knight|Dragon Knight]]. The people of the town gasped when they saw him. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
+Suddenly, the images became three dimensional, solid, and four heroes stood among them. A [[Human|human]] in working battle plate. A [[Polder|polder]] with twin rapiers in his hands. A tall willowy high elf with night-black skin and golden hair. And a [[Dragon Knight]]. The people of the town gasped when they saw him. Even at a distance, even with the war dogs between them, they recognized the device of Good King Omund on the knight's shield.
 
 The war dogs scrambled. For a moment, it seemed they might flee at this sudden intrusion, but the Taxiarch bellowed “Hold fast!” and they held their ground, uncertainty over the unknown threat of a band of heroes battling in each of them with the certain fear of their commander.
 
@@ -84,7 +84,7 @@ John knew what came next, but he wasn't an assassin. He had his own part to play
 
 Lycaon cocked his head at Sir John and took a few foolish steps toward the tactician. He was just out of reach. But close enough.
 
-“I see you are a man, like Ajax. Why do you lower yourself with these … creatures?” the war dog Taxiarch looked at the elf, [[Polder|polder]], and [[Dragon knight|dragon knight]]. “Little more than slimy things crawled out of the sea? Join us. Join me. Join Ajax. It'll be nice for you,” his voice lowered almost to a whisper, “to be on the winning side for a change.”
+“I see you are a man, like Ajax. Why do you lower yourself with these … creatures?” the war dog Taxiarch looked at the elf, [[Polder|polder]], and [[Dragon Knight|dragon knight]]. “Little more than slimy things crawled out of the sea? Join us. Join me. Join Ajax. It'll be nice for you,” his voice lowered almost to a whisper, “to be on the winning side for a change.”
 
 Sir John took a deep breath, his body language changed and that was enough. Several things then happened at once, so quickly no one would later be able to say who acted first.
 

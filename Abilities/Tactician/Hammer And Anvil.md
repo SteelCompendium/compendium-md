@@ -1,11 +1,11 @@
 ---
-name: "Hammer and Anvil (5 Focus)"
+name: "Hammer And Anvil (5 Focus)"
 type: "5-focus Abilities"
 source: "Tactician"
 cost: "5 FOCUS"
 ---
 
-# Hammer and Anvil (5 Focus)
+# Hammer And Anvil (5 Focus)
 
 *Your attack is your allies’ signal to strike!*
 

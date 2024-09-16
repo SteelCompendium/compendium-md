@@ -1,11 +1,11 @@
 ---
-name: "Mend the Soul"
+name: "Mend The Soul"
 type: "Triggered Action"
 source: "Elementalist"
 cost: ""
 ---
 
-# Mend the Soul
+# Mend The Soul
 
 *The power you channel grants the ability to get back in the fight.*
 

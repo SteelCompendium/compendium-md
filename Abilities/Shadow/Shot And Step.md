@@ -1,11 +1,11 @@
 ---
-name: "Shot and Step"
+name: "Shot And Step"
 type: "Signature Ability"
 source: "Shadow"
 cost: ""
 ---
 
-# Shot and Step
+# Shot And Step
 
 *Being fast on your feet makes your ranged attacks especially deadly.*
 

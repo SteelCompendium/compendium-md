@@ -1,11 +1,11 @@
 ---
-name: "Wave of Virtue (5 Piety)"
+name: "Wave Of Virtue (5 Piety)"
 type: "5-piety Abilities"
 source: "Conduit"
 cost: "5 PIETY"
 ---
 
-# Wave of Virtue (5 Piety)
+# Wave Of Virtue (5 Piety)
 
 *A pulse of divine magic lets your comrades draw on their reserves of inner strength.*
 

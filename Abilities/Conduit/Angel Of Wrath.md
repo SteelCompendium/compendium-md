@@ -1,11 +1,11 @@
 ---
-name: "Angel of Wrath (3 Piety)"
+name: "Angel Of Wrath (3 Piety)"
 type: "3-piety Abilities"
 source: "Conduit"
 cost: "3 PIETY"
 ---
 
-# Angel of Wrath (3 Piety)
+# Angel Of Wrath (3 Piety)
 
 *You conjure an angelic spirit who lashes your foes with burning radiance.*
 
