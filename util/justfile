@@ -153,6 +153,20 @@ generate_skills:
     rm "${skills_path}/Are all skills equal?.md"
     rm "${skills_path}/For the director: make your own skills.md"
 
+generate_conditions:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    source ./util.bash
+    echo >&2 "[JUST] --- Generating conditions --- "
+
+    conditions_path="../Conditions"
+    rm -rf "$conditions_path"
+
+    xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
+    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$conditions_path"
+    html_folder_to_md "$conditions_path"
+
 # TODO - this isnt quite ready
 # - criminal career links to itself instead of Criminal Underworld Skill
 auto_link:
