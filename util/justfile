@@ -136,7 +136,15 @@ auto_link:
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Linking generated notes to each other --- "
+
+    # Prepare the linked rules file
+    mkdir -p "../Formatted"
+    cp "../Rules/Draw Steel Rules.md" "../Formatted/Formatted Draw Steel Rules.md"
+
     python3 obs-auto-linker.py ../
+
+    mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
+    rm -rf "../Formatted"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
