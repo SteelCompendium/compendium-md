@@ -57,35 +57,20 @@ generate_kits:
     #!/usr/bin/env bash
     set -euo pipefail
 
-    source ./util.bash
-    echo >&2 "[JUST] --- Generating kits --- "
-
     martial_path="../Kits/Martial Kits"
-    caster_path="../Kits/Caster Kits"
-    rm -rf "$martial_path"
-    rm -rf "$caster_path"
-
     xpath="//section[@id='kits']//section[@id='martial-kits']//section[@class='level4']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$martial_path"
-    html_folder_to_md "$martial_path"
+    just generate_section "$martial_path" "$xpath"
 
+    caster_path="../Kits/Caster Kits"
     xpath="//section[@id='kits']//section[@id='caster-kits']//section[@class='level4']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$caster_path"
-    html_folder_to_md "$caster_path"
+    just generate_section "$caster_path" "$xpath"
 
 generate_ancestries:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    source ./util.bash
-    echo >&2 "[JUST] --- Generating ancestries --- "
-
     ancestries_path="../Ancestries"
-    rm -rf "$ancestries_path"
-
     xpath="//section[@id='ancestries']//section[@class='level3']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$ancestries_path"
-    html_folder_to_md "$ancestries_path"
+    just generate_section "$ancestries_path" "$xpath"
 
     # removes any extra sections
     rm "${ancestries_path}/Starting size and speed.md"
@@ -94,16 +79,9 @@ generate_ancestries:
 generate_careers:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    source ./util.bash
-    echo >&2 "[JUST] --- Generating careers --- "
-
     careers_path="../Careers"
-    rm -rf "$careers_path"
-
     xpath="//section[@id='career-1']//section[@class='level3']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$careers_path"
-    html_folder_to_md "$careers_path"
+    just generate_section "$careers_path" "$xpath"
 
     # removes any extra sections
     rm "${careers_path}/Career benefits.md"
@@ -113,24 +91,16 @@ generate_careers:
 generate_cultures:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    source ./util.bash
-    echo >&2 "[JUST] --- Generating cultures --- "
-
     cultures_path="../Cultures"
-    rm -rf "$cultures_path"
 
     xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='environment']//section[@class='level6']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$cultures_path/Environments"
-    html_folder_to_md "$cultures_path/Environments"
+    just generate_section "$cultures_path/Environments" "$xpath"
 
     xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='organization']//section[@class='level5']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$cultures_path/Organizations"
-    html_folder_to_md "$cultures_path/Organizations"
+    just generate_section "$cultures_path/Organizations" "$xpath"
 
     xpath="//section[@id='culture-1']//section[@id='culture-benefits']//section[@id='upbringing']//section[@class='level5']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$cultures_path/Upbringing"
-    html_folder_to_md "$cultures_path/Upbringing"
+    just generate_section "$cultures_path/Upbringing" "$xpath"
 
     # removes any extra sections
     rm "${cultures_path}/Upbringing/But i really want alertness.md"
@@ -138,16 +108,9 @@ generate_cultures:
 generate_skills:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    source ./util.bash
-    echo >&2 "[JUST] --- Generating skills --- "
-
     skills_path="../Skills"
-    rm -rf "$skills_path"
-
     xpath="//section[@id='tests']//section[@id='skill-groups']//section[@class='level5']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$skills_path"
-    html_folder_to_md "$skills_path"
+    just generate_section "$skills_path" "$xpath"
 
     # removes any extra sections
     rm "${skills_path}/Are all skills equal?.md"
@@ -156,16 +119,18 @@ generate_skills:
 generate_conditions:
     #!/usr/bin/env bash
     set -euo pipefail
-
-    source ./util.bash
-    echo >&2 "[JUST] --- Generating conditions --- "
-
     conditions_path="../Conditions"
-    rm -rf "$conditions_path"
-
     xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
-    python3 ./query.py "$xpath" "../Rules/Draw Steel Rules.html" "$conditions_path"
-    html_folder_to_md "$conditions_path"
+    just generate_section "$conditions_path" "$xpath"
+
+generate_section destination_path xpath:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Generating {{destination_path}} --- "
+    source ./util.bash
+    rm -rf "{{destination_path}}"
+    python3 ./query.py "{{xpath}}" "../Rules/Draw Steel Rules.html" "{{destination_path}}"
+    html_folder_to_md "{{destination_path}}"
 
 # TODO - this isnt quite ready
 # - criminal career links to itself instead of Criminal Underworld Skill
