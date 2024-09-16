@@ -223,7 +223,7 @@ generate_ability_index_markdown() {
     echo -e "$links" | while read -r link; do
         local name
         name="$(echo "$link" | sed 's/.md//g')"
-        echo "- [$name]($link)" >> "$markdown_path"
+        echo "- [[$name]]" >> "$markdown_path"
     done
 
     cat "$markdown_path"
