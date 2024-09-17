@@ -18,13 +18,16 @@ You wear light armor and wield a bow.
 
 **Two Shot** When you fire two arrows back to back, both hit their mark.
 
-**Keywords:** Attack, Ranged, Weapon
+| **Keywords:** Attack, Ranged, Weapon | **Type:** Action |
+| ---------------------------------------- | -------------------------------- |
+| **Distance:** Ranged 12 | **Target:** 2 creatures or objects |
 
-**Type:** Action
 
-**Distance:** Ranged 12
 
-**Target:** 2 creatures or objects
+
+
+
+
 
 **Power Roll + Might or Agility:**
 

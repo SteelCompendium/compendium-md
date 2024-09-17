@@ -134,13 +134,16 @@ The legacy of the Dragon Phalanx lives in you. Choose one of the following benef
 
 You let loose a mighty roar to repel your foes and shake their spirits.
 
-**Keywords:** Area, Magic
+| **Keywords:** Area, Magic | **Type:** Action |
+| ----------------------------------- | -------------------------------- |
+| **Distance:** 2 burst | **Target:** All enemies |
 
-**Type:** Action
 
-**Distance:** 2 burst
 
-**Target:** All enemies
+
+
+
+
 
 **Power Roll + Might or Presence:**
 

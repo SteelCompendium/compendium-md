@@ -18,13 +18,16 @@ You wear light armor and wield a polearm.
 
 **Where I Want You** When your stick speaks, your enemy moves.
 
-**Keywords:** Attack, Melee, Weapon
+| **Keywords:** Attack, Melee, Weapon | **Type:** Action |
+| --------------------------------------- | -------------------------------- |
+| **Distance:** Reach 2 | **Target:** 1 creature |
 
-**Type:** Action
 
-**Distance:** Reach 2
 
-**Target:** 1 creature
+
+
+
+
 
 **Power Roll + Might or Agility:**
 

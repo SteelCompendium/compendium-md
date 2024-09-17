@@ -15,13 +15,16 @@ You wield an implement of stone, such as a club or a crown.
 
 You call forth a small bolt of lightning, then hurl it at your foe.
 
-**Keywords**: Attack, Magic, Ranged
+| **Keywords:** Attack, Magic, Ranged | **Type:** Action |
+| --------------------------------------- | -------------------------------- |
+| **Distance:** Ranged 12 | **Target:** 1 creature or object |
 
-**Type**: Action
 
-**Distance**: Ranged 12
 
-**Target**: 1 creature or object
+
+
+
+
 
 **Power Roll** + Reason, Intuition, or Presence:
 

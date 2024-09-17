@@ -18,13 +18,16 @@ You wear medium armor and wield a shield and a light weapon.
 
 **Shield Bash** In your hands, a shield isn't just for protection.
 
-**Keywords:** Attack, Melee, Weapon
+| **Keywords:** Attack, Melee, Weapon | **Type:** Action |
+| --------------------------------------- | -------------------------------- |
+| **Distance:** Reach 1 | **Target:** 1 creature |
 
-**Type:** Action
 
-**Distance:** Reach 1
 
-**Target:** 1 creature
+
+
+
+
 
 **Power Roll + Might or Agility:**
 

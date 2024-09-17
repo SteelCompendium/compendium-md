@@ -18,13 +18,16 @@ You gain the following career benefits:
 
 You cast an entertaining spell that creates a minor but impressive magical effect.
 
-**Keywords**: Magic
+| **Keywords:** Magic | **Type:** Action |
+| ----------------------------------- | -------------------------------- |
+| **Distance:** Self | **Target:** Self |
 
-**Type**: Action
 
-**Distance**: Self
 
-**Target**: Self
+
+
+
+
 
 **Effect**: Choose one of the following effects:
 

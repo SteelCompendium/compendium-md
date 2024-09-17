@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_skills auto_link
+generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_skills format_ability_tables auto_link
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -145,6 +145,13 @@ auto_link:
 
     mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
     rm -rf "../Formatted"
+
+format_ability_tables:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Formatting ability tables --- "
+
+    python3 format_ability_tables.py "../"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:

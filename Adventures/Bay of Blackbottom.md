@@ -362,5 +362,8 @@ The heroes can earn the following treasure during the adventure.
 
 This ivory dagger features nine faintly glowing indentations along the blade.
 
-**Keywords:** Light Weapon, Psionic  
+| **Keywords:** Light Weapon, Psionic | **Type:**  |
+| --------------------------------------- | -------------------------------- |
+| **Distance:**  | **Target:**  |
+
 When you use this knife with a weapon ability, the ability deals an extra 3 psychic damage. This extra damage increases by 3 each time you attack the same target during the same encounter, to a maximum of 9.

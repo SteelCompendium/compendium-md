@@ -16,13 +16,16 @@ You wield an implement of stone such as a wand or pendant.
 
 Absorbing psychic energy from another creature lets you shield yourself within it.
 
-**Keywords**: Attack, Magic, Ranged
+| **Keywords:** Attack, Magic, Ranged | **Type:** Action |
+| --------------------------------------- | -------------------------------- |
+| **Distance:** Ranged 10 | **Target:** 1 creature |
 
-**Type**: Action
 
-**Distance**: Ranged 10
 
-**Target**: 1 creature
+
+
+
+
 
 **Power Roll** + Intuition:
 

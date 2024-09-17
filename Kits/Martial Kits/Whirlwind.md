@@ -17,13 +17,16 @@ You wear no armor and wield a whip.
 
 **Extension of My Arm** When you draw your whip back after an attack, your enemy comes ever closer.
 
-**Keywords:** Attack, Melee, Weapon
+| **Keywords:** Attack, Melee, Weapon | **Type:** Action |
+| --------------------------------------- | -------------------------------- |
+| **Distance:** Reach 3 | **Target:** 1 creature |
 
-**Type:** Action
 
-**Distance:** Reach 3
 
-**Target:** 1 creature
+
+
+
+
 
 **Power Roll + Might or Agility:**
 

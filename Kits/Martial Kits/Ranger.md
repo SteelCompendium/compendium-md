@@ -19,13 +19,16 @@ You wear medium armor and wield a medium weapon and a bow.
 
 **Hamstring Shot** A well-placed shot leaves your enemy struggling to move.
 
-**Keywords:** Attack, Ranged, Weapon
+| **Keywords:** Attack, Ranged, Weapon | **Type:** Action |
+| ---------------------------------------- | -------------------------------- |
+| **Distance:** Ranged 10 | **Target:** 1 creature |
 
-**Type:** Action
 
-**Distance:** Ranged 10
 
-**Target:** 1 creature
+
+
+
+
 
 **Power Roll + Might or Agility:**
 
