@@ -16,7 +16,8 @@
       "if [ \"$(type -t \"source\")\" = \"builtin\" ]; then clear -x; source bin/furc; fi",
       ". $VENV_DIR/bin/activate",
       "pip install markdown-to-json",
-      "pip install lxml"
+      "pip install lxml",
+      "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
     ],
     "scripts": {
       "generate": "just generate",

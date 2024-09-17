@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_skills format_ability_tables auto_link
+generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_skills format_ability_tables format_markdown auto_link
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -132,6 +132,24 @@ generate_section destination_path xpath:
     python3 ./query.py "{{xpath}}" "../Rules/Draw Steel Rules.html" "{{destination_path}}"
     html_folder_to_md "{{destination_path}}"
 
+format_ability_tables:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Formatting ability tables --- "
+
+    python3 format_ability_tables.py "../"
+
+format_markdown:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Formatting Markdown --- "
+    mdformat --version
+    for dir in ../*/ ; do
+        if [ "$dir" != "../Rules/" ] && [ "$dir" != "../util/" ]; then
+            mdformat "$dir"
+        fi
+    done
+
 auto_link:
     #!/usr/bin/env bash
     set -euo pipefail
@@ -145,13 +163,6 @@ auto_link:
 
     mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
     rm -rf "../Formatted"
-
-format_ability_tables:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    echo >&2 "[JUST] --- Formatting ability tables --- "
-
-    python3 format_ability_tables.py "../"
 
 # Parses all the ability value strings in a json file to be formatted as a json object
 format_ability_json json_path:
