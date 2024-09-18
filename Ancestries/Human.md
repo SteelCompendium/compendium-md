@@ -1,3 +1,9 @@
+---
+title: Human Detect The Supernatural Resist The Supernatural Staying Power
+name: Human Detect The Supernatural Resist The Supernatural Staying Power
+type: ancestries
+---
+
 # Human
 
 “Humans,” the [[Dwarf|dwarf]] said with a combination of exasperation and awe. “Their only virtue seems to be believing in impossible things.”

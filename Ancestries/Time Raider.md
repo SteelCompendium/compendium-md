@@ -1,3 +1,9 @@
+---
+title: Time Raider Foresight Four Arms Psionic Gift
+name: Time Raider Foresight Four Arms Psionic Gift
+type: ancestries
+---
+
 # Time Raider
 
 “I fear no living thing, but the time raiders.”

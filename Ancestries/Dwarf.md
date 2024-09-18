@@ -1,3 +1,9 @@
+---
+title: Dwarf Grounded Runic Carving Spark Off Your Skin
+name: Dwarf Grounded Runic Carving Spark Off Your Skin
+type: ancestries
+---
+
 # Dwarf
 
 “Remember, we are dwarves. Our strength is the strength of the earth. The strength of the marble column that rises to the heavens. The strength of the granite foundation that reaches deep into the ground. But what is the value of strength if it is not used in service of justice?”

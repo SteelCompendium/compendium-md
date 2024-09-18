@@ -1,3 +1,9 @@
+---
+title: Artisan
+name: Artisan
+type: careers
+---
+
 # Artisan
 
 You started off making and selling art or useful wares. In defining your career, think about the following questions:

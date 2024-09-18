@@ -1,3 +1,9 @@
+---
+title: Criminal
+name: Criminal
+type: careers
+---
+
 # Criminal
 
 You once worked as a bandit, insurgent, smuggler, outlaw, or even as an assassin. In defining your career, think about the following questions:

@@ -1,3 +1,9 @@
+---
+title: Laborer
+name: Laborer
+type: careers
+---
+
 # Laborer
 
 You worked as a farmer, a builder, a lumberjack, a miner, or some other profession engaged in hard manual labor. In defining your career, think about the following questions:

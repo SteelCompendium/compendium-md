@@ -36,6 +36,7 @@ html_to_md() {
     # Cleanup the markdown files
     reduce_headers_in_md "${h_folder_path}/${markdown_filename}"
     title_case_headers_in_md "${h_folder_path}/${markdown_filename}"
+    build_and_apply_frontmatter "${h_folder_path}/${markdown_filename}"
 
     # Delete html file
     rm "$html_file_path"
@@ -53,4 +54,53 @@ title_case_headers_in_md() {
     local md_file_path="${1:-}"
     sed -E '/^#+ /{s/(#+)\s*(.*)/\1 \L\2/g; s/(#+\s*)([a-z])/\1\u\2/g; s/\s([a-z])/ \u\1/g}' "$md_file_path" > .tmp
     mv .tmp "$md_file_path"
+}
+
+build_and_apply_frontmatter() {
+    local md_file_path="${1:-}"
+
+    local title
+    title="$(sed -nE "s/^#\s+(.*)/\1/p" "$md_file_path")"
+    local name
+    name="$(echo "$title" | sed -E 's/([^\(]+).*/\1/g')"
+    local cost
+    cost="$(echo "$title" | sed -E 's/[^\(]+\(([^\)]+)\)/\1/g')"
+    if [ "$cost" == "$title" ]; then
+        cost=""
+    fi
+
+    # Figure out the directory this is in (relative to project root)
+    local root_dir=$(git rev-parse --show-toplevel)
+    local relative_path="$(realpath -s --relative-to="$root_dir" "$md_file_path")"
+
+    # type is the first directory under the root
+    local type_raw
+    type_raw=$(echo "$relative_path" | awk -F'/' '{ print $1 }' )
+    local type
+    type="$(echo "$type_raw" | sed -E 's/([A-Z])/\L\1/g')"
+
+    # subtype is the second directory under the root (if applicable)
+    local subtype_raw
+    subtype_raw="$(realpath -s --relative-to="$root_dir/$type_raw" "$md_file_path" | awk -F'/' '{ print $1 }')"
+    local subtype
+    subtype="$(echo "$subtype_raw" | sed -E 's/([A-Z])/\L\1/g')"
+    if [ "$subtype_raw" == "$(basename "$md_file_path")" ]; then
+        subtype=""
+    fi
+
+    frontmatter_path="$(mktemp)"
+    echo "---
+title: \"${title}\"
+name: \"${name}\"
+type: \"${type}\"" >> "$frontmatter_path"
+
+    if [ -n "$cost" ]; then
+        echo "cost: \"${cost}\"" >> "$frontmatter_path"
+    fi
+    if [ -n "$subtype" ]; then
+        echo "subtype: \"${subtype}\"" >> "$frontmatter_path"
+    fi
+    echo "---" >> "$frontmatter_path"
+
+    cat "$frontmatter_path" | cat - "$md_file_path" > temp && mv temp "$md_file_path"
 }

@@ -1,3 +1,9 @@
+---
+title: Mage's Apprentice Arcane Trick
+name: Mage's Apprentice Arcane Trick
+type: careers
+---
+
 # Mage's Apprentice
 
 For long years, you studied magic under the mentorship of a more experienced mage. In defining your career, think about the following questions:

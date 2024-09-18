@@ -1,3 +1,9 @@
+---
+title: Orc Bloodfire Rush Relentless
+name: Orc Bloodfire Rush Relentless
+type: ancestries
+---
+
 # Orc
 
 “Even should an arrow pierce their heart, each kanin warrior has within them one last act of revenge.”

@@ -1,3 +1,9 @@
+---
+title: Revenant Former Life Vengeance Mark Detonate Sigil Tough But Withered Undead Influence
+name: Revenant Former Life Vengeance Mark Detonate Sigil Tough But Withered Undead Influence
+type: ancestries
+---
+
 # Revenant
 
 “I will suck the life from your flesh and leave you a withered corpse!”

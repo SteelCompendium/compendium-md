@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_skills format_ability_tables format_markdown auto_link
+generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_conditions generate_skills format_ability_tables format_markdown auto_link
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -52,6 +52,15 @@ generate_abilities:
     generate_abilities_for_class "FURY"
     generate_abilities_for_class "SHADOW"
     generate_abilities_for_class "TACTICIAN"
+
+# TODO - this works, just need to get frontmatter stuff working first
+#generate_abilities2:
+#    #!/usr/bin/env bash
+#    set -euo pipefail
+#
+#    martial_path="../Abilities2"
+#    xpath="//section[@id='conduit-abilities']//section[@class='level6']"
+#    just generate_section "$martial_path" "$xpath"
 
 generate_kits:
     #!/usr/bin/env bash

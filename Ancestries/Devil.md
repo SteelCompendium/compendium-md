@@ -1,3 +1,9 @@
+---
+title: Devil Fiendish Features
+name: Devil Fiendish Features
+type: ancestries
+---
+
 # Devil
 
 “Go to hell!”

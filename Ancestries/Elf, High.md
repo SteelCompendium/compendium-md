@@ -1,3 +1,9 @@
+---
+title: Elf, High High Elf Glamor Otherworldly Grace Unstoppable Mind
+name: Elf, High High Elf Glamor Otherworldly Grace Unstoppable Mind
+type: ancestries
+---
+
 # Elf, High
 
 “Ajax has a kind of crude style, perhaps, but no taste. I have no objection to a villain, you understand. The world is a tale, but a tale is only as good as its villain. And Ajax is so … artless. We deserve a better villain.”

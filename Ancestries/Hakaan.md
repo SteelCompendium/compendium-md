@@ -1,3 +1,9 @@
+---
+title: Hakaan Doomsight Hakaan Might Undaunted
+name: Hakaan Doomsight Hakaan Might Undaunted
+type: ancestries
+---
+
 # Hakaan
 
 “COME FORTH, SONS OF ORD!” the hakaan metamorph bellowed as Ajax's dwarven legion advanced. “AND MEET A BETTER WOMAN THAN THEE!!”

@@ -1,3 +1,9 @@
+---
+title: Dragon Knight Wyrmplate Knighthood
+name: Dragon Knight Wyrmplate Knighthood
+type: ancestries
+---
+
 # Dragon Knight
 
 “I thought the dragon knights would save us, but even they couldn't stop Ajax. Now the roads aren't safe. People are taken from their homes without cause or warning, never to return. I don't know what's going to happen now, except everyone's afraid all the time.”

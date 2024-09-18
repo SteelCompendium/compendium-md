@@ -1,3 +1,9 @@
+---
+title: Elf, Wode Otherworldly Grace Swift Wode Elf Glamor
+name: Elf, Wode Otherworldly Grace Swift Wode Elf Glamor
+type: ancestries
+---
+
 # Elf, Wode
 
 See you the wood so dark and deep, Where runs the fox and hare? You know now why your mother weeps. Your father's bones lie there.
