@@ -9,7 +9,7 @@ title_case() {
 html_folder_to_md() {
     local html_folder="${1:-}"
 
-    for html_file in $(ls "$html_folder"); do
+    for html_file in $(ls "$html_folder" | grep ".html"); do
         html_to_md "${html_folder}/${html_file}"
     done
 }

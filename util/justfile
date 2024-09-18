@@ -1,6 +1,18 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_conditions generate_skills format_ability_tables format_markdown auto_link
+generate:
+    just generate_html_pandoc
+    just generate_abilities
+    just generate_movement
+    just generate_kits
+    just generate_ancestries
+    just generate_careers
+    just generate_cultures
+    just generate_conditions
+    just generate_skills
+    just format_ability_tables
+    just format_markdown
+    just auto_link
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -59,6 +71,20 @@ generate_abilities:
 
     # Common Actions
     just generate_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level4']"
+
+generate_movement:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    movement_path="../Movement"
+
+    xpath="//section[@id='combat']//section[@id='movement']//section[@class='level4']"
+    just generate_section "$movement_path" "$xpath"
+    xpath="//section[@id='combat']//section[@id='movement-types']//section[@class='level5']"
+    just generate_section "$movement_path" "$xpath" "skip_delete"
+
+    rm "${movement_path}/Cant Exceed Speed.md"
+    rm "${movement_path}/Movement Types.md"
 
 generate_kits:
     #!/usr/bin/env bash
@@ -130,12 +156,18 @@ generate_conditions:
     xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
     just generate_section "$conditions_path" "$xpath"
 
-generate_section destination_path xpath:
+generate_section destination_path xpath skip_delete="true":
     #!/usr/bin/env bash
     set -euo pipefail
     echo >&2 "[JUST] --- Generating {{destination_path}} --- "
     source ./util.bash
-    rm -rf "{{destination_path}}"
+
+    if [ "{{skip_delete}}" == "true" ]; then
+        rm -rf "{{destination_path}}"
+    else
+        echo "SKIP DELETE"
+    fi
+
     python3 ./query.py "{{xpath}}" "../Rules/Draw Steel Rules.html" "{{destination_path}}"
     html_folder_to_md "{{destination_path}}"
 
