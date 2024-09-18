@@ -20,7 +20,7 @@ You gain the following career benefits:
 - **Project Points**: 50
 - **Title**—Lucky Dog: When you fail a test using any skill from the intrigue skill group, you can roll a d6. You lose Stamina equal to the roll and improve the result of your test by one tier. You can make this roll only once per test.
 
-CRIMINAL INCITING INCIDENTS
+## Criminal Inciting Incidents
 
 | d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                                                |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -45,9 +45,14 @@ html_to_md() {
 reduce_headers_in_md() {
     local md_file_path="${1:-}"
 
-    # Find the extra levels of the first header (number of # symbols - 1); then remove them
-    headers_to_remove=$(grep --color=never -m 1 "^#" "$md_file_path" | sed -E 's/(\#+)\#.*/\1/g')
-    sed -i "s/$headers_to_remove//g" "$md_file_path"
+    # Find the first header and count the number of # symbols
+    first_header=$(grep --color=never -m 1 "^#" "$md_file_path" | sed -E 's/(#+).*/\1/')
+    first_header_length=${#first_header}  # Get the length of the header (i.e., number of # symbols)
+
+    if [[ $first_header_length -gt 1 ]]; then
+        # Reduce the number of # symbols in all headers by the first header length minus one
+        sed -i -E "s/^#{$first_header_length}/#/" "$md_file_path"
+    fi
 }
 
 title_case_headers_in_md() {

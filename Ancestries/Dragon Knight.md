@@ -1,6 +1,6 @@
 ---
-title: Dragon Knight Wyrmplate Knighthood
-name: Dragon Knight Wyrmplate Knighthood
+title: Dragon Knight
+name: Dragon Knight
 type: ancestries
 ---
 
@@ -18,7 +18,7 @@ Knighthood was a title carried by every member of that first generation of drago
 
 Then Ajax came.
 
-ON THE DRAGON KNIGHTS
+## On The Dragon Knights
 
 The cloaked figure at the back of the inn stood up. As they did so, their hood slipped down, revealing their head and face. A susurration rippled through the crowd. One man standing near the bar dropped his jaw, followed by his flagon of mead.
 
@@ -118,15 +118,15 @@ The dragon knight looked at the people around him, at the three peasants despera
 
 “Exactly,” Vaantikalisax said. Then he turned and left the inn.
 
-DRAGON KNIGHT BENEFITS
+## Dragon Knight Benefits
 
 As a dragon knight character, you have the following benefits:
 
-# Wyrmplate
+### Wyrmplate
 
 Your hardened scales grant you immunity 5 to one of the following damage types: cold, corruption, fire, lightning, or poison. You can change your damage immunity type while out of combat (no action required).
 
-# Knighthood
+### Knighthood
 
 The legacy of the Dragon Phalanx lives in you. Choose one of the following benefits.
 

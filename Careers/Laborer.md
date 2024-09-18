@@ -20,7 +20,7 @@ You gain the following career benefits:
 - **Project Points**: 50
 - **Title**—Team Backbone: When you take your first turn during a montage test, you can both make a test and assist another hero's test.
 
-LABORER INCITING INCIDENTS
+## Laborer Inciting Incidents
 
 | d3  | Incident                                                                                                                                                                                                                                                                                                                             |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

@@ -20,7 +20,7 @@ You gain the following career benefits:
 - **Renown**: 1
 - **Title**—Drill Sergeant: At the start of a group test or montage test, you can spend a hope token. If you do, all participants make tests as if they also had your exploration skills.
 
-SOLDIER INCITING INCIDENTS
+## Soldier Inciting Incidents
 
 | d3  | Incident                                                                                                                                                                                                                                                                                                                                                                |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

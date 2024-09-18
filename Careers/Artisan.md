@@ -20,7 +20,7 @@ You gain the following career benefits:
 - **Project Points**: 100
 - **Title**—Expert Artisan: Whenever you make a test as part of a research or crafting project that uses a skill you have from the crafting skill group, you can roll the test twice and use either roll.
 
-ARTISAN INCITING INCIDENTS
+## Artisan Inciting Incidents
 
 | d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                          |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

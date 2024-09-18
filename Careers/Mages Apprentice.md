@@ -1,6 +1,6 @@
 ---
-title: Mage's Apprentice Arcane Trick
-name: Mage's Apprentice Arcane Trick
+title: Mage's Apprentice
+name: Mage's Apprentice
 type: careers
 ---
 
@@ -20,7 +20,7 @@ You gain the following career benefits:
 - **Renown**: 1
 - **Title**—Hedge Mage: You have the Arcane Trick ability.
 
-# Arcane Trick
+### Arcane Trick
 
 You cast an entertaining spell that creates a minor but impressive magical effect.
 
@@ -38,7 +38,7 @@ You cast an entertaining spell that creates a minor but impressive magical effec
 - You place a small magical inscription on the surface of a mundane object you can touch, or remove an inscription that was made by you or by another creature using Arcane Trick.
 - You cover a size 1T object that you touch with an illusion that makes it look like another object. A creature who handles the object can see through the illusion. The illusion ends when yo
 
-MAGE'S APPRENTICE INCITING INCIDENTS
+## Mage's Apprentice Inciting Incidents
 
 | d3  | Incident                                                                                                                                                                                                                                                                                                                                                                                                          |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
