@@ -31,23 +31,34 @@ generate_abilities:
 
     abilities_path="../Abilities"
 
+    # Conduit
     just generate_section "$abilities_path/Conduit" "//section[@id='conduit-abilities']//section[@class='level6']"
     just generate_section "$abilities_path/Conduit/Triggered Actions" "//section[@id='conduit']//section[@id='triggered-action']//section[@class='level5']"
 
+    # Elementalist
     just generate_section "$abilities_path/Elementalist" "//section[@id='elementalist-abilities']//section[@class='level6']"
     just generate_section "$abilities_path/Elementalist/Triggered Actions" "//section[@id='elementalist']//section[@id='specialization-triggered-action']//section[@class='level5']"
 
+    # Fury
     just generate_section "$abilities_path/Fury" "//section[@id='fury-abilities']//section[@class='level6']"
     just generate_section "$abilities_path/Fury/Triggered Actions" "//section[@id='fury']//section[@id='aspect-triggered-action']//section[@class='level5']"
     rm "$abilities_path/Fury/Triggered Actions/Fury Triggered Actions.md"
 
+    # Shadow
     just generate_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
     just generate_section "$abilities_path/Shadow/Triggered Actions" "//section[@id='shadow']//section[@id='college-triggered-action']//section[@class='level5']"
     rm "$abilities_path/Shadow/Triggered Actions/Shadow Triggered Actions.md"
 
+    # Tactician
     just generate_section "$abilities_path/Tactician" "//section[@id='tactician-abilities']//section[@class='level6']"
     just generate_section "$abilities_path/Tactician/Triggered Actions" "//section[@id='tactician']//section[@id='doctrine-triggered-action']//section[@class='level5']"
     rm "$abilities_path/Tactician/Triggered Actions/Tactician Triggered Actions.md"
+
+    # Common Maneuvers
+    just generate_section "$abilities_path/Common Maneuvers" "//section[@id='combat']//section[@id='maneuvers']//section[@class='level4']"
+
+    # Common Actions
+    just generate_section "$abilities_path/Common Actions" "//section[@id='combat']//section[@id='actions']//section[@class='level4']"
 
 generate_kits:
     #!/usr/bin/env bash
