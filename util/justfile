@@ -1,6 +1,6 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
-generate: generate_json generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_conditions generate_skills format_ability_tables format_markdown auto_link
+generate: generate_html_pandoc generate_abilities generate_kits generate_ancestries generate_careers generate_cultures generate_conditions generate_skills format_ability_tables format_markdown auto_link
 
 generate_html_pandoc:
     #!/usr/bin/env bash
@@ -24,34 +24,6 @@ generate_html_pandoc:
     # Replace html entities
     sed -i 's/&#8220;/"/g; s/&#8221;/"/g; s/&amp;/&/g; s/&lt;/</g; s/&gt;/>/g; s/\&nbsp\;/ /g;' "../Rules/Draw Steel Rules.html"
     sed -i "s/&#8217;/'/g; s/’/'/g;" "../Rules/Draw Steel Rules.html"
-
-generate_json:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    echo >&2 "[JUST] --- Generating json --- "
-
-    md_to_json ../Rules/Draw\ Steel\ Rules.md > ../Rules/Draw\ Steel\ Rules.json
-
-    temp=$(mktemp)
-    just format_ability_json ../Rules/Draw\ Steel\ Rules.json > $temp
-    mv $temp ../Rules/Draw\ Steel\ Rules.json
-
-generate_abilities_old:
-    #!/usr/bin/env bash
-    set -euo pipefail
-
-    echo >&2 "[JUST] --- Generating abilities --- "
-
-    source abilities.bash
-
-    mkdir -p ../Abilities
-    rm -rf ../Abilities/*
-
-    generate_abilities_for_class "CONDUIT"
-    generate_abilities_for_class "ELEMENTALIST"
-    generate_abilities_for_class "FURY"
-    generate_abilities_for_class "SHADOW"
-    generate_abilities_for_class "TACTICIAN"
 
 generate_abilities:
     #!/usr/bin/env bash
@@ -187,105 +159,3 @@ auto_link:
 
     mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
     rm -rf "../Formatted"
-
-# Parses all the ability value strings in a json file to be formatted as a json object
-format_ability_json json_path:
-    #!/usr/bin/env python3
-
-    import re
-    import json
-
-    def is_ability(string):
-        if not isinstance(string, str):
-            return False
-        pattern = r"^(?!.*\*\*[A-Z ]+:\*\*).*(?=.*\*\*Keywords:?\*\*|.*\*\*Type:?\*\*)(?=.*\*\*Power Roll\*\*|.*\[\'.*\'\]).*"
-        if re.search(pattern, string, re.M | re.S) != None:
-            return True
-        return False
-
-    def ability_string_to_json(input_string):
-        # Extract the description text (everything before the keywords section)
-        description_match = re.search(r"^(.*?)(\[|\n\n)", input_string, re.M | re.S)
-        description = description_match.group(1) if description_match else None
-
-        # Extract the keywords, type, distance, and target using regular expressions
-        keywords_match = re.search(r"\*\*Keywords\**:\** ([^'\n\*]*)", input_string)
-        keywords = keywords_match.group(1) if keywords_match else None
-
-        type_match = re.search(r"\*\*Type\**:\** ([^'\n\*]*)", input_string)
-        action_type = type_match.group(1) if type_match else None
-
-        distance_match = re.search(r"\*\*Distance\**:\** ([^'\n\*]*)", input_string)
-        distance = distance_match.group(1) if distance_match else None
-
-        target_match = re.search(r"\*\*Target\**:\** ([^'\n\*]*)", input_string)
-        target = target_match.group(1) if target_match else None
-
-        trigger_match = re.search(r"\*\*Trigger\**:\** ([^'\n\*]*)", input_string)
-        trigger = trigger_match.group(1) if trigger_match else None
-
-        # Extract the roll description
-        roll_match = re.search(r"\*\*(Power Roll \+ [^\*:]+)\**:*", input_string)
-        roll = roll_match.group(1) if roll_match else None
-
-        # Tiers
-        t1_match = re.search(r"11 or lower: ([^'\n\*]*)", input_string)
-        t1 = t1_match.group(1) if t1_match else None
-        t2_match = re.search(r"12.16: ([^'\n\*]*)", input_string)
-        t2 = t2_match.group(1) if t2_match else None
-        t3_match = re.search(r"17\+: ([^'\n\*]*)", input_string)
-        t3 = t3_match.group(1) if t3_match else None
-
-        effect_match = re.search(r"\*\*Effect\**:\** (.*?)(\n\*\*|\Z)", input_string, re.M | re.S)
-        effect = effect_match.group(1) if effect_match else None
-
-        alt_effect_matches = re.findall(r"\*\*Alternative Effect\*\*:\s*(.*?)(?=\n\*\*|\Z)", input_string, re.M | re.S)
-        alt_effects = []
-        for i, alt_effect in enumerate(alt_effect_matches, 1):
-            alt_effects.append(alt_effect)
-
-        spend_match = re.search(r"\*\*Spend ([^\*:]+)\**:\** ([^\*]*)", input_string)
-        spend_cost = spend_match.group(1) if spend_match else None
-        spend_effect = spend_match.group(2) if spend_match else None
-
-        persistent_match = re.search(r"\*\*Persistent ([^\*:]+)\**:\** ([^\*]*)", input_string)
-        persistent_cost = persistent_match.group(1) if persistent_match else None
-        persistent_effect = persistent_match.group(2) if persistent_match else None
-
-        # Structure the data into a dictionary
-        parsed_data = {
-            "description": description,
-            "keywords": keywords,
-            "type": action_type,
-            "distance": distance,
-            "target": target,
-            "trigger": trigger,
-            "roll": roll,
-            "tier1": t1,
-            "tier2": t2,
-            "tier3": t3,
-            "effect": effect,
-            "alternative_effects": alt_effects if len(alt_effects) > 0 else None,
-            "spend_cost": spend_cost,
-            "spend_effect": spend_effect,
-            "persistent_cost": persistent_cost,
-            "persistent_effect": persistent_effect
-        }
-
-        # Filter out any fields with None values
-        parsed_data = {k: v.strip() if isinstance(v, str) else v for k, v in parsed_data.items() if v is not None}
-
-        return parsed_data
-
-    def iterate_nested_json_for_loop(json_obj):
-        for key, value in json_obj.items():
-            if isinstance(value, dict):
-                json_obj[key] = iterate_nested_json_for_loop(value)
-            elif is_ability(value):
-                json_obj[key] = ability_string_to_json(value)
-        return json_obj
-
-    with open('{{json_path}}', 'r', encoding='utf-8') as data_file:
-        data = json.load(data_file)
-        updated = iterate_nested_json_for_loop(data)
-        print(json.dumps(updated, indent=2, ensure_ascii=False))
