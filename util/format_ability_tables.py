@@ -35,7 +35,7 @@ def update_ability_tables(file_path):
         positions_to_remove = []
 
         # Define the pattern to match key-value pairs at the start of a line
-        pattern = r'^\*\*(.+?)\**:\**\s*(.+)$'
+        pattern = r'^\-?\s*\*\*(.+?)\**:\**\s*(.+)$'
 
         # Find all matches
         for match in re.finditer(pattern, content, flags=re.MULTILINE):
@@ -65,7 +65,7 @@ def update_ability_tables(file_path):
 
         table = (
             f'| **Keywords:** {keywords} | **Type:** {type_} |\n'
-            f'| {"-" * max(len(keywords) + 18, 35)} | {"-" * max(len(type_) + 14, 32)} |\n'
+            f'| :{"-" * max(len(keywords) + 18, 35)} | :{"-" * max(len(type_) + 14, 32)} |\n'
             f'| **Distance:** {distance} | **Target:** {target} |'
         )
 

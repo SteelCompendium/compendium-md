@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
+import re
 import os
 import argparse
 from lxml import etree, html
 
 def main():
-    # Set up argument parsing
     parser = argparse.ArgumentParser(description="Extract sections and save as HTML or Markdown.")
     parser.add_argument("xpath", help="XPath to extract from the html")
     parser.add_argument("html_path", help="Path to the input HTML file")
@@ -29,10 +29,11 @@ def main():
     for section in sections:
         # Extract the first header (h1 to h6) and clean it for the filename
         header = section.xpath('.//*[self::h1 or self::h2 or self::h3 or self::h4 or self::h5 or self::h6]/text()')[0]
-        filename = os.path.join(args.output_dir, f'{header.replace(" ", "_")}')
+        filename = re.sub('\\s*\\(.*\\)', '', ' '.join(header.split())).replace(" ", "_")
+        filename = os.path.join(args.output_dir, filename)
 
         # Get the section content as HTML
-        section_content = etree.tostring(section, pretty_print=True, method="html").decode('utf-8')
+        section_content = etree.tostring(section, pretty_print=False, method="html").decode('utf-8')
 
         # Save as HTML
         filename += ".html"

@@ -36,7 +36,7 @@ generate_json:
     just format_ability_json ../Rules/Draw\ Steel\ Rules.json > $temp
     mv $temp ../Rules/Draw\ Steel\ Rules.json
 
-generate_abilities:
+generate_abilities_old:
     #!/usr/bin/env bash
     set -euo pipefail
 
@@ -53,14 +53,29 @@ generate_abilities:
     generate_abilities_for_class "SHADOW"
     generate_abilities_for_class "TACTICIAN"
 
-# TODO - this works, just need to get frontmatter stuff working first
-#generate_abilities2:
-#    #!/usr/bin/env bash
-#    set -euo pipefail
-#
-#    martial_path="../Abilities2"
-#    xpath="//section[@id='conduit-abilities']//section[@class='level6']"
-#    just generate_section "$martial_path" "$xpath"
+generate_abilities:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    abilities_path="../Abilities"
+
+    just generate_section "$abilities_path/Conduit" "//section[@id='conduit-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Conduit/Triggered Actions" "//section[@id='conduit']//section[@id='triggered-action']//section[@class='level5']"
+
+    just generate_section "$abilities_path/Elementalist" "//section[@id='elementalist-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Elementalist/Triggered Actions" "//section[@id='elementalist']//section[@id='specialization-triggered-action']//section[@class='level5']"
+
+    just generate_section "$abilities_path/Fury" "//section[@id='fury-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Fury/Triggered Actions" "//section[@id='fury']//section[@id='aspect-triggered-action']//section[@class='level5']"
+    rm "$abilities_path/Fury/Triggered Actions/Fury Triggered Actions.md"
+
+    just generate_section "$abilities_path/Shadow" "//section[@id='shadow-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Shadow/Triggered Actions" "//section[@id='shadow']//section[@id='college-triggered-action']//section[@class='level5']"
+    rm "$abilities_path/Shadow/Triggered Actions/Shadow Triggered Actions.md"
+
+    just generate_section "$abilities_path/Tactician" "//section[@id='tactician-abilities']//section[@class='level6']"
+    just generate_section "$abilities_path/Tactician/Triggered Actions" "//section[@id='tactician']//section[@id='doctrine-triggered-action']//section[@class='level5']"
+    rm "$abilities_path/Tactician/Triggered Actions/Tactician Triggered Actions.md"
 
 generate_kits:
     #!/usr/bin/env bash
