@@ -11,8 +11,10 @@ generate:
     just generate_complications
     just generate_conditions
     just generate_skills
+
     just format_ability_tables
     just format_markdown
+
     just auto_link
 
 generate_html_pandoc:

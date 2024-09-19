@@ -507,7 +507,7 @@ The first thing you should do is think about the kind of hero you want to make. 
 
 #### 2. ANCESTRY
 
-Choose your hero’s humanoid ancestry from among the range of ancestries available in the game—[[Devil|devil]], [[Dragon Knight|dragon knight]], [[Dwarf|dwarf]], [[Hakaan|hakaan]], high elf, [[Human|human]], [[Memonek|memonek]], [[Orc|orc]], [[Polder|polder]], [[Revenant|revenant]], [[Time [[Raider]]|time raider]], or wode elf. Future supplements will introduce additional ancestries you can choose from. See *Ancestries* for more information.
+Choose your hero’s humanoid ancestry from among the range of ancestries available in the game—[[Devil|devil]], [[Dragon Knight|dragon knight]], [[Dwarf|dwarf]], [[Hakaan|hakaan]], high elf, [[Human|human]], [[Memonek|memonek]], [[Orc|orc]], [[Polder|polder]], [[Revenant|revenant]], [[Time Raider|time raider]], or wode elf. Future supplements will introduce additional ancestries you can choose from. See *Ancestries* for more information.
 
 *(Playtest note: A selection of the game’s full range of ancestries are currently available, some of which feature lore entries.)*
 
@@ -1912,7 +1912,7 @@ Additionally, when your Stamina equals the negative of your winded value, you be
 
 Your supernatural gifts allow you to influence other undead. You gain an edge on Reason, Intuition, and Presence tests made to interact with undead creatures.
 
-### [[Time [[Raider]]|TIME RAIDER]]
+### [[Time Raider|TIME RAIDER]]
 
 “I fear no living thing, but the time raiders.”
 
@@ -1986,7 +1986,7 @@ Not the war dogs—they were fanatics.
 
 Sir John ignored the war dog, tilted his head toward the alien. “Embers?”
 
-“A kuran’zoi,” the high elf said, and the alien held her head up with pride. “A [[Time [[Raider]]|time raider]] from the upper worlds. What the truth is I cannot say, and no people are all one thing. But by reputation? They’re intractable, ungovernable, they loathe authority, hate tyranny and are totally, utterly without fear.”
+“A kuran’zoi,” the high elf said, and the alien held her head up with pride. “A [[Time Raider|time raider]] from the upper worlds. What the truth is I cannot say, and no people are all one thing. But by reputation? They’re intractable, ungovernable, they loathe authority, hate tyranny and are totally, utterly without fear.”
 
 John watched the alien. They sneered their approval at Ember’s summary. That was enough for Sir John, they could work out the details later. After everything they’d been through before, he trusted Embers implicitly.
 
@@ -2002,9 +2002,9 @@ Lycaon cocked his head at Sir John and took a few foolish steps toward the tacti
 
 Sir John took a deep breath, his body language changed and that was enough. Several things then happened at once, so quickly no one would later be able to say who acted first.
 
-Ember’s eyes flashed into a starfield. The [[Time [[Raider]]|time raider]]’s chains dissolved into starspace and reappeared around Flight Captain Lyria pinning her arms to her side. She was giving the hawklord an excuse to sit this one out. Gods, John was glad she was with them.
+Ember’s eyes flashed into a starfield. The [[Time Raider|time raider]]’s chains dissolved into starspace and reappeared around Flight Captain Lyria pinning her arms to her side. She was giving the hawklord an excuse to sit this one out. Gods, John was glad she was with them.
 
-The [[Time [[Raider]]|time raider]]’s right upper hand shot out, as though she’d been waiting for the void mage to do exactly what she just did, and her meson blaster leapt out of the hands of the war dog who’d chained her. The pistol made of glass and bronze slammed into her hand and its tip flared with prismatic light.
+The [[Time Raider|time raider]]’s right upper hand shot out, as though she’d been waiting for the void mage to do exactly what she just did, and her meson blaster leapt out of the hands of the war dog who’d chained her. The pistol made of glass and bronze slammed into her hand and its tip flared with prismatic light.
 
 From the sun’s shadow cast by Taxiarch Lycaon, the [[Polder|polder]] Jackson Bootblack emerged, a rapier in each hand, and no one had seen him move from where he’d been a moment before.
 
@@ -2016,9 +2016,9 @@ John hadn’t hesitated, he’d already drawn his sword.
 
 ***“Draw steel!”***
 
-#### [[Time [[Raider]]|TIME RAIDER]] BENEFITS
+#### [[Time Raider|TIME RAIDER]] BENEFITS
 
-As a [[Time [[Raider]]|time raider]] character, you have the following benefits.
+As a [[Time Raider|time raider]] character, you have the following benefits.
 
 ##### FORESIGHT
 
@@ -3706,7 +3706,7 @@ When you barrel through your foes, they feel your wrath.
 
 **Effect:** The target takes an extra 1d6 damage for every [[Free Strike|free strike]] you triggered from your move.
 
-###### [[Whirlwind|WHIRLWIND]] STRIKE (3 RAGE)
+###### [[Whirlwind Strike|WHIRLWIND STRIKE]] (3 RAGE)
 
 As your foes close in around you, why bother taking them on one by one?
 
@@ -5917,7 +5917,7 @@ Cultists captured you while raiding your home, then began an unholy ritual to tu
 
 **Drawback**: Your body is more susceptible to negative energy. You have corruption weakness 5.
 
-#### [[Devil Deal|[[Devil|DEVIL]] DEAL]]
+#### [[Devil Deal|DEVIL DEAL]]
 
 Your ancestors made a deal with an archdevil that has tied you to that fiend’s service. When you first learned of this deal, you were taken to the Seven Cities of Hell, where some of the timescape’s best minds taught you the ways of battle or magic. The archdevil allows you to use these gifts as you will … until they require a favor from you.
 
@@ -7227,7 +7227,7 @@ Certain effects might also allow you to shift a specific number of squares, incl
 
 #### MOVEMENT TYPES
 
-Creatures in the game can use eight types of movement: [[Walk|walk]], [[Burrow|burrow]], climb, swim, [[Jump|jump]], [[Crawl|crawl]], [[Fly|fly]], and [[Teleport|teleport]].
+Creatures in the game can use eight types of movement: walk, [[Burrow|burrow]], climb, swim, [[Jump|jump]], [[Crawl|crawl]], [[Fly|fly]], and [[Teleport|teleport]].
 
 ##### [[Walk|WALK]]
 
@@ -7384,7 +7384,7 @@ Choose an enemy adjacent to you. The next attack an ally makes against that crea
 
 You can use this maneuver to drink a potion yourself or to administer a potion to an adjacent creature.
 
-#### [[Escape [[Grab]]|ESCAPE GRAB]]
+#### [[Escape Grab|ESCAPE GRAB]]
 
 While you are [[Grabbed|grabbed]] by another creature (see [[Grab]] below), you can attempt to escape by making a resistance roll. You take a bane on the roll if the creature’s size is larger than yours.
 
@@ -7707,7 +7707,7 @@ Objectives in this category often have a timer associated with them. If the hero
 
 ##### COMPLETE THE ACTION
 
-The opposite of “Stop the Action,” this objective ending sees the characters charged with initiating an event, performing a ritual, and so forth. For instance, if the heroes are attempting to launch an airship while repelling a [[Time [[Raider]]|time raider]] boarding party, the encounter could be over the moment the heroes manage to activate the vessel and take off with just a few time raiders actually aboard.
+The opposite of “Stop the Action,” this objective ending sees the characters charged with initiating an event, performing a ritual, and so forth. For instance, if the heroes are attempting to launch an airship while repelling a [[Time Raider|time raider]] boarding party, the encounter could be over the moment the heroes manage to activate the vessel and take off with just a few time raiders actually aboard.
 
 ##### OBJECTIVES AND ENCOUNTER DIFFICULTY
 

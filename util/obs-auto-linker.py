@@ -3,13 +3,13 @@ import re
 import sys
 
 titles_to_skip = [
-    "Ward" # All the caster kits have "ward" in them, but there is a "ward" complication
+    "Ward"  # All the caster kits have "ward" in them, but there is a "ward" complication
 ]
 
 def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []
-    for root, a, files in os.walk(directory):
+    for root, _, files in os.walk(directory):
         # TODO - these should be taken in as script args
         if "../Rules" in root or "../Cultures" in root or "../Skills" in root or "../util" in root:
             continue
@@ -42,14 +42,20 @@ def update_unlinked_references_in_file(file_path, note_titles):
         content = read_file_with_encoding_fallback(file_path)
         original_content = content
 
-        # Search for potential note references (any of the note titles found in the directory)
+        # Sort note titles by length in descending order
+        note_titles = sorted(note_titles, key=len, reverse=True)
+
+        # For each title, replace unlinked occurrences with links
         for title in note_titles:
             # Don't add links to self
-            if title.lower() in os.path.splitext(os.path.basename(file_path))[0].lower():
+            if title.lower() == os.path.splitext(os.path.basename(file_path))[0].lower():
                 continue
 
-            # This regex looks for the note title as a standalone word (case-insensitive, not in [[ ]] links)
-            pattern = r'(?<!\[\[)\b({})\b(?!\]\])'.format(re.escape(title))
+            # This regex looks for the note title as a standalone word (case-insensitive), not inside existing links
+            # Negative lookbehind ensures the match is not preceded by [[ or |
+            # Negative lookahead ensures the match is not followed by ]] or |
+            # pattern = r'(?<![\#\[\|])\b{}\b(?![\]\|])'.format(re.escape(title))
+            pattern = r'(?<!^#\s)(?<![a-z]:\s)(?<![\[\|])\b{}\b(?![\]\|])'.format(re.escape(title))
 
             # Define a replacement function to handle casing and create alias if needed
             def replace_with_link(match):
@@ -60,7 +66,7 @@ def update_unlinked_references_in_file(file_path, note_titles):
                 return f'[[{title}]]'
 
             # Replace any found references with Obsidian-style links, handling case and alias
-            content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE)
+            content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE | re.MULTILINE)
 
         # Only write changes if there are any updates
         if content != original_content:

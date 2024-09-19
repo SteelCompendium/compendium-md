@@ -12,8 +12,11 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 ## TODO
 
 - Keywords tables in "linked" rules doc
-- complications
-- [[Time [[Raider]]|time raider]] (and others) are double linked
-- [[Hide|hide]] and sneak, cover, concealment
+- hide and sneak, cover, concealment
 - adventuring - falling, suffocating
 - negotiation (at least motivations and pitfalls)
+- statblocks
+- Setup custom domain on site
+- Still some issues with links in headers 
+  - see Escape Grab - although maybe this is okay...
+  - See Time raider
