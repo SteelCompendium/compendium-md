@@ -11,6 +11,7 @@ generate:
     just generate_complications
     just generate_conditions
     just generate_skills
+    just generate_negotiation
 
     just format_ability_tables
     just format_markdown
@@ -166,6 +167,15 @@ generate_conditions:
     conditions_path="../Conditions"
     xpath="//section[@id='abilities']//section[@id='conditions']//section[@class='level4']"
     just generate_section "$conditions_path" "$xpath"
+
+generate_negotiation:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    negotiation_path="../Negotiation"
+    xpath="//section[@id='list-of-motivations-and-pitfalls']//section[@class='level5']"
+    just generate_section "$negotiation_path/Motivations and Pitfalls" "$xpath"
+    rm "$negotiation_path/Motivations and Pitfalls/Npcs Change Over Time.md"
 
 generate_section destination_path xpath skip_delete="true":
     #!/usr/bin/env bash

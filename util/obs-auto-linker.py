@@ -2,17 +2,34 @@ import os
 import re
 import sys
 
+# List of notes that should NOT be linked TO in other files
 titles_to_skip = [
     "Ward"  # All the caster kits have "ward" in them, but there is a "ward" complication
+]
+
+# These folders will not be linked TO AND FROM
+folders_to_skip = [
+    "Rules", # keep the rules pure.  The "linked" rules go in a temp folder called Formatted
+    "Cultures", # Nothing should link TO these (headers), but the other way makes a lot of bad links
+    "Skills", # Nothing should link TO these (headers), but the other way makes a lot of bad links
+    "util", # shouldnt need to link anything in here
+    "Negotiation/Motivations and Pitfalls" # "Power" is one of the motivations which will link to every Power Roll
 ]
 
 def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []
+
     for root, _, files in os.walk(directory):
-        # TODO - these should be taken in as script args
-        if "../Rules" in root or "../Cultures" in root or "../Skills" in root or "../util" in root:
+        def should_skip():
+            for to_skip in folders_to_skip:
+                if f"../{to_skip}" in root:
+                    print(f"../{to_skip} is in {root}")
+                    return True
+            return False
+        if should_skip():
             continue
+
         for file in files:
             if file.endswith(".md"):
                 markdown_files.append(os.path.join(root, file))

@@ -13,7 +13,7 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 
 ### Bugfixes
 
-- [[Whirlwind Strike|Whirlwind strike]] has quotes in frontmatter
+- 
 
 ### Features
 
