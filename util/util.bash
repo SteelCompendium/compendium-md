@@ -65,11 +65,11 @@ build_and_apply_frontmatter() {
     local md_file_path="${1:-}"
 
     local title
-    title="$(sed -nE "s/^#\s+(.*)/\1/p" "$md_file_path" | xargs -0)"
+    title="$(sed -nE "s/^#\s+(.*)/\1/p" "$md_file_path" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
     local name
-    name="$(echo "$title" | sed -E 's/([^\(]+).*/\1/g' | xargs -0)"
+    name="$(echo "$title" | sed -E 's/([^\(]+).*/\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
     local cost
-    cost="$(echo "$title" | sed -E 's/[^\(]+\(([^\)]+)\)/\1/g' | xargs -0)"
+    cost="$(echo "$title" | sed -E 's/[^\(]+\(([^\)]+)\)/\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
     if [ "$cost" == "$title" ]; then
         cost=""
     fi
@@ -82,13 +82,13 @@ build_and_apply_frontmatter() {
     local type_raw
     type_raw=$(echo "$relative_path" | awk -F'/' '{ print $1 }' )
     local type
-    type="$(echo "$type_raw" | sed -E 's/([A-Z])/\L\1/g' | xargs -0)"
+    type="$(echo "$type_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
 
     # subtype is the second directory under the root (if applicable)
     local subtype_raw
     subtype_raw="$(realpath -s --relative-to="$root_dir/$type_raw" "$md_file_path" | awk -F'/' '{ print $1 }')"
     local subtype
-    subtype="$(echo "$subtype_raw" | sed -E 's/([A-Z])/\L\1/g' | xargs -0)"
+    subtype="$(echo "$subtype_raw" | sed -E 's/([A-Z])/\L\1/g' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
     if [ "$subtype_raw" == "$(basename "$md_file_path")" ]; then
         subtype=""
     fi
