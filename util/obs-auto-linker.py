@@ -2,6 +2,10 @@ import os
 import re
 import sys
 
+titles_to_skip = [
+    "Ward" # All the caster kits have "ward" in them, but there is a "ward" complication
+]
+
 def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []
@@ -19,7 +23,8 @@ def get_note_titles(markdown_files):
     note_titles = set()
     for file in markdown_files:
         title = os.path.basename(file).replace(".md", "")
-        note_titles.add(title)
+        if title not in titles_to_skip:
+            note_titles.add(title)
     return note_titles
 
 def read_file_with_encoding_fallback(file_path):

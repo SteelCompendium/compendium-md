@@ -8,3 +8,12 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 - The conversion process is not perfect and there are a lot of mistakes. In particular, the headers are a big challenge that needs fixing and page breaks caused issues.
 	- I will continue to update the repo as I go through it and continue to clean it up
 - Diagrams are not included since Im assuming that is considered MCDM art.  I'll eventually recreate the diagrams myself in an ugly format.
+
+## TODO
+
+- Keywords tables in "linked" rules doc
+- complications
+- [[Time [[Raider]]|time raider]] (and others) are double linked
+- [[Hide|hide]] and sneak, cover, concealment
+- adventuring - falling, suffocating
+- negotiation (at least motivations and pitfalls)

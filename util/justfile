@@ -8,6 +8,7 @@ generate:
     just generate_ancestries
     just generate_careers
     just generate_cultures
+    just generate_complications
     just generate_conditions
     just generate_skills
     just format_ability_tables
@@ -137,6 +138,14 @@ generate_cultures:
 
     # removes any extra sections
     rm "${cultures_path}/Upbringing/But I Really Want Alertness.md"
+
+generate_complications:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    complications_path="../Complications"
+    xpath="//section[@id='complications']//section[@id='determine-complication']//section[@class='level4']"
+    just generate_section "$complications_path" "$xpath"
+    rm "${complications_path}/Complications Table.md"
 
 generate_skills:
     #!/usr/bin/env bash
