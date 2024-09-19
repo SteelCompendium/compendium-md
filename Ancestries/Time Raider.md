@@ -1,10 +1,10 @@
 ---
-title: Time [[Raider]]
-name: Time [[Raider]]
+title: Time Raider
+name: Time Raider
 type: ancestries
 ---
 
-# Time [[Raider]]
+# Time Raider
 
 “I fear no living thing, but the time raiders.”
 
@@ -108,7 +108,7 @@ John hadn't hesitated, he'd already drawn his sword.
 
 ***“Draw steel!”***
 
-## Time [[Raider]] Benefits
+## Time Raider Benefits
 
 As a time [[Raider|raider]] character, you have the following benefits.
 

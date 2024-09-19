@@ -36,6 +36,36 @@ def read_file_with_encoding_fallback(file_path):
         with open(file_path, 'r', encoding='ISO-8859-1') as file:
             return file.read()
 
+def remove_links_in_headers_and_frontmatter(content):
+    lines = content.split('\n')
+    new_lines = []
+    in_frontmatter = False
+
+    # Regex pattern to find Obsidian-style links [[FileName|alias]] or [[FileName]]
+    link_pattern = re.compile(r'\[\[([^\]|]+)(\|([^\]]+))?\]\]')
+
+    for line in lines:
+        stripped_line = line.lstrip()
+
+        # Check for frontmatter start/end
+        if stripped_line.startswith('---'):
+            # Toggle frontmatter state
+            in_frontmatter = not in_frontmatter
+            new_lines.append(line)
+            continue
+
+        if in_frontmatter or stripped_line.startswith('#'):
+            # Remove Obsidian links from this line
+            def replace_link(match):
+                # If there's an alias, use it; else, use the file name
+                alias = match.group(3) if match.group(3) else match.group(1)
+                return alias
+
+            line = link_pattern.sub(replace_link, line)
+
+        new_lines.append(line)
+    return '\n'.join(new_lines)
+
 def update_unlinked_references_in_file(file_path, note_titles):
     """Update unlinked references in a markdown file by converting them to Obsidian links."""
     try:
@@ -54,8 +84,7 @@ def update_unlinked_references_in_file(file_path, note_titles):
             # This regex looks for the note title as a standalone word (case-insensitive), not inside existing links
             # Negative lookbehind ensures the match is not preceded by [[ or |
             # Negative lookahead ensures the match is not followed by ]] or |
-            # pattern = r'(?<![\#\[\|])\b{}\b(?![\]\|])'.format(re.escape(title))
-            pattern = r'(?<!^#\s)(?<![a-z]:\s)(?<![\[\|])\b{}\b(?![\]\|])'.format(re.escape(title))
+            pattern = r'(?<![\[\|])\b{}\b(?![\]\|])'.format(re.escape(title))
 
             # Define a replacement function to handle casing and create alias if needed
             def replace_with_link(match):
@@ -66,7 +95,8 @@ def update_unlinked_references_in_file(file_path, note_titles):
                 return f'[[{title}]]'
 
             # Replace any found references with Obsidian-style links, handling case and alias
-            content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE | re.MULTILINE)
+            content = re.sub(pattern, replace_with_link, content, flags=re.IGNORECASE)
+            content = remove_links_in_headers_and_frontmatter(content)
 
         # Only write changes if there are any updates
         if content != original_content:

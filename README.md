@@ -11,12 +11,15 @@ Draw Steel Compendium is an independent product published under the DRAW STEEL C
 
 ## TODO
 
+### Bugfixes
+
+- [[Whirlwind Strike|Whirlwind strike]] has quotes in frontmatter
+
+### Features
+
 - Keywords tables in "linked" rules doc
-- hide and sneak, cover, concealment
+- [[Hide|hide]] and sneak, cover, concealment
 - adventuring - falling, suffocating
 - negotiation (at least motivations and pitfalls)
 - statblocks
 - Setup custom domain on site
-- Still some issues with links in headers 
-  - see Escape Grab - although maybe this is okay...
-  - See Time raider

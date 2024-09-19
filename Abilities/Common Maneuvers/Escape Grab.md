@@ -1,11 +1,11 @@
 ---
-title: Escape [[Grab]]
-name: Escape [[Grab]]
+title: Escape Grab
+name: Escape Grab
 type: abilities
 subtype: common maneuvers
 ---
 
-# Escape [[Grab]]
+# Escape Grab
 
 While you are [[Grabbed|grabbed]] by another creature (see [[Grab]] below), you can attempt to escape by making a resistance roll. You take a bane on the roll if the creature's size is larger than yours.
 
