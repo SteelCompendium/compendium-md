@@ -2392,8 +2392,7 @@ Humanoid, Time Raider EV 8
 - **Intuition**: +1
 - **Presence**: −1
 
-**Brutal Flail (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Brutal Flail (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic, Weapon
 **Distance**: Reach 1
 **Target**: One creature or object per minion
@@ -2420,8 +2419,7 @@ Humanoid, Time Raider EV 10
 - **Reason**: +2
 - **Presence**: +1
 
-**Fifth Fist (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Fifth Fist (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic, Weapon
 **Distance**: Reach 2
 **Target**: One creature or object per minion
@@ -2448,8 +2446,7 @@ Humanoid, Time Raider EV 21
 - **Reason**: +2
 - **Presence**: +0
 
-**Serrated Saber (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Serrated Saber (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic, Weapon
 **Distance**: Reach 1
 **Target**: One creature or object
@@ -2459,8 +2456,7 @@ Humanoid, Time Raider EV 21
 - ✸ 17+: 11 damage; weakened (REA ends)
   **Effect**: The target takes a bane on the next attack they make before the start of the armiger’s next turn.
 
-**Shared Sickness (Triggered Action)**
-◆ REA RR
+**Shared Sickness (Triggered Action)** ◆ REA RR
 **Keywords**: Psionic, Ranged, Resistance
 **Distance**: Ranged 20
 **Target**: Triggering creature
@@ -2491,8 +2487,7 @@ Humanoid, Time Raider EV 18
 - **Reason**: +2
 - **Presence**: +0
 
-**Sunderbuss (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Sunderbuss (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Area, Psionic, Ranged, Weapon
 **Distance**: 3 cube within 10
 **Target**: Each enemy
@@ -2528,8 +2523,7 @@ Humanoid, Time Raider EV 17
 - **Intuition**: +2
 - **Presence**: +2
 
-**Blaster Volley (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Blaster Volley (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Ranged, Psionic, Weapon
 **Distance**: Ranged 10
 **Target**: Three creatures
@@ -2564,8 +2558,7 @@ Humanoid, Time Raider EV 20
 - **Intuition**: +2
 - **Presence**: +1
 
-**Golden Sickles (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Golden Sickles (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic, Weapon
 **Distance**: Reach 1
 **Target**: One creature
@@ -2600,8 +2593,7 @@ Humanoid, Time Raider EV 17
 - **Intuition**: +2
 - **Presence**: +1
 
-**Repelling Psihander (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Repelling Psihander (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic, Weapon
 **Distance**: Reach 1
 **Target**: Two creatures adjacent to each other
@@ -2611,8 +2603,7 @@ Humanoid, Time Raider EV 17
 - ✸ 17+: 9 damage; dazed (EoT)
   **Effect**: A target who ends their next turn adjacent to the other target falls prone.
 
-**Mindpunk (Action)**
-◆ REA RR
+**Mindpunk (Action)** ◆ REA RR
 **Keywords**: Area, Psionic, Resistance
 **Distance**: 2 Burst
 **Target**: All enemies
@@ -2641,8 +2632,7 @@ Humanoid, Time Raider EV 19
 - **Intuition**: +1
 - **Presence**: +0
 
-**Golden Scythe (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Golden Scythe (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic, Weapon
 **Distance**: Reach 2
 **Target**: One creature or object
@@ -2652,8 +2642,7 @@ Humanoid, Time Raider EV 19
 - ✸ 17+: 11 damage; pull 2; restrained (EoT)
   **Effect**: This ability can affect creatures on parallel planes of existence and pull them onto the nemesis’s plane.
 
-**Kinetic Crush (Action)**
-◆ MGT RR ◆ 2 VP
+**Kinetic Crush (Action)** ◆ MGT RR ◆ 2 VP
 **Keywords**: Psionic, Ranged, Resistance
 **Distance**: Ranged 10
 **Target**: One creature
@@ -2681,8 +2670,7 @@ Humanoid, Time Raider EV 19
 - **Intuition**: +1
 - **Presence**: +0
 
-**Psionic Slam (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Psionic Slam (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Psionic
 **Distance**: Reach 2
 **Target**: One creature
@@ -2692,8 +2680,7 @@ Humanoid, Time Raider EV 19
 - ✸ 17+: 7 damage; 4 psychic damage
   **Effect**: Any ability used against the target gains an edge until the start of the vertex’s next turn.
 
-**Split Space (Action)**
-◆ 5 VP
+**Split Space (Action)** ◆ 5 VP
 **Keywords**: Area, Psionic, Ranged
 **Distance**: 2 cube within 10
 **Target**: Special
@@ -2724,8 +2711,7 @@ Humanoid, Time Raider EV 54
 - **Intuition**: +1
 - **Presence**: +0
 
-**Gatling Blaster (Action)**
-◆ 2d10 + 3 ◆ Signature
+**Gatling Blaster (Action)** ◆ 2d10 + 3 ◆ Signature
 **Keywords**: Attack, Melee, Ranged, Psionic, Weapon
 **Distance**: Reach 2 or Ranged 10
 **Target**: Three creatures or objects
@@ -2735,8 +2721,7 @@ Humanoid, Time Raider EV 54
 - ✸ 17+: 12 corruption damage
   **Effect**: Each target’s speed is reduced by 2 (EoT).
 
-**Air Raid! (Maneuver)**
-◆ 3 VP
+**Air Raid! (Maneuver)** ◆ 3 VP
 **Keywords**: Psionic, Ranged
 **Distance**: Ranged 10
 **Target**: Three time raiders
@@ -2823,8 +2808,7 @@ Humanoid, War Dog EV 5
 - **Intuition**: +0
 - **Presence**: +0
 
-**Daggers (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Melee, Ranged, Weapon
 **Distance**: Reach 1 or Ranged 5
 **Target**: One creature per minion
@@ -2852,8 +2836,7 @@ Humanoid, War Dog EV 4
 - **Intuition**: +0
 - **Presence**: +0
 
-**Blade (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Blade (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Charge, Melee, Ranged, Weapon
 **Distance**: Reach 1 or Ranged 5
 **Target**: One creature per minion
@@ -2881,8 +2864,7 @@ Humanoid, War Dog EV 4
 - **Intuition**: +0
 - **Presence**: +0
 
-**Bolt Launcher (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Bolt Launcher (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Ranged, Weapon
 **Distance**: Ranged 5
 **Target**: One creature or object per minion
@@ -2910,8 +2892,7 @@ Humanoid, War Dog EV 6
 - **Intuition**: +0
 - **Presence**: +0
 
-**Daggers (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Melee, Weapon
 **Distance**: Reach 2
 **Target**: One creature or object per minion
@@ -2941,8 +2922,7 @@ Humanoid, War Dog EV 11
 - **Intuition**: +0
 - **Presence**: +1
 
-**Synlirii Grafts (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Synlirii Grafts (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Area, Psionic
 **Distance**: 1 burst
 **Target**: Each enemy
@@ -2982,8 +2962,7 @@ Humanoid, War Dog EV 10
 - **Intuition**: +0
 - **Presence**: +0
 
-**Flamebelcher (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Flamebelcher (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Area, Weapon
 **Distance**: 5 × 1 line
 **Target**: Each creature and object
@@ -3018,8 +2997,7 @@ Humanoid, War Dog EV 10
 - **Intuition**: +0
 - **Presence**: +0
 
-**Chainsaw Whip (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Chainsaw Whip (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Melee, Weapon
 **Distance**: Reach 3
 **Target**: One creature or object
@@ -3053,8 +3031,7 @@ Humanoid, War Dog EV 11
 - **Intuition**: +0
 - **Presence**: +0
 
-**Corrupted Ash Daggers (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Corrupted Ash Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Melee, Ranged, Weapon
 **Distance**: Reach 1 or Ranged 5
 **Target**: One creature or object
@@ -3095,8 +3072,7 @@ Humanoid, War Dog EV 15
 - **Intuition**: +0
 - **Presence**: +0
 
-**Several Arms (Action)**
-◆ 2d10 + 2 ◆ Signature
+**Several Arms (Action)** ◆ 2d10 + 2 ◆ Signature
 **Keywords**: Attack, Melee, Weapon
 **Distance**: Reach 2
 **Target**: One creature or object
@@ -3167,8 +3143,7 @@ Humanoid, War Dog EV 12
 - **Intuition**: +0
 - **Presence**: +0
 
-**Command Saber (Action)**
-◆ 2d10 + 1 ◆ Signature
+**Command Saber (Action)** ◆ 2d10 + 1 ◆ Signature
 **Keywords**: Attack, Melee, Weapon
 **Distance**: Reach 1
 **Target**: One creature or object
