@@ -529,7 +529,9 @@ At the start of any demon’s turn, you can spend VP to activate one of the foll
 
 - **Abyssal Evolution (7 VP):** A demon minion of your choice turns into a non-minion demon of the same level.
 
-### DEMON ENSNARER
+### Statblocks
+
+#### DEMON ENSNARER
 
 **Level 1 Brute Minion**
 *Demon, Planar*
@@ -558,7 +560,7 @@ Target: One creature or object per minion
 **Soulsight**
 Each creature within 2 squares of the ensnarer can’t be hidden from them.
 
-### DEMON FRENZIED
+#### DEMON FRENZIED
 
 **Level 1 Harrier Minion**
 *Demon, Planar*
@@ -587,7 +589,7 @@ Target: One creature or object per minion
 **Soulsight**
 Each creature within 2 squares of the frenzied can’t be hidden from them.
 
-### DEMON PITLING
+#### DEMON PITLING
 
 **Level 1 Artillery Minion**
 *Demon, Planar*
@@ -619,7 +621,7 @@ Any enemy who has three or more pitlings within 2 squares of them can’t regain
 **Soulsight**
 Each creature within 2 squares of the pitling can’t be hidden from them.
 
-### DEMON RUINANT
+#### DEMON RUINANT
 
 **Level 1 Harrier**
 *Demon, Planar*
@@ -660,7 +662,7 @@ While winded, the ruinant has an edge on attacks, and attacks have an edge again
 **Soulsight**
 Each creature within 2 squares of the ruinant can’t be hidden from them.
 
-### DEMON TORLAS
+#### DEMON TORLAS
 
 **Level 1 Controller**
 *Demon, Planar*
@@ -699,7 +701,7 @@ While winded, the torlas has an edge on attacks, and attacks have an edge agains
 **Soulsight**
 Each creature within 2 squares of the torlas can’t be hidden from them.
 
-### DEMON BENDRAK
+#### DEMON BENDRAK
 
 **Level 2 Hexer**
 *Demon, Planar*
@@ -738,7 +740,7 @@ While winded, the bendrak has an edge on attacks, and attacks have an edge again
 **Soulsight**
 Each creature within 2 squares of the bendrak can’t be hidden from them.
 
-### DEMON REMASCH
+#### DEMON REMASCH
 
 **Level 2 Ambusher**
 *Demon, Planar*
@@ -777,7 +779,7 @@ While winded, the remasch has an edge on attacks, and attacks have an edge again
 **Soulsight**
 Each creature within 2 squares of the remasch can’t be hidden from them.
 
-### DEMON MUCERON
+#### DEMON MUCERON
 
 **Level 3 Brute**
 *Demon, Planar*
@@ -815,7 +817,7 @@ While winded, the muceron has an edge on attacks, and attacks have an edge again
 **Soulsight**
 Each creature within 2 squares of the muceron can’t be hidden from them.
 
-### DEMON CHOROGAUNT
+#### DEMON CHOROGAUNT
 
 **Level 3 Boss**
 *Demon, Planar*
@@ -863,8 +865,6 @@ While winded, the chorogaunt has an edge on attacks, and attacks have an edge ag
 
 **Soulsight**
 Each creature within 2 squares of the chorogaunt can’t be hidden from them.
-
-### Villain Actions
 
 **Frightening Tones (Villain Action 1)**
 Keywords: Ranged
@@ -932,7 +932,9 @@ At the start of any goblin’s turn, you can spend VP to activate one of the fol
   - ★ 12–16: Weakened until mist disappears
   - ✸ 17+: No effect
 
-### GOBLIN RUNNER
+### Statblocks
+
+#### GOBLIN RUNNER
 
 **Level 1 Harrier Minion**
 *Goblin, Humanoid*
@@ -960,7 +962,7 @@ Target: One creature or object per minion
 **Crafty**
 The runner doesn’t provoke opportunity attacks by moving.
 
-### GOBLIN SNIPER
+#### GOBLIN SNIPER
 
 **Level 1 Artillery Minion**
 *Goblin, Humanoid*
@@ -989,7 +991,7 @@ Target: One creature or object per minion
 **Crafty**
 The sniper doesn’t provoke opportunity attacks by moving.
 
-### GOBLIN SPINECLEAVER
+#### GOBLIN SPINECLEAVER
 
 **Level 1 Brute Minion**
 *Goblin, Humanoid*
@@ -1017,7 +1019,7 @@ Target: One creature or object per minion
 **Crafty**
 The spinecleaver doesn’t provoke opportunity attacks by moving.
 
-### SKITTERLING
+#### SKITTERLING
 
 **Level 1 Hexer Minion**
 *Animal, Goblin*
@@ -1042,7 +1044,7 @@ Target: One creature or object per minion
 - ★ 12–16: 3 poison damage; slowed (EoT)
 - ✸ 17+: 4 poison damage; slowed (EoT)
 
-### GOBLIN ASSASSIN
+#### GOBLIN ASSASSIN
 
 **Level 1 Ambusher**
 *Goblin, Humanoid*
@@ -1083,7 +1085,7 @@ The assassin doesn’t provoke opportunity attacks by moving.
 **Hide While Observed**
 The assassin can take the Hide maneuver even while observed, though they still must have cover or concealment.
 
-### GOBLIN CURSESPITTER
+#### GOBLIN CURSESPITTER
 
 **Level 1 Hexer**
 *Goblin, Humanoid*
@@ -1120,7 +1122,7 @@ Target: One creature
 **Crafty**
 The cursespitter doesn’t provoke opportunity attacks by moving.
 
-### GOBLIN STINKER
+#### GOBLIN STINKER
 
 **Level 1 Controller**
 *Goblin, Humanoid*
@@ -1155,7 +1157,7 @@ Effect: The area is filled with a green haze until the start of the stinker’s 
 **Crafty**
 The stinker doesn’t provoke opportunity attacks by moving.
 
-### GOBLIN UNDERBOSS
+#### GOBLIN UNDERBOSS
 
 **Level 1 Support**
 *Goblin, Humanoid*
@@ -1192,7 +1194,7 @@ Effect: Until the start of the underboss’s next turn, each target gains an edg
 **Crafty**
 The underboss doesn’t provoke opportunity attacks by moving.
 
-### GOBLIN WARRIOR
+#### GOBLIN WARRIOR
 
 **Level 1 Harrier**
 *Goblin, Humanoid*
@@ -1229,7 +1231,7 @@ Target: One creature
 **Crafty**
 The warrior doesn’t provoke opportunity attacks by moving.
 
-### GOBLIN MONARCH
+#### GOBLIN MONARCH
 
 **Level 1 Boss**
 *Goblin, Humanoid*
@@ -1292,7 +1294,7 @@ Distance: 10 burst
 Target: Each ally
 Effect: Each target can make a free strike that deals an extra 1 damage.
 
-### WAR SPIDER
+#### WAR SPIDER
 
 **Level 1 Mount**
 *Animal, Goblin*
@@ -1347,7 +1349,7 @@ An ally who leaps off the back of the spider can jump up to 6 squares without a 
 **Wide Back**
 Two of the spider’s size 1 allies can occupy the same space while riding the spider.
 
-### WARG
+#### WARG
 
 **Level 1 Mount**
 *Animal, Goblin*
@@ -1437,7 +1439,9 @@ At the start of any human’s turn, you can spend VP to activate one of the foll
 
 - **Staying Power (7 VP):** Each non-minion human in the encounter regains Stamina equal to 5 times their level.
 
-### HUMAN ARCHER
+### Statblocks
+
+#### HUMAN ARCHER
 
 **Level 1 Artillery Minion**
 *Human, Humanoid*
@@ -1463,7 +1467,7 @@ Target: One creature or object per minion
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
 
-### HUMAN DEATH ACOLYTE
+#### HUMAN DEATH ACOLYTE
 
 **Level 1 Hexer Minion**
 *Human, Humanoid*
@@ -1490,7 +1494,7 @@ Target: One creature or object per minion
 - ✸ 17+: 5 corruption damage
   Effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
 
-### HUMAN GUARD
+#### HUMAN GUARD
 
 **Level 1 Brute Minion**
 *Human, Humanoid*
@@ -1516,7 +1520,7 @@ Target: One creature or object per minion
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
 
-### HUMAN RAIDER
+#### HUMAN RAIDER
 
 **Level 1 Harrier Minion**
 *Human, Humanoid*
@@ -1543,7 +1547,7 @@ Target: One creature or object per minion
 - ✸ 17+: 5 damage
   Effect: If this ability is used as part of the Charge action, the raider can make a ranged free strike with a distance of 5 before using the ability.
 
-### HUMAN APPRENTICE MAGE
+#### HUMAN APPRENTICE MAGE
 
 **Level 2 Controller Minion**
 *Human, Humanoid*
@@ -1570,7 +1574,7 @@ Target: One creature or object per minion
 - ✸ 17+: 5 lightning damage
   Effect: If the apprentice mage doesn’t use a maneuver or a move action this turn, the target is slowed (EoT).
 
-### HUMAN BRAWLER
+#### HUMAN BRAWLER
 
 **Level 1 Brute**
 *Human, Humanoid*
@@ -1606,7 +1610,7 @@ Effect: The brawler pushes the creature they have grabbed 5 squares. This breaks
 **Shoot the Hostage**
 The brawler takes half damage from attacks if they have an enemy grabbed. They then apply the remaining damage to the grabbed enemy.
 
-### HUMAN SCOUNDREL
+#### HUMAN SCOUNDREL
 
 **Level 1 Ambusher**
 *Human, Humanoid*
@@ -1636,7 +1640,7 @@ Target: One creature or object
 **Dagger Storm (Action)** ◆ 5 VP
 The scoundrel makes a Rapier & Dagger attack against three creatures or objects, and can shift 2 squares before or after each attack.
 
-### HUMAN TRICKSHOT
+#### HUMAN TRICKSHOT
 
 **Level 1 Artillery**
 *Human, Humanoid*
@@ -1664,7 +1668,7 @@ Target: One creature or object
   Effect: The trickshot doesn’t take a bane when using this ability in melee or against a target with cover or concealment.
 - **3 VP:** The trickshot can target two creatures or objects with this ability.
 
-### HUMAN DEATH CULTIST
+#### HUMAN DEATH CULTIST
 
 **Level 2 Support**
 *Human, Humanoid*
@@ -1698,7 +1702,7 @@ Target: One or more dead minions
 Special: Each target must have died during this encounter
 Effect: Each target returns to life with their full Stamina, but they die at the end of the encounter or if the death cultist is killed. If the target dies a second time, they can be brought back to life by this ability again.
 
-### HUMAN KNAVE
+#### HUMAN KNAVE
 
 **Level 2 Defender**
 *Human, Humanoid*
@@ -1728,7 +1732,7 @@ Target: One creature or object
 **Overwhelm**
 A creature who starts their turn adjacent to the knave can’t shift.
 
-### HUMAN STORM MAGE
+#### HUMAN STORM MAGE
 
 **Level 3 Controller**
 *Human, Humanoid*
@@ -1768,7 +1772,7 @@ Target: Each creature and object
 **Arcane Shield**
 Whenever the mage takes damage from an enemy adjacent to them, the damage is reduced by 3 (minimum 0), and the enemy takes 3 thunder damage and is pushed 2 squares.
 
-### HUMAN BLACKGUARD
+#### HUMAN BLACKGUARD
 
 **Level 1 Boss**
 *Human, Humanoid*
@@ -1830,7 +1834,7 @@ Distance: 3 cube within 5
 Target: Each enemy in the cube
 Effect: The blackguard makes a Zweihander attack against each enemy in the area, making one power roll against all targets. Additionally, each ally within 5 squares of the area can make a free strike against any enemy in the area.
 
-### HUMAN BANDIT CHIEF
+#### HUMAN BANDIT CHIEF
 
 **Level 3 Boss**
 *Human, Humanoid*
@@ -1896,7 +1900,7 @@ Distance: Self
 Target: Self
 Effect: The bandit chief shifts twice their speed. During or after this movement, they can attack up to four targets with Whip & Magic Longsword. Any ally of the bandit chief adjacent to a target can make a free strike against that target.
 
-### GIANT HAWK
+#### GIANT HAWK
 
 **Level 1 Mount**
 *Animal*
@@ -1928,7 +1932,7 @@ The hawk moves up to their speed.
 **Mounted Platform**
 Any creature riding the hawk can make a free strike during or after the hawk’s movement.
 
-### SIEGE HAWK
+#### SIEGE HAWK
 
 **Level 1 Mount**
 *Animal*
@@ -2015,7 +2019,9 @@ A 10-foot wall of living rats scurrying atop one another in a coordinated manner
 - ★ 12–16: 5 sonic damage
 - ✦ 17+: No effect
 
-### RADENWIGHT MISCHIEVER
+### Statblocks
+
+#### RADENWIGHT MISCHIEVER
 
 **Level 1 Ambusher Minion**
 *Humanoid, Radenwight*
@@ -2048,7 +2054,7 @@ Target: One creature
 Trigger: An ally deals damage to the target.
 Effect: The mischiever makes a free strike against the target.
 
-### RADENWIGHT RATAGAST
+#### RADENWIGHT RATAGAST
 
 **Level 1 Defender Minion**
 *Humanoid, Radenwight*
@@ -2080,7 +2086,7 @@ Target: One creature
 Trigger: An ally deals damage to the target.
 Effect: The ratagast makes a free strike against the target.
 
-### RADENWIGHT SWIFTPAW
+#### RADENWIGHT SWIFTPAW
 
 **Level 1 Harrier Minion**
 *Humanoid, Radenwight*
@@ -2112,7 +2118,7 @@ Target: One creature
 Trigger: An ally deals damage to the target.
 Effect: The swiftpaw makes a free strike against the target.
 
-### RADENWIGHT REDEYE
+#### RADENWIGHT REDEYE
 
 **Level 1 Artillery Minion**
 *Humanoid, Radenwight*
@@ -2145,7 +2151,7 @@ Target: One creature
 Trigger: An ally deals damage to the target.
 Effect: The redeye makes a free strike against the target.
 
-### RADENWIGHT BRUXER
+#### RADENWIGHT BRUXER
 
 **Level 1 Brute**
 *Humanoid, Radenwight*
@@ -2187,7 +2193,7 @@ Target: One creature
 Trigger: An ally deals damage to the target.
 Effect: The bruxer makes a free strike against the target.
 
-### RADENWIGHT PIPER
+#### RADENWIGHT PIPER
 
 **Level 1 Support**
 *Humanoid, Radenwight*
@@ -2226,7 +2232,7 @@ Target: One creature
 Trigger: An ally deals damage to the target.
 Effect: The piper makes a free strike against the target.
 
-### RADENWIGHT RATCROBAT
+#### RADENWIGHT RATCROBAT
 
 **Level 1 Harrier**
 *Humanoid, Radenwight*
@@ -2268,7 +2274,7 @@ Effect: The ratcrobat makes a free strike against the target.
 **Gymratstics**
 The ratcrobat gains an edge on attacks against larger creatures.
 
-### RADENWIGHT MAESTRO
+#### RADENWIGHT MAESTRO
 
 **Level 1 Boss**
 *Humanoid, Radenwight*
@@ -2376,7 +2382,9 @@ At the start of any time raider’s turn, you can spend VP to activate one of th
   ★ 12–16: 5 psychic damage; slowed (EoT)
   ✦ 17+: No effect
 
-### TIME RAIDER ARCHON
+### Statblocks
+
+#### TIME RAIDER ARCHON
 
 **Level 3 Harrier Minion**
 Humanoid, Time Raider EV 8
@@ -2404,7 +2412,7 @@ Humanoid, Time Raider EV 8
 **Foresight**
 The archon doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER MYRIAD
+#### TIME RAIDER MYRIAD
 
 **Level 3 Brute Minion**
 Humanoid, Time Raider EV 10
@@ -2431,7 +2439,7 @@ Humanoid, Time Raider EV 10
 **Foresight**
 The myriad doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER ARMIGER
+#### TIME RAIDER ARMIGER
 
 **Level 3 Defender**
 Humanoid, Time Raider EV 21
@@ -2472,7 +2480,7 @@ The armiger doesn’t take a bane on attacks against concealed creatures.
 **Kuran’zoi Heraldry**
 While any time raider starts their turn with line of effect to the armiger, that time raider can end one condition affecting them.
 
-### TIME RAIDER CANNONFALL
+#### TIME RAIDER CANNONFALL
 
 **Level 3 Artillery**
 Humanoid, Time Raider EV 18
@@ -2507,7 +2515,7 @@ Humanoid, Time Raider EV 18
 **Foresight**
 The cannonfall doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER HELIX
+#### TIME RAIDER HELIX
 
 **Level 3 Controller**
 Humanoid, Time Raider EV 17
@@ -2542,7 +2550,7 @@ Humanoid, Time Raider EV 17
 **Foresight**
 The helix doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER HIJACK
+#### TIME RAIDER HIJACK
 
 **Level 3 Ambusher**
 Humanoid, Time Raider EV 20
@@ -2577,7 +2585,7 @@ Humanoid, Time Raider EV 20
 **Foresight**
 The hijack doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER MIND PUNK
+#### TIME RAIDER MIND PUNK
 
 **Level 3 Hexer**
 Humanoid, Time Raider EV 17
@@ -2616,7 +2624,7 @@ Humanoid, Time Raider EV 17
 **Foresight**
 The mind punk doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER NEMESIS
+#### TIME RAIDER NEMESIS
 
 **Level 3 Harrier**
 Humanoid, Time Raider EV 19
@@ -2654,7 +2662,7 @@ Humanoid, Time Raider EV 19
 **Foresight**
 The nemesis doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER VERTEX
+#### TIME RAIDER VERTEX
 
 **Level 3 Support**
 Humanoid, Time Raider EV 19
@@ -2695,7 +2703,7 @@ Humanoid, Time Raider EV 19
 **Foresight**
 The vertex doesn’t take a bane on attacks against concealed creatures.
 
-### TIME RAIDER TYRANNIS
+#### TIME RAIDER TYRANNIS
 
 **Level 3 Boss**
 Humanoid, Time Raider EV 54
@@ -2793,7 +2801,9 @@ At the start of any war dog’s turn, you can spend VP to activate one of the fo
 
 - **Fodder Run (7 VP):** Each war dog minion in the battle can shift their speed, make a free strike, and then die.
 
-### WAR DOG COMMANDO
+### Statblocks
+
+#### WAR DOG COMMANDO
 
 **Level 1 Ambusher Minion**
 Humanoid, War Dog EV 5
@@ -2821,7 +2831,7 @@ Humanoid, War Dog EV 5
 **Loyalty Collar**
 When the commando dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG CONSCRIPT
+#### WAR DOG CONSCRIPT
 
 **Level 1 Harrier Minion**
 Humanoid, War Dog EV 4
@@ -2849,7 +2859,7 @@ Humanoid, War Dog EV 4
 **Loyalty Collar**
 When the conscript dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG SHARPSHOOTER
+#### WAR DOG SHARPSHOOTER
 
 **Level 1 Artillery Minion**
 Humanoid, War Dog EV 4
@@ -2877,7 +2887,7 @@ Humanoid, War Dog EV 4
 **Loyalty Collar**
 When the sharpshooter dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG TETHERITE
+#### WAR DOG TETHERITE
 
 **Level 1 Brute Minion**
 Humanoid, War Dog EV 6
@@ -2907,7 +2917,7 @@ A captain attached to a tetherite squad has their Stability increased by the num
 **Loyalty Collar**
 When the tetherite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG COGNIVITE
+#### WAR DOG COGNIVITE
 
 **Level 1 Defender**
 Humanoid, War Dog EV 11
@@ -2946,7 +2956,7 @@ Humanoid, War Dog EV 11
 **Loyalty Collar**
 When the cognivite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG CRUCIBITE
+#### WAR DOG CRUCIBITE
 
 **Level 1 Artillery**
 Humanoid, War Dog EV 10
@@ -2982,7 +2992,7 @@ Humanoid, War Dog EV 10
 **Loyalty Collar**
 When the crucibite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG EVISCERITE
+#### WAR DOG EVISCERITE
 
 **Level 1 Harrier**
 Humanoid, War Dog EV 10
@@ -3016,7 +3026,7 @@ Humanoid, War Dog EV 10
 **Loyalty Collar**
 When the eviscerite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG PORTALITE
+#### WAR DOG PORTALITE
 
 **Level 1 Ambusher**
 Humanoid, War Dog EV 11
@@ -3057,7 +3067,7 @@ Humanoid, War Dog EV 11
 **Loyalty Collar**
 When the portalite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG AMALGAMITE
+#### WAR DOG AMALGAMITE
 
 **Level 2 Brute**
 Humanoid, War Dog EV 15
@@ -3092,7 +3102,7 @@ Humanoid, War Dog EV 15
 **Loyalty Collar**
 When the amalgamite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG PHOSPHORITE
+#### WAR DOG PHOSPHORITE
 
 **Level 2 Hexer**
 Humanoid, War Dog EV 10
@@ -3128,7 +3138,7 @@ Humanoid, War Dog EV 10
 **Loyalty Collar**
 When the phosphorite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG SUBCOMMANDER
+#### WAR DOG SUBCOMMANDER
 
 **Level 2 Support**
 Humanoid, War Dog EV 12
@@ -3165,7 +3175,7 @@ Each ally within 5 squares of the subcommander adds 3 to their stability.
 **Loyalty Collar**
 When the subcommander dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG PESTILITE
+#### WAR DOG PESTILITE
 
 **Level 3 Controller**
 Humanoid, War Dog EV 13
@@ -3200,7 +3210,7 @@ Humanoid, War Dog EV 13
 **Loyalty Collar**
 When the pestilite dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
-### WAR DOG GROUND COMMANDER
+#### WAR DOG GROUND COMMANDER
 
 **Level 3 Boss**
 Humanoid, War Dog EV 36
