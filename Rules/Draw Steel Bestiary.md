@@ -1,3 +1,5 @@
+# Draw Steel Bestiary
+
 ## CREATURE STATS
 
 Most of the information presented in a creature’s stat block is self-explanatory, and matches the statistics of
@@ -64,7 +66,7 @@ moreinformation.
 Certain creatures have the ability to take damage in order to end one EoE (end of encounter) effect currently
 affectingthem. The damage the creature takes to end the effect can’t be reduced in any way.
 
-# VILLAIN ACTIONS
+### VILLAIN ACTIONS
 
 The solo and boss creatures presented in this book are designed to be fought in climactic battles at the end of
 an adventure or campaign. Because of this, they get special abilities called villain actions.
@@ -140,7 +142,7 @@ their positioning on the battlefield.
 Hexers specialize in debuffing enemies with conditions and other effects. They are generally squishy and rely on allies
 to help defend them.
 
-## MOUNT
+#### MOUNT
 
 Mounts are mobile creatures meant to be ridden in combat , and who make their riders even more dangerous. Mounts act
 atthe same time as their riders.
@@ -447,7 +449,7 @@ Just as every hero has a Heroic Resource determined by their class, so too do th
 to fuel their strongest threats. Villain Power (abbreviated VP) is a resource gained by the Director. You use it to
 let enemies in the game activate their most powerful abilities and throw surprises at the heroes during combat.
 
-### EARNING VILLAIN POWER 
+### EARNING VILLAIN POWER
 
 At the start of each round of combat, you gain VP equal to the number of heroes in the battle. If a
 hero dies, they stop generating VP for you in this way. At the end of an encounter, all your villain power disappears.
@@ -456,7 +458,7 @@ It's up to you if you want to show your players how much VP you have. Some Direc
 creep up and can create great drama, while others like to keep the players guessing about what could come next. Do
 whatever is most fun for your group, and if you’re not sure, ask your players what they would prefer!
 
-### SPENDING VILLAIN POWER 
+### SPENDING VILLAIN POWER
 
 Non-minion monsters can spend VP the way heroes spend their heroic resources, activating and enhancing their abilities.
 Abilities that make use of Villain Power have that VP cost noted in a creature’s stat block.
@@ -529,13 +531,13 @@ At the start of any demon’s turn, you can spend VP to activate one of the foll
 
 ### DEMON ENSNARER
 
-**Level 1 Brute Minion**  
-*Demon, Planar*  
-**EV 6**  
-**Stamina**: 10  
-**Weakness**: Holy 3  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Brute Minion**
+*Demon, Planar*
+**EV 6**
+**Stamina**: 10
+**Weakness**: Holy 3
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +1
@@ -544,26 +546,27 @@ At the start of any demon’s turn, you can spend VP to activate one of the foll
 - **Intuition** −1
 - **Presence** −1
 
-**Barbed Tongues (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 3  
+**Barbed Tongues (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 3
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage; pull 1
 - ★ 12–16: 4 damage; pull 2
 - ✸ 17+: 5 damage; pull 3; slowed (EoT)
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the ensnarer can’t be hidden from them.
 
 ### DEMON FRENZIED
 
-**Level 1 Harrier Minion**  
-*Demon, Planar*  
-**EV 4**  
-**Stamina**: 8  
-**Weakness**: Holy 3  
-**Speed**: 6  
-**Size**: 1M / Stability 0  
+**Level 1 Harrier Minion**
+*Demon, Planar*
+**EV 4**
+**Stamina**: 8
+**Weakness**: Holy 3
+**Speed**: 6
+**Size**: 1M / Stability 0
 **Free Strike**: 1
 
 - **Might** +0
@@ -572,26 +575,27 @@ Each creature within 2 squares of the ensnarer can’t be hidden from them.
 - **Intuition** −1
 - **Presence** −1
 
-**Rip and Tear (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Charge, Melee, Weapon  
-Distance: Reach 1  
+**Rip and Tear (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Charge, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 3 damage
 - ✸ 17+: 4 damage
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the frenzied can’t be hidden from them.
 
 ### DEMON PITLING
 
-**Level 1 Artillery Minion**  
-*Demon, Planar*  
-**EV 2**  
-**Stamina**: 4  
-**Weakness**: Holy 3  
-**Speed**: 5 (fly)  
-**Size**: 1T / Stability 0  
+**Level 1 Artillery Minion**
+*Demon, Planar*
+**EV 2**
+**Stamina**: 4
+**Weakness**: Holy 3
+**Speed**: 5 (fly)
+**Size**: 1T / Stability 0
 **Free Strike**: 2
 
 - **Might** −2
@@ -600,29 +604,30 @@ Each creature within 2 squares of the frenzied can’t be hidden from them.
 - **Intuition** −2
 - **Presence** −2
 
-**Spit (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Ranged, Weapon  
-Distance: Ranged 10  
+**Spit (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Ranged, Weapon
+Distance: Ranged 10
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 poison damage
 - ★ 12–16: 3 poison damage
 - ✸ 17+: 4 poison damage
 
-**Horrid Stench**  
+**Horrid Stench**
 Any enemy who has three or more pitlings within 2 squares of them can’t regain Stamina.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the pitling can’t be hidden from them.
 
 ### DEMON RUINANT
 
-**Level 1 Harrier**  
-*Demon, Planar*  
-**EV 10**  
-**Stamina**: 20  
-**Weakness**: Holy 3  
-**Speed**: 6  
-**Size**: 1M / Stability 0  
+**Level 1 Harrier**
+*Demon, Planar*
+**EV 10**
+**Stamina**: 20
+**Weakness**: Holy 3
+**Speed**: 6
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -631,37 +636,39 @@ Each creature within 2 squares of the pitling can’t be hidden from them.
 - **Intuition** +0
 - **Presence** +1
 
-**Bloodletting Claws (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Bloodletting Claws (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: Two creatures or objects
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage; bleeding (EoT)
 - ✸ 17+: 6 damage; bleeding (EoT)
 
-**Salt Wounds (Maneuver)** ◆ MGT RR ◆ 3 VP  
-Keywords: Magic, Ranged, Resistance  
-Distance: Ranged 10  
+**Salt Wounds (Maneuver)** ◆ MGT RR ◆ 3 VP
+Keywords: Magic, Ranged, Resistance
+Distance: Ranged 10
 Target: Three creatures without full Stamina
+
 - ✸ ≤11: 6 corruption damage
 - ★ 12–16: 5 corruption damage
 - ✦ 17+: 2 corruption damage
 
-**Lethe**  
+**Lethe**
 While winded, the ruinant has an edge on attacks, and attacks have an edge against them.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the ruinant can’t be hidden from them.
 
 ### DEMON TORLAS
 
-**Level 1 Controller**  
-*Demon, Planar*  
-**EV 9**  
-**Stamina**: 15  
-**Weakness**: Holy 3  
-**Speed**: 5  
-**Size**: 1S / Stability 0  
+**Level 1 Controller**
+*Demon, Planar*
+**EV 9**
+**Stamina**: 15
+**Weakness**: Holy 3
+**Speed**: 5
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -670,36 +677,37 @@ Each creature within 2 squares of the ruinant can’t be hidden from them.
 - **Intuition** +0
 - **Presence** +1
 
-**Cronenstorm (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Area, Magic, Ranged  
-Distance: 3 cube within 10  
+**Cronenstorm (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Area, Magic, Ranged
+Distance: 3 cube within 10
 Target: Each creature
+
 - ✦ ≤11: Slide 1
 - ★ 12–16: Slide 2
-- ✸ 17+: Slide 3  
+- ✸ 17+: Slide 3
   Effect: The area turns into a morass of spongy flesh before the targets are force moved. Until the start of the torlas’s next turn, the area is difficult terrain, and each creature who moves within the area takes 1 damage for each square moved.
 
-**Grasping Tendons (Maneuver)**  
-Keywords: Magic, Ranged  
-Distance: Ranged 10  
-Target: Three creatures  
+**Grasping Tendons (Maneuver)**
+Keywords: Magic, Ranged
+Distance: Ranged 10
+Target: Three creatures
 Effect: The torlas pulls the target up to 2 squares.
 
-**Lethe**  
+**Lethe**
 While winded, the torlas has an edge on attacks, and attacks have an edge against them.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the torlas can’t be hidden from them.
 
 ### DEMON BENDRAK
 
-**Level 2 Hexer**  
-*Demon, Planar*  
-**EV 11**  
-**Stamina**: 20  
-**Weakness**: Holy 3  
-**Speed**: 5  
-**Size**: 1S / Stability 0  
+**Level 2 Hexer**
+*Demon, Planar*
+**EV 11**
+**Stamina**: 20
+**Weakness**: Holy 3
+**Speed**: 5
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -708,36 +716,37 @@ Each creature within 2 squares of the torlas can’t be hidden from them.
 - **Intuition** +0
 - **Presence** +1
 
-**Warp Perceptions (Action)** ◆ PRS RR ◆ Signature  
-Keywords: Magic, Ranged, Resistance  
-Distance: Ranged 10  
+**Warp Perceptions (Action)** ◆ PRS RR ◆ Signature
+Keywords: Magic, Ranged, Resistance
+Distance: Ranged 10
 Target: One creature
+
 - ✸ ≤11: 7 psychic damage; weakened (PRS ends)
 - ★ 12–16: 5 psychic damage; weakened (EoT)
-- ✦ 17+: 3 psychic damage  
+- ✦ 17+: 3 psychic damage
   Effect: If the target makes an attack while weakened this way, the bendrak can choose a second target for the attack within the distance of the attack, then evenly divides any damage from the attack between the two targets.
 
-**Vanish (Maneuver)** ◆ 1 VP  
-Keywords: Magic, Ranged  
-Distance: Ranged 10  
-Target: Self or one ally  
+**Vanish (Maneuver)** ◆ 1 VP
+Keywords: Magic, Ranged
+Distance: Ranged 10
+Target: Self or one ally
 Effect: The target immediately becomes hidden, regardless of whether they have cover or concealment.
 
-**Lethe**  
+**Lethe**
 While winded, the bendrak has an edge on attacks, and attacks have an edge against them.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the bendrak can’t be hidden from them.
 
 ### DEMON REMASCH
 
-**Level 2 Ambusher**  
-*Demon, Planar*  
-**EV 13**  
-**Stamina**: 25  
-**Weakness**: Holy 3  
-**Speed**: 5 (teleport)  
-**Size**: 1S / Stability 0  
+**Level 2 Ambusher**
+*Demon, Planar*
+**EV 13**
+**Stamina**: 25
+**Weakness**: Holy 3
+**Speed**: 5 (teleport)
+**Size**: 1S / Stability 0
 **Free Strike**: 3
 
 - **Might** +0
@@ -746,36 +755,37 @@ Each creature within 2 squares of the bendrak can’t be hidden from them.
 - **Intuition** +0
 - **Presence** +1
 
-**Abyssal Strike (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Abyssal Strike (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 4 damage; the remasch teleports 2 squares
 - ★ 12–16: 7 damage; the remasch teleports 3 squares
-- ✸ 17+: 10 damage; the remasch teleports 5 squares  
+- ✸ 17+: 10 damage; the remasch teleports 5 squares
   **5 VP:** The remasch takes an adjacent creature with them when they teleport. The creature appears in an unoccupied space adjacent to the remasch’s destination.
 
-**Grasping Shadow (Maneuver)** ◆ 5 VP  
-Keywords: Magic, Ranged  
-Distance: Ranged 10  
-Target: Self  
+**Grasping Shadow (Maneuver)** ◆ 5 VP
+Keywords: Magic, Ranged
+Distance: Ranged 10
+Target: Self
 Effect: The remasch can teleport 2 squares then use Abyssal Strike.
 
-**Lethe**  
+**Lethe**
 While winded, the remasch has an edge on attacks, and attacks have an edge against them.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the remasch can’t be hidden from them.
 
 ### DEMON MUCERON
 
-**Level 3 Brute**  
-*Demon, Planar*  
-**EV 18**  
-**Stamina**: 45  
-**Weakness**: Holy 3  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 3 Brute**
+*Demon, Planar*
+**EV 18**
+**Stamina**: 45
+**Weakness**: Holy 3
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +1
@@ -784,35 +794,36 @@ Each creature within 2 squares of the remasch can’t be hidden from them.
 - **Intuition** +0
 - **Presence** +1
 
-**Barbed Tongues (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 2  
+**Barbed Tongues (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 2
 Target: One creature
+
 - ✦ ≤11: 5 damage; taunted (EoT)
 - ★ 12–16: 8 damage; taunted (EoT)
 - ✸ 17+: 11 damage; taunted (EoT)
 
-**Tongue Pull (Maneuver)** ◆ 2 VP  
-Keywords: Attack, Ranged, Weapon  
-Distance: Ranged 5  
-Target: Three creatures  
+**Tongue Pull (Maneuver)** ◆ 2 VP
+Keywords: Attack, Ranged, Weapon
+Distance: Ranged 5
+Target: Three creatures
 Effect: Each target is pulled 3 squares.
 
-**Lethe**  
+**Lethe**
 While winded, the muceron has an edge on attacks, and attacks have an edge against them.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the muceron can’t be hidden from them.
 
 ### DEMON CHOROGAUNT
 
-**Level 3 Boss**  
-*Demon, Planar*  
-**EV 36**  
-**Stamina**: 90  
-**Weakness**: Holy 3  
-**Speed**: 5  
-**Size**: 1M / Stability 2  
+**Level 3 Boss**
+*Demon, Planar*
+**EV 36**
+**Stamina**: 90
+**Weakness**: Holy 3
+**Speed**: 5
+**Size**: 1M / Stability 2
 **Free Strike**: 4
 
 - **Might** +2
@@ -821,55 +832,56 @@ Each creature within 2 squares of the muceron can’t be hidden from them.
 - **Intuition** +2
 - **Presence** +2
 
-**Agonizing Harmony (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Area, Weapon  
-Distance: 5 burst  
+**Agonizing Harmony (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Area, Weapon
+Distance: 5 burst
 Target: Each enemy
+
 - ✦ ≤11: 3 psychic damage
 - ★ 12–16: 5 psychic damage; slowed (EoT)
-- ✸ 17+: 7 psychic damage; slowed (INU ends)  
+- ✸ 17+: 7 psychic damage; slowed (INU ends)
   Effect: An ally within 10 squares of the chorogaunt can shift up to their speed.
 
-**Chaotic Entrancing Harmony (Maneuver)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each enemy  
+**Chaotic Entrancing Harmony (Maneuver)**
+Keywords: Area
+Distance: 10 burst
+Target: Each enemy
 Effect: Each target slides 3, ignoring their stability.
 
-**I Thrive on Pain (Triggered Action)** ◆ 3 VP  
-Keywords: Magic  
-Distance: Self  
-Target: Self  
-Trigger: The chorogaunt is targeted by an attack.  
+**I Thrive on Pain (Triggered Action)** ◆ 3 VP
+Keywords: Magic
+Distance: Self
+Target: Self
+Trigger: The chorogaunt is targeted by an attack.
 Effect: Any damage from the attack is halved, and the chorogaunt gains an edge on all ability rolls until the end of their next turn.
 
-**End Effect**  
+**End Effect**
 At the end of their turn, the chorogaunt can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way.
 
-**Lethe**  
+**Lethe**
 While winded, the chorogaunt has an edge on attacks, and attacks have an edge against them.
 
-**Soulsight**  
+**Soulsight**
 Each creature within 2 squares of the chorogaunt can’t be hidden from them.
 
 ### Villain Actions
 
-**Frightening Tones (Villain Action 1)**  
-Keywords: Ranged  
-Distance: Ranged 10  
-Target: Three enemies  
+**Frightening Tones (Villain Action 1)**
+Keywords: Ranged
+Distance: Ranged 10
+Target: Three enemies
 Effect: Each target either takes 5 psychic damage or is frightened of the chorogaunt (EoT). Each target gets to choose which to do.
 
-**Bully the Weak (Villain Action 2)**  
-Keywords: Magic, Ranged  
-Distance: Ranged 10  
-Target: One ally  
+**Bully the Weak (Villain Action 2)**
+Keywords: Magic, Ranged
+Distance: Ranged 10
+Target: One ally
 Effect: The chorogaunt kills the target, and each other ally gains an edge on attacks until the end of the round. You gain VP equal to the number of heroes.
 
-**Running Cacophony (Villain Action 3)**  
-Keywords: Magic  
-Distance: Self  
-Target: Self  
+**Running Cacophony (Villain Action 3)**
+Keywords: Magic
+Distance: Self
+Target: Self
 Effect: The chorogaunt shifts up to their speed, makes an Agonizing Harmony attack, shifts up to their speed, and makes a second Agonizing Harmony attack.
 
 ## GOBLINS
@@ -915,18 +927,19 @@ At the start of any goblin’s turn, you can spend VP to activate one of the fol
 - **Tiny Stabs (5 VP):** Each enemy in the encounter takes 1 damage for each goblin who is adjacent to them.
 
 - **Swamp Stink (7 VP):** The encounter map becomes covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map become difficult terrain for non-goblins, and each non-goblin on the map must make a Might resistance roll.
-    - ✦ ≤11: 5 poison; weakened until mist disappears
-    - ★ 12–16: Weakened until mist disappears
-    - ✸ 17+: No effect
+
+  - ✦ ≤11: 5 poison; weakened until mist disappears
+  - ★ 12–16: Weakened until mist disappears
+  - ✸ 17+: No effect
 
 ### GOBLIN RUNNER
 
-**Level 1 Harrier Minion**  
-*Goblin, Humanoid*  
-**EV 4**  
-**Stamina**: 8  
-**Speed**: 6 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Harrier Minion**
+*Goblin, Humanoid*
+**EV 4**
+**Stamina**: 8
+**Speed**: 6 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −2
@@ -935,25 +948,26 @@ At the start of any goblin’s turn, you can spend VP to activate one of the fol
 - **Intuition** +0
 - **Presence** −1
 
-**Club (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Charge, Melee, Weapon  
-Distance: Reach 1  
+**Club (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Charge, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 3 damage
 - ✸ 17+: 4 damage
 
-**Crafty**  
+**Crafty**
 The runner doesn’t provoke opportunity attacks by moving.
 
 ### GOBLIN SNIPER
 
-**Level 1 Artillery Minion**  
-*Goblin, Humanoid*  
-**EV 4**  
-**Stamina**: 5  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Artillery Minion**
+*Goblin, Humanoid*
+**EV 4**
+**Stamina**: 5
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −2
@@ -962,26 +976,27 @@ The runner doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** −1
 
-**Bow (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Ranged, Weapon  
-Distance: Ranged 10  
+**Bow (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Ranged, Weapon
+Distance: Ranged 10
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage
-- ✸ 17+: 5 damage  
+- ✸ 17+: 5 damage
   Effect: If the sniper doesn’t use a maneuver or a move action this turn, the ability deals an extra 2 damage.
 
-**Crafty**  
+**Crafty**
 The sniper doesn’t provoke opportunity attacks by moving.
 
 ### GOBLIN SPINECLEAVER
 
-**Level 1 Brute Minion**  
-*Goblin, Humanoid*  
-**EV 6**  
-**Stamina**: 10  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Brute Minion**
+*Goblin, Humanoid*
+**EV 6**
+**Stamina**: 10
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** +1
@@ -990,25 +1005,26 @@ The sniper doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** −1
 
-**Axe (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Axe (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage; push 1
 - ★ 12–16: 4 damage; push 3
 - ✸ 17+: 5 damage; push 4
 
-**Crafty**  
+**Crafty**
 The spinecleaver doesn’t provoke opportunity attacks by moving.
 
 ### SKITTERLING
 
-**Level 1 Hexer Minion**  
-*Animal, Goblin*  
-**EV 3**  
-**Stamina**: 5  
-**Speed**: 5 (fly)  
-**Size**: 1T / Stability 0  
+**Level 1 Hexer Minion**
+*Animal, Goblin*
+**EV 3**
+**Stamina**: 5
+**Speed**: 5 (fly)
+**Size**: 1T / Stability 0
 **Free Strike**: 2
 
 - **Might** −5
@@ -1017,22 +1033,23 @@ The spinecleaver doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** −2
 
-**Claws (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Claws (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 poison damage
 - ★ 12–16: 3 poison damage; slowed (EoT)
 - ✸ 17+: 4 poison damage; slowed (EoT)
 
 ### GOBLIN ASSASSIN
 
-**Level 1 Ambusher**  
-*Goblin, Humanoid*  
-**EV 11**  
-**Stamina**: 20  
-**Speed**: 6 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Ambusher**
+*Goblin, Humanoid*
+**EV 11**
+**Stamina**: 20
+**Speed**: 6 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 3
 
 - **Might** −2
@@ -1041,37 +1058,39 @@ Target: One creature or object per minion
 - **Intuition** +0
 - **Presence** −2
 
-**Sword (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Sword (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 7 damage  
+- ✸ 17+: 7 damage
   Effect: If the assassin has an edge or a double edge on the power roll for this ability, the ability deals an additional 2 damage.
 
-**Shadow Chains (Action)** ◆ AGL RR ◆ 3 VP  
-Keywords: Magic, Ranged, Resistance  
-Distance: Ranged 10  
+**Shadow Chains (Action)** ◆ AGL RR ◆ 3 VP
+Keywords: Magic, Ranged, Resistance
+Distance: Ranged 10
 Target: Three creatures
+
 - ✸ ≤11: 7 corruption damage; restrained (AGL ends)
 - ★ 12–16: 5 corruption damage; restrained (EoT)
 - ✦ 17+: 3 corruption damage
 
-**Crafty**  
+**Crafty**
 The assassin doesn’t provoke opportunity attacks by moving.
 
-**Hide While Observed**  
+**Hide While Observed**
 The assassin can take the Hide maneuver even while observed, though they still must have cover or concealment.
 
 ### GOBLIN CURSESPITTER
 
-**Level 1 Hexer**  
-*Goblin, Humanoid*  
-**EV 9**  
-**Stamina**: 15  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Hexer**
+*Goblin, Humanoid*
+**EV 9**
+**Stamina**: 15
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −2
@@ -1080,33 +1099,35 @@ The assassin can take the Hide maneuver even while observed, though they still m
 - **Intuition** +1
 - **Presence** +0
 
-**Eye of Surlach (Action)** ◆ INU RR ◆ Signature  
-Keywords: Magic, Ranged, Resistance  
-Distance: Ranged 10  
+**Eye of Surlach (Action)** ◆ INU RR ◆ Signature
+Keywords: Magic, Ranged, Resistance
+Distance: Ranged 10
 Target: One creature
+
 - ✸ ≤11: 6 corruption damage; weakened (INU ends)
 - ★ 12–16: 5 corruption damage; weakened (EoT)
 - ✦ 17+: 2 corruption damage
 
-**Dizzying Hex (Maneuver)** ◆ INU RR ◆ 1 VP  
-Keywords: Magic, Ranged, Resistance  
-Distance: Ranged 10  
+**Dizzying Hex (Maneuver)** ◆ INU RR ◆ 1 VP
+Keywords: Magic, Ranged, Resistance
+Distance: Ranged 10
 Target: One creature
+
 - ✸ ≤11: Prone and can’t stand (INU ends)
 - ★ 12–16: Prone and can’t stand (EoT)
 - ✦ 17+: No effect
 
-**Crafty**  
+**Crafty**
 The cursespitter doesn’t provoke opportunity attacks by moving.
 
 ### GOBLIN STINKER
 
-**Level 1 Controller**  
-*Goblin, Humanoid*  
-**EV 9**  
-**Stamina**: 15  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Controller**
+*Goblin, Humanoid*
+**EV 9**
+**Stamina**: 15
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −2
@@ -1115,32 +1136,33 @@ The cursespitter doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** +1
 
-**Toxic Winds (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Area, Magic, Ranged  
-Distance: 3 cube within 10  
+**Toxic Winds (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Area, Magic, Ranged
+Distance: 3 cube within 10
 Target: Each enemy
+
 - ✦ ≤11: 1 poison damage; slide 1
 - ★ 12–16: 2 poison damage; slide 2
 - ✸ 17+: 3 poison damage; slide 3
 - **1 VP:** Increase the slide for one target by 2 squares.
 
-**Swamp Gas (Maneuver)**  
-Keywords: Area, Magic, Ranged  
-Distance: 3 cube within 10  
-Target: Special  
+**Swamp Gas (Maneuver)**
+Keywords: Area, Magic, Ranged
+Distance: 3 cube within 10
+Target: Special
 Effect: The area is filled with a green haze until the start of the stinker’s next turn or until the stinker is reduced to Stamina 0. The area is difficult terrain for non-goblin creatures, and each such creature who moves within the area takes 2 poison damage for each square moved. The haze can’t be dispersed by wind.
 
-**Crafty**  
+**Crafty**
 The stinker doesn’t provoke opportunity attacks by moving.
 
 ### GOBLIN UNDERBOSS
 
-**Level 1 Support**  
-*Goblin, Humanoid*  
-**EV 10**  
-**Stamina**: 20  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Support**
+*Goblin, Humanoid*
+**EV 10**
+**Stamina**: 20
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −1
@@ -1149,33 +1171,35 @@ The stinker doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** +1
 
-**Sword (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
+**Sword (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 6 damage  
+- ✸ 17+: 6 damage
   Effect: One ally of the underboss adjacent to the target can make a free strike against them.
 
-**Get Reckless! (Maneuver)**  
-Keywords: Ranged  
-Distance: Ranged 10  
-Target: Each ally  
+**Get Reckless! (Maneuver)**
+Keywords: Ranged
+Distance: Ranged 10
+Target: Each ally
 Effect: Until the start of the underboss’s next turn, each target gains an edge on attacks, and attacks against them gain an edge.
+
 - **3 VP:** Attacks against targets of this maneuver don’t gain an edge.
 
-**Crafty**  
+**Crafty**
 The underboss doesn’t provoke opportunity attacks by moving.
 
 ### GOBLIN WARRIOR
 
-**Level 1 Harrier**  
-*Goblin, Humanoid*  
-**EV 10**  
-**Stamina**: 20  
-**Speed**: 6 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Harrier**
+*Goblin, Humanoid*
+**EV 10**
+**Stamina**: 20
+**Speed**: 6 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −2
@@ -1184,33 +1208,35 @@ The underboss doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** −1
 
-**Spear (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Charge, Melee, Weapon  
-Distance: Reach 1  
+**Spear (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Charge, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
 
-**Bury the Point (Action)** ◆ 2d10 + 1 ◆ 2 VP  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Bury the Point (Action)** ◆ 2d10 + 1 ◆ 2 VP
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature
+
 - ✦ ≤11: 3 damage
 - ★ 12–16: 7 damage; bleeding (EoT)
 - ✸ 17+: 8 damage; bleeding (MGT ends)
 
-**Crafty**  
+**Crafty**
 The warrior doesn’t provoke opportunity attacks by moving.
 
 ### GOBLIN MONARCH
 
-**Level 1 Boss**  
-*Goblin, Humanoid*  
-**EV 24**  
-**Stamina**: 50  
-**Speed**: 6 (climb)  
-**Size**: 1S / Stability 1  
+**Level 1 Boss**
+*Goblin, Humanoid*
+**EV 24**
+**Stamina**: 50
+**Speed**: 6 (climb)
+**Size**: 1S / Stability 1
 **Free Strike**: 3
 
 - **Might** +2
@@ -1219,60 +1245,61 @@ The warrior doesn’t provoke opportunity attacks by moving.
 - **Intuition** +0
 - **Presence** −3
 
-**Handaxe (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Attack, Melee, Ranged, Weapon  
-Distance: Reach 1 or Ranged 5  
+**Handaxe (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Attack, Melee, Ranged, Weapon
+Distance: Reach 1 or Ranged 5
 Target: Two creatures or objects
+
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 7 damage  
+- ✸ 17+: 7 damage
   Effect: An ally within 10 squares of the monarch can make a free strike.
 
-**Get in Here (Maneuver)** ◆ 1 VP  
-Keywords: Ranged  
-Distance: Ranged 20  
-Target: Special  
+**Get in Here (Maneuver)** ◆ 1 VP
+Keywords: Ranged
+Distance: Ranged 20
+Target: Special
 Effect: Two goblin runners appear in unoccupied spaces.
 
-**Meat Shield (Triggered Action)**  
-Keywords: Melee  
-Distance: Reach 1  
-Target: One ally  
-Trigger: A creature targets the monarch with an attack.  
+**Meat Shield (Triggered Action)**
+Keywords: Melee
+Distance: Reach 1
+Target: One ally
+Trigger: A creature targets the monarch with an attack.
 Effect: The ally becomes the target of the triggering attack instead.
 
-**End Effect**  
+**End Effect**
 At the end of their turn, the monarch can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way.
 
-**Crafty**  
+**Crafty**
 The monarch doesn’t provoke opportunity attacks by moving.
 
-**What Are You Waiting For? (Villain Action 1)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each ally  
+**What Are You Waiting For? (Villain Action 1)**
+Keywords: Area
+Distance: 10 burst
+Target: Each ally
 Effect: Each target can move up to their speed or make a free strike.
 
-**Focus Fire (Villain Action 2)**  
-Keywords: Ranged  
-Distance: Ranged 10  
-Target: One enemy  
+**Focus Fire (Villain Action 2)**
+Keywords: Ranged
+Distance: Ranged 10
+Target: One enemy
 Effect: Each ally within 10 squares of the enemy can move up to their speed toward the enemy.
 
-**Kill! (Villain Action 3)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each ally  
+**Kill! (Villain Action 3)**
+Keywords: Area
+Distance: 10 burst
+Target: Each ally
 Effect: Each target can make a free strike that deals an extra 1 damage.
 
 ### WAR SPIDER
 
-**Level 1 Mount**  
-*Animal, Goblin*  
-**EV 28**  
-**Stamina**: 60  
-**Speed**: 7 (climb)  
-**Size**: 3 / Stability 2  
+**Level 1 Mount**
+*Animal, Goblin*
+**EV 28**
+**Stamina**: 60
+**Speed**: 7 (climb)
+**Size**: 3 / Stability 2
 **Free Strike**: 4
 
 - **Might** +2
@@ -1281,50 +1308,53 @@ Effect: Each target can make a free strike that deals an extra 1 damage.
 - **Intuition** +0
 - **Presence** −3
 
-**Bite (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Bite (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 4 poison damage
 - ★ 12–16: 7 poison damage; weakened (EoT)
 - ✸ 17+: 10 poison damage; weakened (MGT ends)
 
-**Leg Blade (Action)** ◆ 2d10 + 2  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Leg Blade (Action)** ◆ 2d10 + 2
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: Two creatures or objects
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage
 - ✸ 17+: 10 damage
 
-**Trample (Action)** ◆ 5 VP  
-Keywords: —  
-Distance: Self  
-Target: Self  
+**Trample (Action)** ◆ 5 VP
+Keywords: —
+Distance: Self
+Target: Self
 Effect: The spider shifts up to their speed and makes a Leg Blade attack against each creature who comes within their reach during the move. The spider makes one power roll against all targets.
 
-**Web (Maneuver)** ◆ AGL RR ◆ 2 VP  
-Keywords: Area, Resistance  
-Distance: 3 cube within 1  
+**Web (Maneuver)** ◆ AGL RR ◆ 2 VP
+Keywords: Area, Resistance
+Distance: 3 cube within 1
 Target: Each creature
+
 - ✸ ≤11: Restrained (AGL ends)
 - ★ 12–16: Restrained (EoT)
 - ✦ 17+: No effect
 
-**Ride Launcher**  
+**Ride Launcher**
 An ally who leaps off the back of the spider can jump up to 6 squares without a test, and takes no damage if they fall during the jump. After the jump, the first melee attack an ally makes on the same turn gains an edge.
 
-**Wide Back**  
+**Wide Back**
 Two of the spider’s size 1 allies can occupy the same space while riding the spider.
 
 ### WARG
 
-**Level 1 Mount**  
-*Animal, Goblin*  
-**EV 10**  
-**Stamina**: 20  
-**Speed**: 7  
-**Size**: 1L / Stability 1  
+**Level 1 Mount**
+*Animal, Goblin*
+**EV 10**
+**Stamina**: 20
+**Speed**: 7
+**Size**: 1L / Stability 1
 **Free Strike**: 2
 
 - **Might** +1
@@ -1333,24 +1363,25 @@ Two of the spider’s size 1 allies can occupy the same space while riding the s
 - **Intuition** +0
 - **Presence** −1
 
-**Bite (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Charge, Melee, Weapon  
-Distance: Reach 1  
+**Bite (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Charge, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
 
-**Sprint (Maneuver)** ◆ 1 VP  
-Keywords: —  
-Distance: Self  
-Target: Self  
+**Sprint (Maneuver)** ◆ 1 VP
+Keywords: —
+Distance: Self
+Target: Self
 Effect: The warg moves up to their speed.
 
-**Mounted Charger**  
+**Mounted Charger**
 If a warg used as a mount charges, their rider gains an edge on melee attacks until the end of their turn.
 
-**Shared Crafty**  
+**Shared Crafty**
 If the warg’s rider has the Crafty trait, the warg also has the Crafty trait.
 
 ## HUMANS
@@ -1359,14 +1390,14 @@ Humans flourish in every habitable part of the world, from inviting coastal citi
 
 ### VILLAINS AND HEROES
 
-Recognizing their limited lifespan, humans often set their eyes on immortality. They unfurl empires at the tip of a sword, sacrifice lives to erect grand monuments, and even aspire to godhood, all in hopes their names will be remembered forever.  
-Violence and greed are close cousins in the human family. Those with power and wealth often strive for more by the sword. Others turn to theft, often driven to desperation by rapacious neighbors. Travelers in human lands are likely to encounter robbers and barons—both exact a toll.  
-Other humans pursue power more subtly, turning their cunning toward selfish ends. When ambitions exceed circumstances, there is always some ancient evil power to call on. Cultists seek dark desires in exchange for service, sacrificing to forbidden gods and courting apocalypse.  
+Recognizing their limited lifespan, humans often set their eyes on immortality. They unfurl empires at the tip of a sword, sacrifice lives to erect grand monuments, and even aspire to godhood, all in hopes their names will be remembered forever.
+Violence and greed are close cousins in the human family. Those with power and wealth often strive for more by the sword. Others turn to theft, often driven to desperation by rapacious neighbors. Travelers in human lands are likely to encounter robbers and barons—both exact a toll.
+Other humans pursue power more subtly, turning their cunning toward selfish ends. When ambitions exceed circumstances, there is always some ancient evil power to call on. Cultists seek dark desires in exchange for service, sacrificing to forbidden gods and courting apocalypse.
 Fortunately, many humans devote themselves to righting wrongs and reshaping the world for the better. Heroes plunge themselves into danger time and time again, standing against natural and supernatural perils in pursuit of justice.
 
 ### RISKS AND REWARDS
 
-Humans devote as much attention to games and gambling as to more serious pursuits. Perhaps this competitive training explains their renowned knack for seizing the moment—knowing when to risk it all on a throw of the dice. Whether in sport or battle, humans quickly spot their opponent’s mistakes and seize the advantage.  
+Humans devote as much attention to games and gambling as to more serious pursuits. Perhaps this competitive training explains their renowned knack for seizing the moment—knowing when to risk it all on a throw of the dice. Whether in sport or battle, humans quickly spot their opponent’s mistakes and seize the advantage.
 Humans see unrealized potential everywhere, whether envisioning an untamed forest transformed into a prosperous village or an ancient dungeon yielding a chest full of coins. Pursuing such ambitions might end in catastrophe, but for these gamblers, it’s a game worth playing.
 
 ### SWORDS FOR HIRE
@@ -1393,13 +1424,14 @@ At the start of any human’s turn, you can spend VP to activate one of the foll
 
 - **Alchemical Device (3 VP):** A non-minion human acting this turn can use a maneuver to throw an alchemical device.
 
-  **Alchemical Device (Maneuver)** ◆ INU RR  
-  Keywords: Area, Magic, Ranged, Resistance  
-  Distance: 3 cube within 10  
+  **Alchemical Device (Maneuver)** ◆ INU RR
+  Keywords: Area, Magic, Ranged, Resistance
+  Distance: 3 cube within 10
   Target: Each creature in the cube
-    - ✸ ≤11: 5 corruption damage; restrained (EoT)
-    - ★ 12–16: 3 corruption damage; slowed (EoT)
-    - ✦ 17+: 1 corruption damage
+
+  - ✸ ≤11: 5 corruption damage; restrained (EoT)
+  - ★ 12–16: 3 corruption damage; slowed (EoT)
+  - ✦ 17+: 1 corruption damage
 
 - **Exploit Opening (5 VP):** Each human making an attack this turn has an edge on ability rolls, or a double edge on abilities that target enemies affected by a condition.
 
@@ -1407,13 +1439,13 @@ At the start of any human’s turn, you can spend VP to activate one of the foll
 
 ### HUMAN ARCHER
 
-**Level 1 Artillery Minion**  
-*Human, Humanoid*  
-**EV 6**  
-**Stamina**: 8  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Artillery Minion**
+*Human, Humanoid*
+**EV 6**
+**Stamina**: 8
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -1422,23 +1454,24 @@ At the start of any human’s turn, you can spend VP to activate one of the foll
 - **Intuition** +0
 - **Presence** +0
 
-**Crossbow (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Ranged, Weapon  
-Distance: Ranged 10  
+**Crossbow (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Ranged, Weapon
+Distance: Ranged 10
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
 
 ### HUMAN DEATH ACOLYTE
 
-**Level 1 Hexer Minion**  
-*Human, Humanoid*  
-**EV 5**  
-**Stamina**: 8  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Hexer Minion**
+*Human, Humanoid*
+**EV 5**
+**Stamina**: 8
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -1447,24 +1480,25 @@ Target: One creature or object per minion
 - **Intuition** +0
 - **Presence** +1
 
-**Necrotic Bolt (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Magic, Ranged  
-Distance: Ranged 10  
+**Necrotic Bolt (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Magic, Ranged
+Distance: Ranged 10
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 corruption damage
 - ★ 12–16: 4 corruption damage
-- ✸ 17+: 5 corruption damage  
+- ✸ 17+: 5 corruption damage
   Effect: A creature within 5 squares of the death acolyte regains 1 Stamina.
 
 ### HUMAN GUARD
 
-**Level 1 Brute Minion**  
-*Human, Humanoid*  
-**EV 6**  
-**Stamina**: 12  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Brute Minion**
+*Human, Humanoid*
+**EV 6**
+**Stamina**: 12
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +1
@@ -1473,23 +1507,24 @@ Target: One creature or object per minion
 - **Intuition** +0
 - **Presence** +0
 
-**Halberd (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 2  
+**Halberd (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 2
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
 
 ### HUMAN RAIDER
 
-**Level 1 Harrier Minion**  
-*Human, Humanoid*  
-**EV 6**  
-**Stamina**: 10  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 7  
-**Size**: 1M / Stability 0  
+**Level 1 Harrier Minion**
+*Human, Humanoid*
+**EV 6**
+**Stamina**: 10
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 7
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -1498,24 +1533,25 @@ Target: One creature or object per minion
 - **Intuition** +0
 - **Presence** +0
 
-**Handaxe (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Charge, Melee, Ranged, Weapon  
-Distance: Reach 1 or Ranged 5  
+**Handaxe (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Charge, Melee, Ranged, Weapon
+Distance: Reach 1 or Ranged 5
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage
-- ✸ 17+: 5 damage  
+- ✸ 17+: 5 damage
   Effect: If this ability is used as part of the Charge action, the raider can make a ranged free strike with a distance of 5 before using the ability.
 
 ### HUMAN APPRENTICE MAGE
 
-**Level 2 Controller Minion**  
-*Human, Humanoid*  
-**EV 6**  
-**Stamina**: 10  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 2 Controller Minion**
+*Human, Humanoid*
+**EV 6**
+**Stamina**: 10
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -1524,24 +1560,25 @@ Target: One creature or object per minion
 - **Intuition** +0
 - **Presence** +1
 
-**Lightning Strike (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Magic, Ranged  
-Distance: Ranged 10  
+**Lightning Strike (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Magic, Ranged
+Distance: Ranged 10
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 lightning damage
 - ★ 12–16: 4 lightning damage
-- ✸ 17+: 5 lightning damage  
+- ✸ 17+: 5 lightning damage
   Effect: If the apprentice mage doesn’t use a maneuver or a move action this turn, the target is slowed (EoT).
 
 ### HUMAN BRAWLER
 
-**Level 1 Brute**  
-*Human, Humanoid*  
-**EV 16**  
-**Stamina**: 40  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Brute**
+*Human, Humanoid*
+**EV 16**
+**Stamina**: 40
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 4
 
 - **Might** +1
@@ -1550,33 +1587,34 @@ Target: One creature or object per minion
 - **Intuition** +0
 - **Presence** +0
 
-**Haymaker (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Haymaker (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage; grabbed
-- ✸ 17+: 10 damage; grabbed  
+- ✸ 17+: 10 damage; grabbed
   Effect: The target takes a bane on attempts to escape the grab, and the brawler gains an edge on attacks against the grabbed target.
 
-**Throw (Maneuver)** ◆ 1 VP  
-Keywords: Melee  
-Distance: Reach 1  
-Target: One creature grabbed by the brawler  
+**Throw (Maneuver)** ◆ 1 VP
+Keywords: Melee
+Distance: Reach 1
+Target: One creature grabbed by the brawler
 Effect: The brawler pushes the creature they have grabbed 5 squares. This breaks the grab.
 
-**Shoot the Hostage**  
+**Shoot the Hostage**
 The brawler takes half damage from attacks if they have an enemy grabbed. They then apply the remaining damage to the grabbed enemy.
 
 ### HUMAN SCOUNDREL
 
-**Level 1 Ambusher**  
-*Human, Humanoid*  
-**EV 14**  
-**Stamina**: 30  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Ambusher**
+*Human, Humanoid*
+**EV 14**
+**Stamina**: 30
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 4
 
 - **Might** +0
@@ -1585,27 +1623,28 @@ The brawler takes half damage from attacks if they have an enemy grabbed. They t
 - **Intuition** +0
 - **Presence** +0
 
-**Rapier & Dagger (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Rapier & Dagger (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage
-- ✸ 17+: 10 damage  
+- ✸ 17+: 10 damage
   Effect: If the scoundrel has an edge or a double edge on the power roll for this ability, the ability deals an extra 4 damage.
 
-**Dagger Storm (Action)** ◆ 5 VP  
+**Dagger Storm (Action)** ◆ 5 VP
 The scoundrel makes a Rapier & Dagger attack against three creatures or objects, and can shift 2 squares before or after each attack.
 
 ### HUMAN TRICKSHOT
 
-**Level 1 Artillery**  
-*Human, Humanoid*  
-**EV 12**  
-**Stamina**: 20  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Artillery**
+*Human, Humanoid*
+**EV 12**
+**Stamina**: 20
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 4
 
 - **Might** +0
@@ -1614,25 +1653,26 @@ The scoundrel makes a Rapier & Dagger attack against three creatures or objects,
 - **Intuition** +0
 - **Presence** +0
 
-**Crossbow (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Ranged, Weapon  
-Distance: Ranged 15  
+**Crossbow (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Ranged, Weapon
+Distance: Ranged 15
 Target: One creature or object
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage
-- ✸ 17+: 10 damage  
+- ✸ 17+: 10 damage
   Effect: The trickshot doesn’t take a bane when using this ability in melee or against a target with cover or concealment.
 - **3 VP:** The trickshot can target two creatures or objects with this ability.
 
 ### HUMAN DEATH CULTIST
 
-**Level 2 Support**  
-*Human, Humanoid*  
-**EV 16**  
-**Stamina**: 40  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 2 Support**
+*Human, Humanoid*
+**EV 16**
+**Stamina**: 40
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 4
 
 - **Might** +0
@@ -1641,31 +1681,32 @@ Target: One creature or object
 - **Intuition** +0
 - **Presence** +1
 
-**Death Scythe (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Magic, Melee, Ranged, Weapon  
-Distance: Reach 1 or Ranged 10  
+**Death Scythe (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Magic, Melee, Ranged, Weapon
+Distance: Reach 1 or Ranged 10
 Target: One creature or object
+
 - ✦ ≤11: 4 corruption damage
 - ★ 12–16: 7 corruption damage; weakened (EoT)
 - ✸ 17+: 10 corruption damage; weakened (INU ends)
 - **2 VP:** The death cultist regains Stamina equal to half the damage dealt by this ability.
 
-**Rise, My Minions (Maneuver)** ◆ 1 VP per minion  
-Keywords: Area  
-Distance: 5 burst  
-Target: One or more dead minions  
-Special: Each target must have died during this encounter  
+**Rise, My Minions (Maneuver)** ◆ 1 VP per minion
+Keywords: Area
+Distance: 5 burst
+Target: One or more dead minions
+Special: Each target must have died during this encounter
 Effect: Each target returns to life with their full Stamina, but they die at the end of the encounter or if the death cultist is killed. If the target dies a second time, they can be brought back to life by this ability again.
 
 ### HUMAN KNAVE
 
-**Level 2 Defender**  
-*Human, Humanoid*  
-**EV 18**  
-**Stamina**: 50  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 2 Defender**
+*Human, Humanoid*
+**EV 18**
+**Stamina**: 50
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 4
 
 - **Might** +1
@@ -1674,27 +1715,28 @@ Effect: Each target returns to life with their full Stamina, but they die at the
 - **Intuition** +0
 - **Presence** +0
 
-**Morningstar & Javelin (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Ranged, Weapon  
-Distance: Reach 1 or Ranged 5  
+**Morningstar & Javelin (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Ranged, Weapon
+Distance: Reach 1 or Ranged 5
 Target: One creature or object
+
 - ✦ ≤11: 4 damage; taunted (EoT)
 - ★ 12–16: 7 damage; taunted (EoT)
-- ✸ 17+: 10 damage; taunted (EoT)  
+- ✸ 17+: 10 damage; taunted (EoT)
   Effect: If an adjacent target taunted by this ability harms a creature other than the knave, the knave can make a free strike against the taunted creature as a free triggered action.
 
-**Overwhelm**  
+**Overwhelm**
 A creature who starts their turn adjacent to the knave can’t shift.
 
 ### HUMAN STORM MAGE
 
-**Level 3 Controller**  
-*Human, Humanoid*  
-**EV 17**  
-**Stamina**: 40  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 3 Controller**
+*Human, Humanoid*
+**EV 17**
+**Stamina**: 40
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 5
 
 - **Might** +0
@@ -1703,36 +1745,38 @@ A creature who starts their turn adjacent to the knave can’t shift.
 - **Intuition** +0
 - **Presence** +0
 
-**Lightning Bolt (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Attack, Magic, Ranged  
-Distance: Ranged 10  
+**Lightning Bolt (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Attack, Magic, Ranged
+Distance: Ranged 10
 Target: One creature or object
+
 - ✦ ≤11: 5 lightning damage
 - ★ 12–16: 8 lightning damage
 - ✸ 17+: 11 lightning damage
 - **5 VP:** The ability takes the Area keyword and becomes a 10 × 1 line that targets each creature in the area.
 
-**Gust of Wind (Maneuver)** ◆ MGT RR ◆ 3 VP  
-Keywords: Area, Magic, Resistance  
-Distance: 5 cube within 1  
+**Gust of Wind (Maneuver)** ◆ MGT RR ◆ 3 VP
+Keywords: Area, Magic, Resistance
+Distance: 5 cube within 1
 Target: Each creature and object
+
 - ✸ ≤11: Slide 5; slowed (MGT ends)
 - ★ 12–16: Slide 3; slowed (EoT)
-- ✦ 17+: Slide 1  
+- ✦ 17+: Slide 1
   Effect: The gust of wind disperses gas or vapor and extinguishes any flames, including persistent effects.
 
-**Arcane Shield**  
+**Arcane Shield**
 Whenever the mage takes damage from an enemy adjacent to them, the damage is reduced by 3 (minimum 0), and the enemy takes 3 thunder damage and is pushed 2 squares.
 
 ### HUMAN BLACKGUARD
 
-**Level 1 Boss**  
-*Human, Humanoid*  
-**EV 38**  
-**Stamina**: 80  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 2  
+**Level 1 Boss**
+*Human, Humanoid*
+**EV 38**
+**Stamina**: 80
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 2
 **Free Strike**: 4
 
 - **Might** +2
@@ -1741,59 +1785,60 @@ Whenever the mage takes damage from an enemy adjacent to them, the damage is red
 - **Intuition** +0
 - **Presence** +2
 
-**Zweihander (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Zweihander (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: Each adjacent enemy
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage; slowed (EoT)
-- ✸ 17+: 10 damage; slowed (MGT ends)  
+- ✸ 17+: 10 damage; slowed (MGT ends)
   Effect: An ally within 10 squares of the blackguard can make a free strike.
 - **1 VP:** The ally can use their signature action instead.
 
-**You! (Maneuver)**  
-Keywords: Ranged  
-Distance: Ranged 10  
-Target: One enemy  
+**You! (Maneuver)**
+Keywords: Ranged
+Distance: Ranged 10
+Target: One enemy
 Effect: The target is marked until the start of the blackguard’s next turn. The blackguard and each of their allies gain an edge on attacks against any target marked by the blackguard, and such attacks deal an extra 2 damage.
 
-**End Effect**  
+**End Effect**
 At the end of their turn, the blackguard can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way.
 
-**Parry! (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: Self or one ally  
-Trigger: A creature targets the blackguard or an ally adjacent to the blackguard with an attack.  
+**Parry! (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: Self or one ally
+Trigger: A creature targets the blackguard or an ally adjacent to the blackguard with an attack.
 Effect: The triggering attack’s damage is halved.
 
-**Advance! (Villain Action 1)**  
-Keywords: Weapon  
-Distance: Self  
-Target: Self  
+**Advance! (Villain Action 1)**
+Keywords: Weapon
+Distance: Self
+Target: Self
 Effect: The blackguard shifts up to their speed. During or after this movement, they can make two Zweihander attacks.
 
-**Back! (Villain Action 2)**  
-Keywords: Area, Magic  
-Distance: 5 burst  
-Target: Each enemy  
+**Back! (Villain Action 2)**
+Keywords: Area, Magic
+Distance: 5 burst
+Target: Each enemy
 Effect: The blackguard slides each target 5 squares.
 
-**I Can Throw My Blade and So Should You! (Villain Action 3)**  
-Keywords: Area, Magic, Ranged, Weapon  
-Distance: 3 cube within 5  
-Target: Each enemy in the cube  
+**I Can Throw My Blade and So Should You! (Villain Action 3)**
+Keywords: Area, Magic, Ranged, Weapon
+Distance: 3 cube within 5
+Target: Each enemy in the cube
 Effect: The blackguard makes a Zweihander attack against each enemy in the area, making one power roll against all targets. Additionally, each ally within 5 squares of the area can make a free strike against any enemy in the area.
 
 ### HUMAN BANDIT CHIEF
 
-**Level 3 Boss**  
-*Human, Humanoid*  
-**EV 54**  
-**Stamina**: 120  
-**Immunity**: Magic 2, Psionic 2  
-**Speed**: 5  
-**Size**: 1M / Stability 2  
+**Level 3 Boss**
+*Human, Humanoid*
+**EV 54**
+**Stamina**: 120
+**Immunity**: Magic 2, Psionic 2
+**Speed**: 5
+**Size**: 1M / Stability 2
 **Free Strike**: 5
 
 - **Might** +2
@@ -1802,61 +1847,63 @@ Effect: The blackguard makes a Zweihander attack against each enemy in the area,
 - **Intuition** +2
 - **Presence** +2
 
-**Whip & Magic Longsword (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Attack, Magic, Melee, Weapon  
-Distance: Reach 1  
+**Whip & Magic Longsword (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Attack, Magic, Melee, Weapon
+Distance: Reach 1
 Target: Two enemies or objects
+
 - ✦ ≤11: 5 damage; pull 1
 - ★ 12–16: 9 damage; pull 2
-- ✸ 17+: 12 damage; pull 3  
+- ✸ 17+: 12 damage; pull 3
   Effect: A target who is adjacent to the bandit chief after the attack is resolved takes 9 corruption damage.
 - **2 VP:** This ability targets three enemies or objects.
 
-**Kneel, Peasant! (Maneuver)**  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Kneel, Peasant! (Maneuver)**
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One enemy or object
+
 - ✦ ≤11: Push 1
 - ★ 12–16: Push 2; prone
 - ✸ 17+: Push 3; prone
 - **2 VP:** This ability targets each enemy adjacent to the bandit chief.
 
-**Bloodstones (Triggered Action)**  
-Keywords: Magic  
-Distance: Self  
-Target: Self  
-Trigger: The bandit chief makes a power roll for an attack.  
+**Bloodstones (Triggered Action)**
+Keywords: Magic
+Distance: Self
+Target: Self
+Trigger: The bandit chief makes a power roll for an attack.
 Effect: The bandit chief takes 4 corruption damage and increases the result of the power roll by one tier.
 
-**End Effect**  
+**End Effect**
 At the end of their turn, the bandit chief can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way.
 
-**Shoot! (Villain Action 1)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each ally  
+**Shoot! (Villain Action 1)**
+Keywords: Area
+Distance: 10 burst
+Target: Each ally
 Effect: Each target can make a ranged free strike.
 
-**Form Up! (Villain Action 2)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each ally  
+**Form Up! (Villain Action 2)**
+Keywords: Area
+Distance: 10 burst
+Target: Each ally
 Effect: Each target shifts up to their speed. Until the end of the encounter, any enemy takes a bane on attacks against the bandit chief or any of the bandit chief’s allies if they are adjacent to that target.
 
-**Lead From the Front (Villain Action 3)**  
-Keywords: Attack, Weapon  
-Distance: Self  
-Target: Self  
+**Lead From the Front (Villain Action 3)**
+Keywords: Attack, Weapon
+Distance: Self
+Target: Self
 Effect: The bandit chief shifts twice their speed. During or after this movement, they can attack up to four targets with Whip & Magic Longsword. Any ally of the bandit chief adjacent to a target can make a free strike against that target.
 
 ### GIANT HAWK
 
-**Level 1 Mount**  
-*Animal*  
-**EV 13**  
-**Stamina**: 20  
-**Speed**: 7 (flying)  
-**Size**: 2 / Stability 0  
+**Level 1 Mount**
+*Animal*
+**EV 13**
+**Stamina**: 20
+**Speed**: 7 (flying)
+**Size**: 2 / Stability 0
 **Free Strike**: 3
 
 - **Might** +1
@@ -1865,29 +1912,30 @@ Effect: The bandit chief shifts twice their speed. During or after this movement
 - **Intuition** +0
 - **Presence** −2
 
-**Talons (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Talons (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 7 damage  
+- ✸ 17+: 7 damage
   Effect: The target is grabbed by the giant hawk.
 
-**Dive (Maneuver)**  
+**Dive (Maneuver)**
 The hawk moves up to their speed.
 
-**Mounted Platform**  
+**Mounted Platform**
 Any creature riding the hawk can make a free strike during or after the hawk’s movement.
 
 ### SIEGE HAWK
 
-**Level 1 Mount**  
-*Animal*  
-**EV 28**  
-**Stamina**: 60  
-**Speed**: 7 (flying)  
-**Size**: 3 / Stability 0  
+**Level 1 Mount**
+*Animal*
+**EV 28**
+**Stamina**: 60
+**Speed**: 7 (flying)
+**Size**: 3 / Stability 0
 **Free Strike**: 4
 
 - **Might** +1
@@ -1896,28 +1944,30 @@ Any creature riding the hawk can make a free strike during or after the hawk’s
 - **Intuition** +0
 - **Presence** −2
 
-**Talons (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Talons (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: Two creatures or objects
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage
-- ✸ 17+: 10 damage  
+- ✸ 17+: 10 damage
   Effect: The target is grabbed by the siege hawk. The siege hawk can have two targets grabbed at a time.
 
-**Bombs Away! (Action)** ◆ AGL RR ◆ 7 VP  
-Keywords: Area, Magic, Ranged, Resistance  
-Distance: 5 cube within 10  
+**Bombs Away! (Action)** ◆ AGL RR ◆ 7 VP
+Keywords: Area, Magic, Ranged, Resistance
+Distance: 5 cube within 10
 Target: Each creature and object
+
 - ✸ ≤11: 7 fire damage; restrained (EoT)
 - ★ 12–16: 6 fire damage; slowed (EoT)
-- ✦ 17+: 3 fire damage  
+- ✦ 17+: 3 fire damage
   Special: The siege hawk must be flying to use this ability.
 
-**Dive (Maneuver)**  
+**Dive (Maneuver)**
 The hawk moves up to their speed.
 
-**Mounted Platform**  
+**Mounted Platform**
 Any creature riding the hawk can make a free strike during or after the hawk’s movement.
 
 ## RADENWIGHTS
@@ -1942,35 +1992,37 @@ Most radenwights speak Caelian and Szetch.
 
 At the start of any radenwight’s turn, you can spend VP to activate one of the following features.
 
-**Trouser Cut (3 VP)**  
+**Trouser Cut (3 VP)**
 A non-minion radenwight can use the following ability.
 
-**Trouser Cut (Action)** ◆ 2d10 + 2  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Trouser Cut (Action)** ◆ 2d10 + 2
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature
+
 - ✦ ≤11: 5 damage; push 3
 - ★ 12–16: 10 damage; push 3; taunted (EoT)
-- ✸ 17+: 12 damage; push 3; taunted (REA ends)  
+- ✸ 17+: 12 damage; push 3; taunted (REA ends)
   Effect: If a target is wearing clothing covering the lower half of their body, they must use a maneuver to pull that clothing up before they can move.
 
-**Rat Race (5 VP)**  
+**Rat Race (5 VP)**
 Each radenwight shifts up to their speed. Wherever a radenwight ends this movement adjacent to at least one other radenwight, they can make a melee free strike against a target.
 
-**Wall of Rats (7 VP)**  
+**Wall of Rats (7 VP)**
 A 10-foot wall of living rats scurrying atop one another in a coordinated manner appears in unoccupied spaces anywhere on the encounter map and lasts until the end of the encounter. The wall doesn’t block line of effect for radenwights and their allies, but it does for other creatures, as the rats coordinate their movements with the radenwights. Each square of the wall has 10 Stamina. If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map must then make an Intuition resistance roll.
+
 - ✸ ≤11: 10 sonic damage
 - ★ 12–16: 5 sonic damage
 - ✦ 17+: No effect
 
 ### RADENWIGHT MISCHIEVER
 
-**Level 1 Ambusher Minion**  
-*Humanoid, Radenwight*  
-**EV 7**  
-**Stamina**: 10  
-**Speed**: 7 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Ambusher Minion**
+*Humanoid, Radenwight*
+**EV 7**
+**Stamina**: 10
+**Speed**: 7 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −1
@@ -1979,30 +2031,31 @@ A 10-foot wall of living rats scurrying atop one another in a coordinated manner
 - **Intuition** +1
 - **Presence** +0
 
-**Dagger Dance (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1 or Ranged 5  
+**Dagger Dance (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1 or Ranged 5
 Target: One creature per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 6 damage  
+- ✸ 17+: 6 damage
   Effect: If the mischiever is hidden when they use this ability, they can target two creatures.
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The mischiever makes a free strike against the target.
 
 ### RADENWIGHT RATAGAST
 
-**Level 1 Defender Minion**  
-*Humanoid, Radenwight*  
-**EV 7**  
-**Stamina**: 12  
-**Speed**: 6 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Defender Minion**
+*Humanoid, Radenwight*
+**EV 7**
+**Stamina**: 12
+**Speed**: 6 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** −1
@@ -2011,29 +2064,30 @@ Effect: The mischiever makes a free strike against the target.
 - **Intuition** +0
 - **Presence** +1
 
-**Stinky Glissando (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Magic, Melee  
-Distance: Reach 1  
+**Stinky Glissando (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Magic, Melee
+Distance: Reach 1
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 poison damage
 - ★ 12–16: 4 poison damage; taunted (EoT)
 - ✸ 17+: 5 poison damage; taunted (EoT)
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The ratagast makes a free strike against the target.
 
 ### RADENWIGHT SWIFTPAW
 
-**Level 1 Harrier Minion**  
-*Humanoid, Radenwight*  
-**EV 6**  
-**Stamina**: 10  
-**Speed**: 7 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Harrier Minion**
+*Humanoid, Radenwight*
+**EV 6**
+**Stamina**: 10
+**Speed**: 7 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -2042,29 +2096,30 @@ Effect: The ratagast makes a free strike against the target.
 - **Intuition** +0
 - **Presence** −1
 
-**Rapier Flunge (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Rapier Flunge (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage; slide 1; the swiftpaw can shift 1 square
 - ★ 12–16: 4 damage; slide 2; the swiftpaw can shift 2 squares
 - ✸ 17+: 5 damage; slide 3; the swiftpaw can shift 3 squares
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The swiftpaw makes a free strike against the target.
 
 ### RADENWIGHT REDEYE
 
-**Level 1 Artillery Minion**  
-*Humanoid, Radenwight*  
-**EV 6**  
-**Stamina**: 8  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Artillery Minion**
+*Humanoid, Radenwight*
+**EV 6**
+**Stamina**: 8
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** +1
@@ -2073,30 +2128,31 @@ Effect: The swiftpaw makes a free strike against the target.
 - **Intuition** +0
 - **Presence** +0
 
-**Eyes-On-Me Shot (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Ranged, Weapon  
-Distance: Ranged 10  
+**Eyes-On-Me Shot (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Ranged, Weapon
+Distance: Ranged 10
 Target: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 6 damage  
+- ✸ 17+: 6 damage
   Effect: An ally of the redeye within 2 squares of the target can shift up to 2 squares.
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The redeye makes a free strike against the target.
 
 ### RADENWIGHT BRUXER
 
-**Level 1 Brute**  
-*Humanoid, Radenwight*  
-**EV 16**  
-**Stamina**: 40  
-**Speed**: 5 (climb)  
-**Size**: 1M / Stability 2  
+**Level 1 Brute**
+*Humanoid, Radenwight*
+**EV 16**
+**Stamina**: 40
+**Speed**: 5 (climb)
+**Size**: 1M / Stability 2
 **Free Strike**: 5
 
 - **Might** +1
@@ -2105,38 +2161,40 @@ Effect: The redeye makes a free strike against the target.
 - **Intuition** +0
 - **Presence** +0
 
-**Lockjaw (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**Lockjaw (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: One creature or object
+
 - ✦ ≤11: 5 damage
 - ★ 12–16: 9 damage; grabbed
-- ✸ 17+: 12 damage; grabbed  
+- ✸ 17+: 12 damage; grabbed
   Effect: While the target is grabbed, they take 2 damage at the start of each of the bruxer’s turns.
 
-**Flurry of Bites (Action)** ◆ 2d10 + 1 ◆ 3 VP  
-Keywords: Area, Weapon  
-Distance: 1 burst  
+**Flurry of Bites (Action)** ◆ 2d10 + 1 ◆ 3 VP
+Keywords: Area, Weapon
+Distance: 1 burst
 Target: Each enemy
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 8 damage
 - ✸ 17+: 10 damage; bleeding (EoT)
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The bruxer makes a free strike against the target.
 
 ### RADENWIGHT PIPER
 
-**Level 1 Support**  
-*Humanoid, Radenwight*  
-**EV 13**  
-**Stamina**: 30  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Support**
+*Humanoid, Radenwight*
+**EV 13**
+**Stamina**: 30
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 2
 
 - **Might** +0
@@ -2145,36 +2203,37 @@ Effect: The bruxer makes a free strike against the target.
 - **Intuition** +1
 - **Presence** +1
 
-**Piercing Trill (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Magic, Melee, Ranged  
-Distance: Reach 1 or Ranged 10  
+**Piercing Trill (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Magic, Melee, Ranged
+Distance: Reach 1 or Ranged 10
 Target: One creature or object
+
 - ✦ ≤11: 3 sonic damage; push 1
 - ★ 12–16: 5 sonic damage; push 3
-- ✸ 17+: 7 sonic damage; push 4  
+- ✸ 17+: 7 sonic damage; push 4
   Effect: The piper or an ally within distance regains stamina equal to half the damage dealt.
 
-**Vivace Vivace! (Maneuver)** ◆ 3 VP  
-Keywords: Area, Magic  
-Distance: 5 burst  
-Target: Each ally  
+**Vivace Vivace! (Maneuver)** ◆ 3 VP
+Keywords: Area, Magic
+Distance: 5 burst
+Target: Each ally
 Effect: Each target who has used their Ready Rodent ability since their last turn regains the use of their triggered action.
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The piper makes a free strike against the target.
 
 ### RADENWIGHT RATCROBAT
 
-**Level 1 Harrier**  
-*Humanoid, Radenwight*  
-**EV 13**  
-**Stamina**: 30  
-**Speed**: 7 (climb)  
-**Size**: 1S / Stability 0  
+**Level 1 Harrier**
+*Humanoid, Radenwight*
+**EV 13**
+**Stamina**: 30
+**Speed**: 7 (climb)
+**Size**: 1S / Stability 0
 **Free Strike**: 5
 
 - **Might** −1
@@ -2183,39 +2242,40 @@ Effect: The piper makes a free strike against the target.
 - **Intuition** +0
 - **Presence** +1
 
-**En Garde! (Action)** ◆ 2d10 + 1 ◆ Signature  
-Keywords: Attack, Melee, Weapon  
-Distance: Reach 1  
+**En Garde! (Action)** ◆ 2d10 + 1 ◆ Signature
+Keywords: Attack, Melee, Weapon
+Distance: Reach 1
 Target: Two creatures or objects
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 6 damage  
+- ✸ 17+: 6 damage
   Effect: The ratcrobat can shift up to 2 squares after attacking the first target, then can shift 1 square after attacking the second target.
 
-**Over Here, Thanks (Maneuver)**  
-Keywords: Melee  
-Distance: Reach 1  
-Target: One enemy  
+**Over Here, Thanks (Maneuver)**
+Keywords: Melee
+Distance: Reach 1
+Target: One enemy
 Effect: Slide 1; the ratcrobat can then shift into the square the target left.
 
-**Ready Rodent (Triggered Action)**  
-Keywords: Melee, Weapon  
-Distance: Reach 1  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ready Rodent (Triggered Action)**
+Keywords: Melee, Weapon
+Distance: Reach 1
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The ratcrobat makes a free strike against the target.
 
-**Gymratstics**  
+**Gymratstics**
 The ratcrobat gains an edge on attacks against larger creatures.
 
 ### RADENWIGHT MAESTRO
 
-**Level 1 Boss**  
-*Humanoid, Radenwight*  
-**EV 38**  
-**Stamina**: 80  
-**Speed**: 5 (climb)  
-**Size**: 1S / Stability 1  
+**Level 1 Boss**
+*Humanoid, Radenwight*
+**EV 38**
+**Stamina**: 80
+**Speed**: 5 (climb)
+**Size**: 1S / Stability 1
 **Free Strike**: 5
 
 - **Might** −2
@@ -2224,51 +2284,53 @@ The ratcrobat gains an edge on attacks against larger creatures.
 - **Intuition** +0
 - **Presence** +2
 
-**Cacophony (Action)** ◆ 2d10 + 2 ◆ Signature  
-Keywords: Area, Magic  
-Distance: 5 burst  
+**Cacophony (Action)** ◆ 2d10 + 2 ◆ Signature
+Keywords: Area, Magic
+Distance: 5 burst
 Target: Each enemy
+
 - ✦ ≤11: 3 sonic damage; slide 1; the maestro can shift 1 square
 - ★ 12–16: 5 sonic damage; slide 3; the maestro can shift 3 squares
-- ✸ 17+: 7 sonic damage; slide 5; the maestro can shift 5 squares  
+- ✸ 17+: 7 sonic damage; slide 5; the maestro can shift 5 squares
   Effect: Each of the maestro's allies can use Ready Rodent as a free triggered action once before the end of the round.
 
-**Tempo Change (Maneuver)** ◆ PRS RR  
-Keywords: Magic, Ranged, Resistance  
-Distance: Ranged 10  
+**Tempo Change (Maneuver)** ◆ PRS RR
+Keywords: Magic, Ranged, Resistance
+Distance: Ranged 10
 Target: Two enemies
+
 - ✸ ≤11: Slowed (MGT ends)
 - ★ 12–16: Slowed (EoT)
-- ✦ 17+: No effect  
+- ✦ 17+: No effect
 
 5 VP: Each ally of the maestro within distance has their speed increased by 2 until the end of their next turn.
 
-**Ranged Ready Rodent (Triggered Action)**  
-Keywords: Magic, Ranged  
-Distance: Ranged 10  
-Target: One creature  
-Trigger: An ally deals damage to the target.  
+**Ranged Ready Rodent (Triggered Action)**
+Keywords: Magic, Ranged
+Distance: Ranged 10
+Target: One creature
+Trigger: An ally deals damage to the target.
 Effect: The maestro makes a free strike against the target.
 
-**End Effect**  
+**End Effect**
 At the end of their turn, the maestro can take 5 damage to end one EoE effect affecting them. This damage can't be reduced in any way.
 
-**Overture (Villain Action 1)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each ally  
+**Overture (Villain Action 1)**
+Keywords: Area
+Distance: 10 burst
+Target: Each ally
 Effect: Each target shifts up to their speed or takes the Defend action.
 
-**Solo Act (Villain Action 2)**  
-Keywords: Ranged  
-Distance: Ranged 15  
-Target: One creature  
+**Solo Act (Villain Action 2)**
+Keywords: Ranged
+Distance: Ranged 15
+Target: One creature
 Effect: Until the end of their next turn, the target's stamina can't be reduced below 1, their speed is doubled, and their next power roll is automatically a tier 3 result.
 
-**Rondo of Rat (Villain Action 3)**  
-Keywords: Area  
-Distance: 10 burst  
-Target: Each dead ally  
+**Rondo of Rat (Villain Action 3)**
+Keywords: Area
+Distance: 10 burst
+Target: Each dead ally
 Effect: Each target stands, makes a free strike, then collapses again. Allies of the targets can use Ready Rodent as a free triggered action once in conjunction with these free strikes.
 
 ## TIME RAIDERS
@@ -2309,19 +2371,19 @@ At the start of any time raider’s turn, you can spend VP to activate one of th
 
 - **Gravity Well (3 VP):** A time raider acting this turn can activate gravity well on a square they move through while using a move action. The gravity well lasts until the end of the encounter or until a creature who can reach the well uses a maneuver to disable it. Each square within 4 squares of the gravity well is difficult terrain for non-time raiders, and any non-time raider who ends their turn in such a square is pulled 4 squares toward the well.
 - **Recall Module (5 VP):** Until the end of the round, whenever a time raider ends their turn with movement remaining, they can teleport back to the space where they started their turn (or the closest unoccupied space of their choice), and make a free strike as a free triggered action.
-- **Psi-Cage (7 VP):** All time raiders in the encounter create a psionic field over the encounter map, which lasts until the time raider with the highest Stamina maximum drops to Stamina 0 or chooses to end the field. While the field is up, each non-time raider on the map must make a Reason resistance roll against this psionic effect at the start of each round.  
-  ✸ ≤11: 8 psychic damage; slowed (EoT)  
-  ★ 12–16: 5 psychic damage; slowed (EoT)  
+- **Psi-Cage (7 VP):** All time raiders in the encounter create a psionic field over the encounter map, which lasts until the time raider with the highest Stamina maximum drops to Stamina 0 or chooses to end the field. While the field is up, each non-time raider on the map must make a Reason resistance roll against this psionic effect at the start of each round.
+  ✸ ≤11: 8 psychic damage; slowed (EoT)
+  ★ 12–16: 5 psychic damage; slowed (EoT)
   ✦ 17+: No effect
 
 ### TIME RAIDER ARCHON
 
-**Level 3 Harrier Minion**  
-Humanoid, Time Raider EV 8  
-**Stamina**: 15  
-**Immunity**: Psychic 3  
-**Speed**: 7  
-**Size**: 1M / Stability 0  
+**Level 3 Harrier Minion**
+Humanoid, Time Raider EV 8
+**Stamina**: 15
+**Immunity**: Psychic 3
+**Speed**: 7
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +2
@@ -2331,10 +2393,11 @@ Humanoid, Time Raider EV 8
 - **Presence**: −1
 
 **Brutal Flail (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic, Weapon  
-**Distance**: Reach 1  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic, Weapon
+**Distance**: Reach 1
 **Target**: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage
 - ✸ 17+: 5 damage; dazed (EoT)
@@ -2344,12 +2407,12 @@ The archon doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER MYRIAD
 
-**Level 3 Brute Minion**  
-Humanoid, Time Raider EV 10  
-**Stamina**: 20  
-**Immunity**: Psychic 3  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 3 Brute Minion**
+Humanoid, Time Raider EV 10
+**Stamina**: 20
+**Immunity**: Psychic 3
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +2
@@ -2358,10 +2421,11 @@ Humanoid, Time Raider EV 10
 - **Presence**: +1
 
 **Fifth Fist (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic, Weapon  
-**Distance**: Reach 2  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic, Weapon
+**Distance**: Reach 2
 **Target**: One creature or object per minion
+
 - ✦ ≤11: 2 damage; slide 1
 - ★ 12–16: 5 damage; slide 2
 - ✸ 17+: 6 damage; slide 3; prone
@@ -2370,12 +2434,13 @@ Humanoid, Time Raider EV 10
 The myriad doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER ARMIGER
-**Level 3 Defender**  
-Humanoid, Time Raider EV 21  
-**Stamina**: 60  
-**Immunity**: Psychic 5  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+
+**Level 3 Defender**
+Humanoid, Time Raider EV 21
+**Stamina**: 60
+**Immunity**: Psychic 5
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 5
 
 - **Might**: +0
@@ -2384,21 +2449,23 @@ Humanoid, Time Raider EV 21
 - **Presence**: +0
 
 **Serrated Saber (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic, Weapon  
-**Distance**: Reach 1  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic, Weapon
+**Distance**: Reach 1
 **Target**: One creature or object
+
 - ✦ ≤11: 5 damage
 - ★ 12–16: 8 damage; weakened (EoT)
-- ✸ 17+: 11 damage; weakened (REA ends)  
+- ✸ 17+: 11 damage; weakened (REA ends)
   **Effect**: The target takes a bane on the next attack they make before the start of the armiger’s next turn.
 
 **Shared Sickness (Triggered Action)**
-◆ REA RR  
-**Keywords**: Psionic, Ranged, Resistance  
-**Distance**: Ranged 20  
-**Target**: Triggering creature  
+◆ REA RR
+**Keywords**: Psionic, Ranged, Resistance
+**Distance**: Ranged 20
+**Target**: Triggering creature
 **Trigger**: A creature deals damage to any ally of the armiger to whom the armiger has line of effect.
+
 - ✸ ≤11: 11 poison damage
 - ★ 12–16: 8 poison damage
 - ✦ 17+: 5 poison damage
@@ -2411,12 +2478,12 @@ While any time raider starts their turn with line of effect to the armiger, that
 
 ### TIME RAIDER CANNONFALL
 
-**Level 3 Artillery**  
-Humanoid, Time Raider EV 18  
-**Stamina**: 40  
-**Immunity**: Psychic 4  
-**Speed**: 5  
-**Size**: 1L / Stability 3  
+**Level 3 Artillery**
+Humanoid, Time Raider EV 18
+**Stamina**: 40
+**Immunity**: Psychic 4
+**Speed**: 5
+**Size**: 1L / Stability 3
 **Free Strike**: 5
 
 - **Might**: +0
@@ -2425,20 +2492,21 @@ Humanoid, Time Raider EV 18
 - **Presence**: +0
 
 **Sunderbuss (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Area, Psionic, Ranged, Weapon  
-**Distance**: 3 cube within 10  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Area, Psionic, Ranged, Weapon
+**Distance**: 3 cube within 10
 **Target**: Each enemy
+
 - ✦ ≤11: 4 sonic damage
 - ★ 12–16: 8 sonic damage; slowed (EoT)
-- ✸ 17+: 10 sonic damage; slowed (EoT); prone  
+- ✸ 17+: 10 sonic damage; slowed (EoT); prone
   **Effect**: A layer of ground or floor beneath the area that is 1 square deep is destroyed.
 
 **Buss Buffer (Triggered Action)**
-**Keywords**: Area, Psionic  
-**Distance**: 5 burst  
-**Target**: Each ally  
-**Trigger**: A creature damages the cannonfall with a ranged ability.  
+**Keywords**: Area, Psionic
+**Distance**: 5 burst
+**Target**: Each ally
+**Trigger**: A creature damages the cannonfall with a ranged ability.
 **Effect**: The damage is reduced by half for the cannonfall and each target also affected by the triggering ability.
 
 **Foresight**
@@ -2446,11 +2514,11 @@ The cannonfall doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER HELIX
 
-**Level 3 Controller**  
-Humanoid, Time Raider EV 17  
-**Stamina**: 40  
-**Immunity**: Psychic 4  
-**Speed**: 5 (fly)  
+**Level 3 Controller**
+Humanoid, Time Raider EV 17
+**Stamina**: 40
+**Immunity**: Psychic 4
+**Speed**: 5 (fly)
 **Size**: 1M / Stability 0
 **Free Strike**: 5
 
@@ -2461,31 +2529,33 @@ Humanoid, Time Raider EV 17
 - **Presence**: +2
 
 **Blaster Volley (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Ranged, Psionic, Weapon  
-**Distance**: Ranged 10  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Ranged, Psionic, Weapon
+**Distance**: Ranged 10
 **Target**: Three creatures
+
 - ✦ ≤11: 4 corruption damage; push 2
 - ★ 12–16: 7 corruption damage; push 4
 - ✸ 17+: 10 corruption damage; push 6; prone
 
 **Kinetic Lane (Maneuver)**
-**Keywords**: Area, Psionic, Ranged  
-**Distance**: 4 × 2 line within 10  
-**Target**: Special  
-**Effect**: Until the start of the helix’s next turn, the area becomes a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix’s choice. Any creature that moves into the area or starts their turn there is immediately slid 3 squares toward the square at the end of the area in the appropriate direction, starting with creatures closest to the helix. Any non-time raider standing in the area when it first appears takes 3 damage before they are moved.  
+**Keywords**: Area, Psionic, Ranged
+**Distance**: 4 × 2 line within 10
+**Target**: Special
+**Effect**: Until the start of the helix’s next turn, the area becomes a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix’s choice. Any creature that moves into the area or starts their turn there is immediately slid 3 squares toward the square at the end of the area in the appropriate direction, starting with creatures closest to the helix. Any non-time raider standing in the area when it first appears takes 3 damage before they are moved.
 **5 VP**: The helix creates a second kinetic lane.
 
 **Foresight**
 The helix doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER HIJACK
-**Level 3 Ambusher**  
-Humanoid, Time Raider EV 20  
-**Stamina**: 50  
-**Immunity**: Psychic 5  
-**Speed**: 6  
-**Size**: 1M / Stability 0  
+
+**Level 3 Ambusher**
+Humanoid, Time Raider EV 20
+**Stamina**: 50
+**Immunity**: Psychic 5
+**Speed**: 6
+**Size**: 1M / Stability 0
 **Free Strike**: 5
 
 - **Might**: +0
@@ -2495,19 +2565,20 @@ Humanoid, Time Raider EV 20
 - **Presence**: +1
 
 **Golden Sickles (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic, Weapon  
-**Distance**: Reach 1  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic, Weapon
+**Distance**: Reach 1
 **Target**: One creature
+
 - ✦ ≤11: 5 damage
 - ★ 12–16: 9 damage; bleeding (EoT)
-- ✸ 17+: 12 damage; bleeding (REA ends)  
+- ✸ 17+: 12 damage; bleeding (REA ends)
   **Effect**: If the target is bleeding from this ability, the hijack is hidden from the target until that bleeding ends.
 
 **Psi-Sickle (Maneuver)**
-**Keywords**: Psionic, Ranged, Weapon  
-**Distance**: Ranged 5  
-**Target**: One creature or object  
+**Keywords**: Psionic, Ranged, Weapon
+**Distance**: Ranged 5
+**Target**: One creature or object
 **Effect**: The hijack psychically latches their sickle onto the target and closes the distance between them. If the target has a weight of 4 or higher, the hijack moves adjacent to the target. Otherwise, the target is pulled 4 squares toward the hijack.
 
 **Foresight**
@@ -2515,12 +2586,12 @@ The hijack doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER MIND PUNK
 
-**Level 3 Hexer**  
-Humanoid, Time Raider EV 17  
-**Stamina**: 40  
-**Immunity**: Psychic 4  
-**Speed**: 5  
-**Size**: 2 / Stability 2  
+**Level 3 Hexer**
+Humanoid, Time Raider EV 17
+**Stamina**: 40
+**Immunity**: Psychic 4
+**Speed**: 5
+**Size**: 2 / Stability 2
 **Free Strike**: 5
 
 - **Might**: +2
@@ -2530,23 +2601,25 @@ Humanoid, Time Raider EV 17
 - **Presence**: +1
 
 **Repelling Psihander (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic, Weapon  
-**Distance**: Reach 1  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic, Weapon
+**Distance**: Reach 1
 **Target**: Two creatures adjacent to each other
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 6 damage
-- ✸ 17+: 9 damage; dazed (EoT)  
+- ✸ 17+: 9 damage; dazed (EoT)
   **Effect**: A target who ends their next turn adjacent to the other target falls prone.
 
 **Mindpunk (Action)**
-◆ REA RR  
-**Keywords**: Area, Psionic, Resistance  
-**Distance**: 2 Burst  
+◆ REA RR
+**Keywords**: Area, Psionic, Resistance
+**Distance**: 2 Burst
 **Target**: All enemies
+
 - ✸ ≤11: 7 psychic damage; push 2; prone and can’t stand (EoT)
 - ★ 12–16: 5 psychic damage; push 1
-- ✦ 17+: 2 psychic damage  
+- ✦ 17+: 2 psychic damage
   **3 VP**: The size of the burst increases by 1.
 
 **Foresight**
@@ -2554,12 +2627,12 @@ The mind punk doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER NEMESIS
 
-**Level 3 Harrier**  
-Humanoid, Time Raider EV 19  
-**Stamina**: 50  
-**Immunity**: Psychic 5  
-**Speed**: 7  
-**Size**: 1M / Stability 0  
+**Level 3 Harrier**
+Humanoid, Time Raider EV 19
+**Stamina**: 50
+**Immunity**: Psychic 5
+**Speed**: 7
+**Size**: 1M / Stability 0
 **Free Strike**: 5
 
 - **Might**: +1
@@ -2569,35 +2642,37 @@ Humanoid, Time Raider EV 19
 - **Presence**: +0
 
 **Golden Scythe (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic, Weapon  
-**Distance**: Reach 2  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic, Weapon
+**Distance**: Reach 2
 **Target**: One creature or object
+
 - ✦ ≤11: 5 damage
 - ★ 12–16: 8 damage; pull 1
-- ✸ 17+: 11 damage; pull 2; restrained (EoT)  
+- ✸ 17+: 11 damage; pull 2; restrained (EoT)
   **Effect**: This ability can affect creatures on parallel planes of existence and pull them onto the nemesis’s plane.
 
 **Kinetic Crush (Action)**
-◆ MGT RR ◆ 2 VP  
-**Keywords**: Psionic, Ranged, Resistance  
-**Distance**: Ranged 10  
+◆ MGT RR ◆ 2 VP
+**Keywords**: Psionic, Ranged, Resistance
+**Distance**: Ranged 10
 **Target**: One creature
+
 - ✸ ≤11: 11 psychic damage; restrained (MGT ends)
 - ★ 12–16: 8 psychic damage; slowed (EoT)
 - ✦ 17+: 5 psychic damage
 
 **Foresight**
-The nemesis doesn’t take a bane on attacks against concealed creatures.  
+The nemesis doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER VERTEX
 
-**Level 3 Support**  
-Humanoid, Time Raider EV 19  
-**Stamina**: 50  
-**Immunity**: Psychic 5  
-**Speed**: 5 (fly)  
-**Size**: 2 / Stability 3  
+**Level 3 Support**
+Humanoid, Time Raider EV 19
+**Stamina**: 50
+**Immunity**: Psychic 5
+**Speed**: 5 (fly)
+**Size**: 2 / Stability 3
 **Free Strike**: 5
 
 - **Might**: +1
@@ -2607,26 +2682,27 @@ Humanoid, Time Raider EV 19
 - **Presence**: +0
 
 **Psionic Slam (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Psionic  
-**Distance**: Reach 2  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Psionic
+**Distance**: Reach 2
 **Target**: One creature
+
 - ✦ ≤11: 3 damage; 2 psychic damage
 - ★ 12–16: 5 damage; 3 psychic damage
-- ✸ 17+: 7 damage; 4 psychic damage  
+- ✸ 17+: 7 damage; 4 psychic damage
   **Effect**: Any ability used against the target gains an edge until the start of the vertex’s next turn.
 
 **Split Space (Action)**
-◆ 5 VP  
-**Keywords**: Area, Psionic, Ranged  
-**Distance**: 2 cube within 10  
-**Target**: Special  
+◆ 5 VP
+**Keywords**: Area, Psionic, Ranged
+**Distance**: 2 cube within 10
+**Target**: Special
 **Effect**: A portal fills the area, leading to a location the vertex has seen (in person or otherwise) on any plane of existence. Each creature who touches the portal is instantly teleported to the nearest unoccupied square at the chosen location. The portal lasts until the vertex dies, uses this ability again, dismisses the portal (no action required), or is transported by the portal.
 
 **Invigorated March (Maneuver)**
-**Keywords**: Area, Psionic  
-**Distance**: 4 burst  
-**Target**: Each ally  
+**Keywords**: Area, Psionic
+**Distance**: 4 burst
+**Target**: Each ally
 **Effect**: Each target can shift half their speed.
 
 **Foresight**
@@ -2634,12 +2710,12 @@ The vertex doesn’t take a bane on attacks against concealed creatures.
 
 ### TIME RAIDER TYRANNIS
 
-**Level 3 Boss**  
-Humanoid, Time Raider EV 54  
-**Stamina**: 120  
-**Immunity**: Psychic 7  
-**Speed**: 10 (fly, teleport)  
-**Size**: 2 / Stability 0  
+**Level 3 Boss**
+Humanoid, Time Raider EV 54
+**Stamina**: 120
+**Immunity**: Psychic 7
+**Speed**: 10 (fly, teleport)
+**Size**: 2 / Stability 0
 **Free Strike**: 5
 
 - **Might**: +0
@@ -2649,27 +2725,28 @@ Humanoid, Time Raider EV 54
 - **Presence**: +0
 
 **Gatling Blaster (Action)**
-◆ 2d10 + 3 ◆ Signature  
-**Keywords**: Attack, Melee, Ranged, Psionic, Weapon  
-**Distance**: Reach 2 or Ranged 10  
+◆ 2d10 + 3 ◆ Signature
+**Keywords**: Attack, Melee, Ranged, Psionic, Weapon
+**Distance**: Reach 2 or Ranged 10
 **Target**: Three creatures or objects
+
 - ✦ ≤11: 5 corruption damage
 - ★ 12–16: 9 corruption damage
-- ✸ 17+: 12 corruption damage  
+- ✸ 17+: 12 corruption damage
   **Effect**: Each target’s speed is reduced by 2 (EoT).
 
 **Air Raid! (Maneuver)**
-◆ 3 VP  
-**Keywords**: Psionic, Ranged  
-**Distance**: Ranged 10  
-**Target**: Three time raiders  
+◆ 3 VP
+**Keywords**: Psionic, Ranged
+**Distance**: Ranged 10
+**Target**: Three time raiders
 **Effect**: Each target is psionically lifted into the air and can fly up to their speed. If a target doesn’t land in an unoccupied space, they fall.
 
 **Precog Reflexes (Triggered Action)**
-**Keywords**: Psionic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One creature  
-**Trigger**: The target attacks the tyrannis.  
+**Keywords**: Psionic, Ranged
+**Distance**: Ranged 10
+**Target**: One creature
+**Trigger**: The target attacks the tyrannis.
 **Effect**: The power roll for the attack takes a bane and the tyrannis makes a free strike against the target.
 
 **End Effect**
@@ -2678,60 +2755,66 @@ At the end of their turn, the tyrannis can take 5 damage to end one EoE effect a
 **Foresight**
 The tyrannis doesn’t take a bane on attacks against concealed creatures.
 
-**We Will Won! (Villain Action 1)**  
-**Keywords**: Psionic, Ranged  
-**Distance**: Ranged 10  
-**Target**: Three allies  
+**We Will Won! (Villain Action 1)**
+**Keywords**: Psionic, Ranged
+**Distance**: Ranged 10
+**Target**: Three allies
 **Effect**: Each target gains 15 temporary Stamina and has their speed doubled until the end of their turn.
 
-**Stick To The Plan! (Villain Action 2)**  
+**Stick To The Plan! (Villain Action 2)**
 
-**Keywords**: Area  
-**Distance**: 10 burst  
-**Target**: Each ally  
+**Keywords**: Area
+**Distance**: 10 burst
+**Target**: Each ally
 **Effect**: Each target can end one effect or condition affecting them or can move up to their speed.
 
 **Armageddon (Villain Action 3)**
 
-**Keywords**: Area  
-**Distance**: 5 burst  
-**Target**: Special  
-**Effect**: The tyrannis fires a sensor mine into each unoccupied square in the burst and a gravity well into one of their own squares. Whenever an enemy moves into a square with a sensor mine, the mine explodes, dealing 3 damage to the enemy.  
+**Keywords**: Area
+**Distance**: 5 burst
+**Target**: Special
+**Effect**: The tyrannis fires a sensor mine into each unoccupied square in the burst and a gravity well into one of their own squares. Whenever an enemy moves into a square with a sensor mine, the mine explodes, dealing 3 damage to the enemy.
 
 ## WAR DOGS
 
-> ### CONTENT WARNING: BRAINWASHING AND BODY HORROR 
+> ### CONTENT WARNING: BRAINWASHING AND BODY HORROR
+>
 > War dogs are explicitly evil soldiers built from the body parts of various humans. They are created brainwashed and indoctrinated to carry out the vile orders of Ajax, a tyrant who wants to rule the world. Check in with your players before running war dogs to make sure that they’re okay with battling these brainwashed soldiers with an appearance akin to Frankenstein’s monster if he were built to be a shock troop. If anyone is uncomfortable, modify the appearance and lore of the war dogs as you see fit.
 
 Ajax’s War Dogs—brutal patchwork soldiers—owe their new lives to the Iron Saint, and fight for him fanatically. War Dog minions are the freshest recruits, possessing minimal patchwork qualities and generally treated as disposable. Those who survive a battle are rewarded with gifts from the Body Banks. Those who don’t survive become material for those Body Banks.
 
 ### WAR DOG LANGUAGES
+
 Most war dogs speak Caelian and one Vaslorian human language.
 
 ### WAR DOG VILLAIN POWER
+
 At the start of any war dog’s turn, you can spend VP to activate one of the following features:
 
 - **Reconstitut (3 VP):** One war dog acting this turn tears apart a nearby corpse of a humanoid and incorporates its body parts into their own. The war dog regains Stamina equal to 5 times their level.
 
 - **Fire for Effect (5 VP):** A war dog acting this turn can use the following maneuver.
 
-**Fire for Effect (Maneuver)** ◆ AGL RR ◆ 12 VP  
-**Keywords**: Area, Magic, Ranged, Resistance  
-**Distance**: 5 cube within 10  
+**Fire for Effect (Maneuver)** ◆ AGL RR ◆ 12 VP
+**Keywords**: Area, Magic, Ranged, Resistance
+**Distance**: 5 cube within 10
 **Target**: Each creature
+
 - ✸ ≤11: 7 fire damage; slowed (MGT ends)
+
 - ★ 12–16: 6 fire damage; slowed (EoT)
+
 - ✦ 17+: 3 fire damage
 
 - **Fodder Run (7 VP):** Each war dog minion in the battle can shift their speed, make a free strike, and then die.
 
 ### WAR DOG COMMANDO
 
-**Level 1 Ambusher Minion**  
-Humanoid, War Dog EV 5  
-**Stamina**: 8  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Ambusher Minion**
+Humanoid, War Dog EV 5
+**Stamina**: 8
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +0
@@ -2741,13 +2824,14 @@ Humanoid, War Dog EV 5
 - **Presence**: +0
 
 **Daggers (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Melee, Ranged, Weapon  
-**Distance**: Reach 1 or Ranged 5  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Melee, Ranged, Weapon
+**Distance**: Reach 1 or Ranged 5
 **Target**: One creature per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage
-- ✸ 17+: 5 damage  
+- ✸ 17+: 5 damage
   **Effect**: The commando can use the Hide maneuver, even if observed.
 
 **Loyalty Collar**
@@ -2755,11 +2839,11 @@ When the commando dies, they explode, dealing 1d6 damage to each adjacent enemy.
 
 ### WAR DOG CONSCRIPT
 
-**Level 1 Harrier Minion**  
-Humanoid, War Dog EV 4  
-**Stamina**: 8  
-**Speed**: 7  
-**Size**: 1M / Stability 0  
+**Level 1 Harrier Minion**
+Humanoid, War Dog EV 4
+**Stamina**: 8
+**Speed**: 7
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +1
@@ -2769,13 +2853,14 @@ Humanoid, War Dog EV 4
 - **Presence**: +0
 
 **Blade (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Charge, Melee, Ranged, Weapon  
-**Distance**: Reach 1 or Ranged 5  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Charge, Melee, Ranged, Weapon
+**Distance**: Reach 1 or Ranged 5
 **Target**: One creature per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 3 damage
-- ✸ 17+: 4 damage  
+- ✸ 17+: 4 damage
   **Effect**: If this ability is used as part of the Charge action, the conscript gains an edge on the power roll.
 
 **Loyalty Collar**
@@ -2783,11 +2868,11 @@ When the conscript dies, they explode, dealing 1d6 damage to each adjacent enemy
 
 ### WAR DOG SHARPSHOOTER
 
-**Level 1 Artillery Minion**  
-Humanoid, War Dog EV 4  
-**Stamina**: 8  
-**Speed**: 7  
-**Size**: 1M / Stability 0  
+**Level 1 Artillery Minion**
+Humanoid, War Dog EV 4
+**Stamina**: 8
+**Speed**: 7
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +0
@@ -2797,13 +2882,14 @@ Humanoid, War Dog EV 4
 - **Presence**: +0
 
 **Bolt Launcher (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Ranged, Weapon  
-**Distance**: Ranged 5  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Ranged, Weapon
+**Distance**: Ranged 5
 **Target**: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 3 damage
-- ✸ 17+: 4 damage  
+- ✸ 17+: 4 damage
   **Effect**: This ability ignores cover and concealment.
 
 **Loyalty Collar**
@@ -2811,11 +2897,11 @@ When the sharpshooter dies, they explode, dealing 1d6 damage to each adjacent en
 
 ### WAR DOG TETHERITE
 
-**Level 1 Brute Minion**  
-Humanoid, War Dog EV 6  
-**Stamina**: 8  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Brute Minion**
+Humanoid, War Dog EV 6
+**Stamina**: 8
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +1
@@ -2825,10 +2911,11 @@ Humanoid, War Dog EV 6
 - **Presence**: +0
 
 **Daggers (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Melee, Weapon  
-**Distance**: Reach 2  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Melee, Weapon
+**Distance**: Reach 2
 **Target**: One creature or object per minion
+
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage
 - ✸ 17+: 5 damage
@@ -2841,11 +2928,11 @@ When the tetherite dies, they explode, dealing 1d6 damage to each adjacent enemy
 
 ### WAR DOG COGNIVITE
 
-**Level 1 Defender**  
-Humanoid, War Dog EV 11  
-**Stamina**: 25  
-**Speed**: 5 (fly)  
-**Size**: 1M / Stability 0  
+**Level 1 Defender**
+Humanoid, War Dog EV 11
+**Stamina**: 25
+**Speed**: 5 (fly)
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +0
@@ -2855,24 +2942,25 @@ Humanoid, War Dog EV 11
 - **Presence**: +1
 
 **Synlirii Grafts (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Area, Psionic  
-**Distance**: 1 burst  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Area, Psionic
+**Distance**: 1 burst
 **Target**: Each enemy
+
 - ✦ ≤11: 2 psychic damage; vertical slide 1
 - ★ 12–16: 4 psychic damage; vertical slide 2
 - ✸ 17+: 5 psychic damage; vertical slide 3
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **The Voice (Maneuver) ◆ 1 VP**
-**Keywords**: Psionic, Ranged  
-**Distance**: Ranged 10  
-**Target**: Each enemy  
+**Keywords**: Psionic, Ranged
+**Distance**: Ranged 10
+**Target**: Each enemy
 **Effect**: The cognivite chooses an ally within 10 squares, then chooses whether each target is taunted by the ally (EoT) or has a double bane on attacks against the ally (EoT). The same choice must be made for all targets.
 
 **Loyalty Collar**
@@ -2880,12 +2968,12 @@ When the cognivite dies, they explode, dealing 1d6 damage to each adjacent enemy
 
 ### WAR DOG CRUCIBITE
 
-**Level 1 Artillery**  
-Humanoid, War Dog EV 10  
-**Stamina**: 15  
-**Immunity**: Psychic 3  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 1 Artillery**
+Humanoid, War Dog EV 10
+**Stamina**: 15
+**Immunity**: Psychic 3
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +0
@@ -2895,20 +2983,21 @@ Humanoid, War Dog EV 10
 - **Presence**: +0
 
 **Flamebelcher (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Area, Weapon  
-**Distance**: 5 × 1 line  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Area, Weapon
+**Distance**: 5 × 1 line
 **Target**: Each creature and object
+
 - ✦ ≤11: 2 fire damage
 - ★ 12–16: 5 fire damage
-- ✸ 17+: 6 fire damage  
-  **Effect**: The area is covered in sticky fire until the start of the crucibite’s next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage.  
+- ✸ 17+: 6 fire damage
+  **Effect**: The area is covered in sticky fire until the start of the crucibite’s next turn. Whenever a creature enters the area for the first time in a round or starts their turn there, they take 2 fire damage.
   **2 VP**: The area increases to a 10 × 1 line, and if any ally of the crucibite is in the area when it is created, the crucibite gains an edge on the power roll.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**
@@ -2916,11 +3005,11 @@ When the crucibite dies, they explode, dealing 1d6 damage to each adjacent enemy
 
 ### WAR DOG EVISCERITE
 
-**Level 1 Harrier**  
-Humanoid, War Dog EV 10  
-**Stamina**: 20  
-**Speed**: 7  
-**Size**: 1M / Stability 0  
+**Level 1 Harrier**
+Humanoid, War Dog EV 10
+**Stamina**: 20
+**Speed**: 7
+**Size**: 1M / Stability 0
 **Free Strike**: 3
 
 - **Might**: +1
@@ -2930,19 +3019,20 @@ Humanoid, War Dog EV 10
 - **Presence**: +0
 
 **Chainsaw Whip (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Melee, Weapon  
-**Distance**: Reach 3  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Melee, Weapon
+**Distance**: Reach 3
 **Target**: One creature or object
+
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage; pull 1
-- ✸ 17+: 7 damage; pull 2  
+- ✸ 17+: 7 damage; pull 2
   **Effect**: The eviscerite can grab a target pulled adjacent to them by this ability.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**
@@ -2950,11 +3040,11 @@ When the eviscerite dies, they explode, dealing 1d6 damage to each adjacent enem
 
 ### WAR DOG PORTALITE
 
-**Level 1 Ambusher**  
-Humanoid, War Dog EV 11  
-**Stamina**: 20  
-**Speed**: 5 (teleport)  
-**Size**: 1M / Stability 0  
+**Level 1 Ambusher**
+Humanoid, War Dog EV 11
+**Stamina**: 20
+**Speed**: 5 (teleport)
+**Size**: 1M / Stability 0
 **Free Strike**: 3
 
 - **Might**: +0
@@ -2964,26 +3054,27 @@ Humanoid, War Dog EV 11
 - **Presence**: +0
 
 **Corrupted Ash Daggers (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Melee, Ranged, Weapon  
-**Distance**: Reach 1 or Ranged 5  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Melee, Ranged, Weapon
+**Distance**: Reach 1 or Ranged 5
 **Target**: One creature or object
+
 - ✦ ≤11: 3 damage; slide 1
 - ★ 12–16: 5 damage; slide 2
-- ✸ 17+: 7 damage; slide 3  
-  **Effect**: The power roll gains an edge if any of the portalite’s allies are adjacent to the target.  
+- ✸ 17+: 7 damage; slide 3
+  **Effect**: The power roll gains an edge if any of the portalite’s allies are adjacent to the target.
   **1 VP**: The portalite teleports the target up to 3 squares before sliding them.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Corrupted Ash Teleport (Maneuver) ◆ 1 VP**
-**Keywords**: Magic  
-**Distance**: Self  
-**Target**: Self  
+**Keywords**: Magic
+**Distance**: Self
+**Target**: Self
 **Effect**: The portalite teleports up to 5 squares and gains an edge on attacks this turn.
 
 **Loyalty Collar**
@@ -2991,11 +3082,11 @@ When the portalite dies, they explode, dealing 1d6 damage to each adjacent enemy
 
 ### WAR DOG AMALGAMITE
 
-**Level 2 Brute**  
-Humanoid, War Dog EV 15  
-**Stamina**: 35  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 2 Brute**
+Humanoid, War Dog EV 15
+**Stamina**: 35
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 4
 
 - **Might**: +2
@@ -3005,20 +3096,21 @@ Humanoid, War Dog EV 15
 - **Presence**: +0
 
 **Several Arms (Action)**
-◆ 2d10 + 2 ◆ Signature  
-**Keywords**: Attack, Melee, Weapon  
-**Distance**: Reach 2  
+◆ 2d10 + 2 ◆ Signature
+**Keywords**: Attack, Melee, Weapon
+**Distance**: Reach 2
 **Target**: One creature or object
+
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage; grabbed
-- ✸ 17+: 10 damage; grabbed  
-  **Special**: The amalgamite can grab up to four creatures.  
+- ✸ 17+: 10 damage; grabbed
+  **Special**: The amalgamite can grab up to four creatures.
   **5 VP**: The amalgamite deals 4 damage to each creature they have grabbed, and regains Stamina equal to the damage dealt.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**
@@ -3026,12 +3118,12 @@ When the amalgamite dies, they explode, dealing 1d6 damage to each adjacent enem
 
 ### WAR DOG PHOSPHORITE
 
-**Level 2 Hexer**  
-Humanoid, War Dog EV 10  
-**Stamina**: 20  
-**Immunity**: Acid 3  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 2 Hexer**
+Humanoid, War Dog EV 10
+**Stamina**: 20
+**Immunity**: Acid 3
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +0
@@ -3041,19 +3133,20 @@ Humanoid, War Dog EV 10
 - **Presence**: +0
 
 **Caustic Detonator (Action) ◆ MGT RR ◆ Signature**
-**Keywords**: Magic, Ranged, Resistance  
-**Distance**: Ranged 10  
-**Target**: One creature or object  
+**Keywords**: Magic, Ranged, Resistance
+**Distance**: Ranged 10
+**Target**: One creature or object
 **Effect**: A detonator attaches to the target. At the end of each round, roll a die. On an odd result, the detonator explodes, triggering the resistance roll.
+
 - ✸ ≤11: 7 acid damage; bleeding (MGT ends)
 - ★ 12–16: 5 acid damage; bleeding (EoT)
-- ✦ 17+: 3 acid damage  
+- ✦ 17+: 3 acid damage
   **Special**: An adjacent creature can attempt an easy Agility test to remove the detonator as a maneuver. A failure does nothing, a success disarms and destroys the detonator, and a success with a reward allows the disarming creature to throw the detonator onto another target within 5 squares.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**
@@ -3061,11 +3154,11 @@ When the phosphorite dies, they explode, dealing 1d6 damage to each adjacent ene
 
 ### WAR DOG SUBCOMMANDER
 
-**Level 2 Support**  
-Humanoid, War Dog EV 12  
-**Stamina**: 25  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 2 Support**
+Humanoid, War Dog EV 12
+**Stamina**: 25
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 3
 
 - **Might**: +1
@@ -3075,19 +3168,20 @@ Humanoid, War Dog EV 12
 - **Presence**: +0
 
 **Command Saber (Action)**
-◆ 2d10 + 1 ◆ Signature  
-**Keywords**: Attack, Melee, Weapon  
-**Distance**: Reach 1  
+◆ 2d10 + 1 ◆ Signature
+**Keywords**: Attack, Melee, Weapon
+**Distance**: Reach 1
 **Target**: One creature or object
+
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage
-- ✸ 17+: 7 damage  
+- ✸ 17+: 7 damage
   **Effect**: One ally of the subcommander within 5 squares of them can make a free strike against the target.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **The Iron Saint Does Not Recognize Retreat**
@@ -3098,12 +3192,12 @@ When the subcommander dies, they explode, dealing 1d6 damage to each adjacent en
 
 ### WAR DOG PESTILITE
 
-**Level 3 Controller**  
-Humanoid, War Dog EV 13  
-**Stamina**: 25  
-**Immunity**: Poison 3  
-**Speed**: 5  
-**Size**: 1M / Stability 0  
+**Level 3 Controller**
+Humanoid, War Dog EV 13
+**Stamina**: 25
+**Immunity**: Poison 3
+**Speed**: 5
+**Size**: 1M / Stability 0
 **Free Strike**: 2
 
 - **Might**: +0
@@ -3113,18 +3207,19 @@ Humanoid, War Dog EV 13
 - **Presence**: +1
 
 **Plaguecaster (Action) ◆ INU RR ◆ Signature**
-**Keywords**: Area, Magic, Ranged, Resistance  
-**Distance**: 3 cube within 10  
+**Keywords**: Area, Magic, Ranged, Resistance
+**Distance**: 3 cube within 10
 **Target**: Each creature
+
 - ✸ ≤11: 8 poison damage; frightened (INU ends)
 - ★ 12–16: 5 poison damage; frightened (EoT)
-- ✦ 17+: 2 poison damage  
+- ✦ 17+: 2 poison damage
   **Effect**: The area is covered in a cloud of pestilence that lasts until the start of the pestilite’s next turn. Any creature who enters the area for the first time in a round or starts their turn there takes 2 poison damage.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One war dog with a loyalty collar  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**
@@ -3132,11 +3227,11 @@ When the pestilite dies, they explode, dealing 1d6 damage to each adjacent enemy
 
 ### WAR DOG GROUND COMMANDER
 
-**Level 3 Boss**  
-Humanoid, War Dog EV 36  
-**Stamina**: 90  
-**Speed**: 5  
-**Size**: 1M / Stability 2  
+**Level 3 Boss**
+Humanoid, War Dog EV 36
+**Stamina**: 90
+**Speed**: 5
+**Size**: 1M / Stability 2
 **Free Strike**: 5
 
 - **Might**: +2
@@ -3146,26 +3241,27 @@ Humanoid, War Dog EV 36
 - **Presence**: +2
 
 **Conditioning Spear (Action) ◆ 2d10 + 2 ◆ Signature**
-**Keywords**: Attack, Melee, Ranged, Weapon  
-**Distance**: Reach 1 or Ranged 5  
+**Keywords**: Attack, Melee, Ranged, Weapon
+**Distance**: Reach 1 or Ranged 5
 **Target**: Two creatures or objects
+
 - ✦ ≤11: 5 damage; pull 1
 - ★ 12–16: 8 damage; pull 2
-- ✸ 17+: 11 damage; pull 3  
-  **Effect**: One ally within 10 squares of the commander can make a free strike.  
+- ✸ 17+: 11 damage; pull 3
+  **Effect**: One ally within 10 squares of the commander can make a free strike.
   **1 VP**: A target who is adjacent to the ground commander after this ability is resolved is grabbed (INU ends). This grab can’t be escaped using the Escape Grab maneuver. The ground commander can grab up to two creatures at a time.
 
 **Highest Posthumous Promotion (Maneuver)**
-**Keywords**: Area, Magic  
-**Distance**: 10 burst  
-**Target**: Each war dog with a loyalty collar  
+**Keywords**: Area, Magic
+**Distance**: 10 burst
+**Target**: Each war dog with a loyalty collar
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Final Orders (Triggered Action)**
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One ally  
-**Trigger**: The target has a condition imposed on them, is force moved, or is killed.  
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One ally
+**Trigger**: The target has a condition imposed on them, is force moved, or is killed.
 **Effect**: The target can move up to their speed and make a free strike before the triggering effect happens.
 
 **End Effect**
@@ -3174,21 +3270,20 @@ At the end of their turn, the ground commander can take 5 damage to end one EoE 
 **Loyalty Collar**
 When the ground commander dies, they explode, dealing 2d6 damage to each adjacent enemy.
 
-**Combined Arms (Villain Action 1)**  
-**Keywords**: Area  
-**Distance**: 10 burst  
-**Target**: Each ally  
+**Combined Arms (Villain Action 1)**
+**Keywords**: Area
+**Distance**: 10 burst
+**Target**: Each ally
 **Effect**: Each target can make a ranged free strike, then immediately use the Charge action.
 
-**Make an Example of Them (Villain Action 2)**  
-**Keywords**: Magic, Ranged  
-**Distance**: Ranged 10  
-**Target**: One enemy  
+**Make an Example of Them (Villain Action 2)**
+**Keywords**: Magic, Ranged
+**Distance**: Ranged 10
+**Target**: One enemy
 **Effect**: Each ally within 5 squares of the target can move up to their speed and make a free strike against the target. The target is then frightened of the ground commander (INU ends).
 
-**Claim Them for the Body Banks (Villain Action 3)**  
-**Keywords**: Area, Magic  
-**Distance**: 10 burst  
-**Target**: Each ally  
+**Claim Them for the Body Banks (Villain Action 3)**
+**Keywords**: Area, Magic
+**Distance**: 10 burst
+**Target**: Each ally
 **Effect**: Each target can shift up to 2 squares and use the Grab maneuver. For the rest of the encounter, any enemy takes a bane on the Escape Grab maneuver.
-
