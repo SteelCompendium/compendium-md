@@ -1,0 +1,27 @@
+{
+    "Name": "RADENWIGHT BRUXER",
+    "Level": "1 Brute",
+    "Type": "*Humanoid, Radenwight*",
+    "EV": "16",
+    "Stamina": "40",
+    "Speed": "5 (climb)",
+    "Size": "1M / Stability 2",
+    "Free Strike": "5",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+1",
+        "Reason** \u2212": "1",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Brute**\n*Humanoid, Radenwight*\n**EV 16**\n**Stamina**: 40\n**Speed**: 5 (climb)\n**Size**: 1M / Stability 2\n**Free Strike**: 5\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22121\n- **Intuition** +0\n- **Presence** +0\n\n**Lockjaw (Action)",
+            "Details": "**Level 1 Brute**\n*Humanoid, Radenwight*\n**EV 16**\n**Stamina**: 40\n**Speed**: 5 (climb)\n**Size**: 1M / Stability 2\n**Free Strike**: 5\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22121\n- **Intuition** +0\n- **Presence** +0\n\n**Lockjaw (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: One creature or object"
+        },
+        {
+            "Name": "Flurry of Bites (Action)",
+            "Details": "**Flurry of Bites (Action)** \u25c6 2d10 + 1 \u25c6 3 VP\nKeywords: Area, Weapon\nDistance: 1 burst\nTarget: Each enemy"
+        }
+    ]
+}

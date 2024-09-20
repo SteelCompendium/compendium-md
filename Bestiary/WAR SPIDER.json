@@ -1,0 +1,31 @@
+{
+    "Name": "WAR SPIDER",
+    "Level": "1 Mount",
+    "Type": "*Animal, Goblin*",
+    "EV": "28",
+    "Stamina": "60",
+    "Speed": "7 (climb)",
+    "Size": "3 / Stability 2",
+    "Free Strike": "4",
+    "Attributes": {
+        "Might": "+2",
+        "Agility": "+1",
+        "Reason** \u2212": "4",
+        "Intuition": "+0",
+        "Presence** \u2212": "3"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Mount**\n*Animal, Goblin*\n**EV 28**\n**Stamina**: 60\n**Speed**: 7 (climb)\n**Size**: 3 / Stability 2\n**Free Strike**: 4\n\n- **Might** +2\n- **Agility** +1\n- **Reason** \u22124\n- **Intuition** +0\n- **Presence** \u22123\n\n**Bite (Action)",
+            "Details": "**Level 1 Mount**\n*Animal, Goblin*\n**EV 28**\n**Stamina**: 60\n**Speed**: 7 (climb)\n**Size**: 3 / Stability 2\n**Free Strike**: 4\n\n- **Might** +2\n- **Agility** +1\n- **Reason** \u22124\n- **Intuition** +0\n- **Presence** \u22123\n\n**Bite (Action)** \u25c6 2d10 + 2 \u25c6 Signature\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: One creature or object"
+        },
+        {
+            "Name": "Leg Blade (Action)",
+            "Details": "**Leg Blade (Action)** \u25c6 2d10 + 2\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: Two creatures or objects\n\n- \u2726 \u226411: 4 damage\n- \u2605 12\u201316: 7 damage\n- \u2738 17+: 10 damage\n\n**Trample (Action)** \u25c6 5 VP\nKeywords: \u2014\nDistance: Self\nTarget: Self\nEffect: The spider shifts up to their speed and makes a Leg Blade attack against each creature who comes within their reach during the move. The spider makes one power roll against all targets."
+        },
+        {
+            "Name": "Web (Maneuver)",
+            "Details": "**Web (Maneuver)** \u25c6 AGL RR \u25c6 2 VP\nKeywords: Area, Resistance\nDistance: 3 cube within 1\nTarget: Each creature"
+        }
+    ]
+}

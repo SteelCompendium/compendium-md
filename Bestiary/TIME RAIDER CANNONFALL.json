@@ -1,0 +1,27 @@
+{
+    "Name": "TIME RAIDER CANNONFALL",
+    "Level": "3 Artillery",
+    "Type": "Humanoid, Time Raider EV 18",
+    "Stamina": "40",
+    "Immunity": "Psychic 4",
+    "Speed": "5",
+    "Size": "1L / Stability 3",
+    "Free Strike": "5",
+    "Keywords": "Area, Psionic",
+    "Distance": "5 burst",
+    "Target": "Each ally",
+    "Effect": "The damage is reduced by half for the cannonfall and each target also affected by the triggering ability.",
+    "Trigger": "A creature damages the cannonfall with a ranged ability.",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+2",
+        "Reason": "+2",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Artillery**\nHumanoid, Time Raider EV 18\n**Stamina**: 40\n**Immunity**: Psychic 4\n**Speed**: 5\n**Size**: 1L / Stability 3\n**Free Strike**: 5\n\n- **Might**: +0\n- **Agility**: +2\n- **Reason**: +2\n- **Presence**: +0\n\n**Sunderbuss (Action)",
+            "Details": "**Level 3 Artillery**\nHumanoid, Time Raider EV 18\n**Stamina**: 40\n**Immunity**: Psychic 4\n**Speed**: 5\n**Size**: 1L / Stability 3\n**Free Strike**: 5\n\n- **Might**: +0\n- **Agility**: +2\n- **Reason**: +2\n- **Presence**: +0\n\n**Sunderbuss (Action)** \u25c6 2d10 + 2 \u25c6 Signature\n**Keywords**: Area, Psionic, Ranged, Weapon\n**Distance**: 3 cube within 10\n**Target**: Each enemy"
+        }
+    ]
+}

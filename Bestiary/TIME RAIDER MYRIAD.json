@@ -1,0 +1,25 @@
+{
+    "Name": "TIME RAIDER MYRIAD",
+    "Level": "3 Brute Minion",
+    "Type": "Humanoid, Time Raider EV 10",
+    "Stamina": "20",
+    "Immunity": "Psychic 3",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Keywords": "Attack, Melee, Psionic, Weapon",
+    "Distance": "Reach 2",
+    "Target": "One creature or object per minion",
+    "Attributes": {
+        "Might": "+2",
+        "Agility": "+1",
+        "Reason": "+2",
+        "Presence": "+1"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Brute Minion**\nHumanoid, Time Raider EV 10\n**Stamina**: 20\n**Immunity**: Psychic 3\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +2\n- **Agility**: +1\n- **Reason**: +2\n- **Presence**: +1\n\n**Fifth Fist (Action)",
+            "Details": "**Level 3 Brute Minion**\nHumanoid, Time Raider EV 10\n**Stamina**: 20\n**Immunity**: Psychic 3\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +2\n- **Agility**: +1\n- **Reason**: +2\n- **Presence**: +1\n\n**Fifth Fist (Action)** \u25c6 2d10 + 2 \u25c6 Signature\n**Keywords**: Attack, Melee, Psionic, Weapon\n**Distance**: Reach 2\n**Target**: One creature or object per minion"
+        }
+    ]
+}

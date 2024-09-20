@@ -1,0 +1,23 @@
+{
+    "Name": "GIANT HAWK",
+    "Level": "1 Mount",
+    "Type": "*Animal*",
+    "EV": "13",
+    "Stamina": "20",
+    "Speed": "7 (flying)",
+    "Size": "2 / Stability 0",
+    "Free Strike": "3",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+1",
+        "Reason** \u2212": "3",
+        "Intuition": "+0",
+        "Presence** \u2212": "2"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Mount**\n*Animal*\n**EV 13**\n**Stamina**: 20\n**Speed**: 7 (flying)\n**Size**: 2 / Stability 0\n**Free Strike**: 3\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22123\n- **Intuition** +0\n- **Presence** \u22122\n\n**Talons (Action)",
+            "Details": "**Level 1 Mount**\n*Animal*\n**EV 13**\n**Stamina**: 20\n**Speed**: 7 (flying)\n**Size**: 2 / Stability 0\n**Free Strike**: 3\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22123\n- **Intuition** +0\n- **Presence** \u22122\n\n**Talons (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: One creature or object"
+        }
+    ]
+}

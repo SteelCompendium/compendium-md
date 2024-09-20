@@ -1,0 +1,24 @@
+{
+    "Name": "HUMAN DEATH ACOLYTE",
+    "Level": "1 Hexer Minion",
+    "Type": "*Human, Humanoid*",
+    "EV": "5",
+    "Stamina": "8",
+    "Immunity": "Magic 2, Psionic 2",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+1"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Hexer Minion**\n*Human, Humanoid*\n**EV 5**\n**Stamina**: 8\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +1\n\n**Necrotic Bolt (Action)",
+            "Details": "**Level 1 Hexer Minion**\n*Human, Humanoid*\n**EV 5**\n**Stamina**: 8\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +1\n\n**Necrotic Bolt (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Magic, Ranged\nDistance: Ranged 10\nTarget: One creature or object per minion"
+        }
+    ]
+}

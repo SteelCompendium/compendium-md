@@ -1,0 +1,30 @@
+{
+    "Name": "HUMAN STORM MAGE",
+    "Level": "3 Controller",
+    "Type": "*Human, Humanoid*",
+    "EV": "17",
+    "Stamina": "40",
+    "Immunity": "Magic 2, Psionic 2",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "5",
+    "5 VP": "The ability takes the Area keyword and becomes a 10 \u00d7 1 line that targets each creature in the area.",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+0",
+        "Reason": "+2",
+        "Intuition": "+0",
+        "Presence": "+0",
+        "": "5"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Controller**\n*Human, Humanoid*\n**EV 17**\n**Stamina**: 40\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 5\n\n- **Might** +0\n- **Agility** +0\n- **Reason** +2\n- **Intuition** +0\n- **Presence** +0\n\n**Lightning Bolt (Action)",
+            "Details": "**Level 3 Controller**\n*Human, Humanoid*\n**EV 17**\n**Stamina**: 40\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 5\n\n- **Might** +0\n- **Agility** +0\n- **Reason** +2\n- **Intuition** +0\n- **Presence** +0\n\n**Lightning Bolt (Action)** \u25c6 2d10 + 2 \u25c6 Signature\nKeywords: Attack, Magic, Ranged\nDistance: Ranged 10\nTarget: One creature or object"
+        },
+        {
+            "Name": "5 VP:** The ability takes the Area keyword and becomes a 10 \u00d7 1 line that targets each creature in the area.\n\n**Gust of Wind (Maneuver)",
+            "Details": "**5 VP:** The ability takes the Area keyword and becomes a 10 \u00d7 1 line that targets each creature in the area.\n\n**Gust of Wind (Maneuver)** \u25c6 MGT RR \u25c6 3 VP\nKeywords: Area, Magic, Resistance\nDistance: 5 cube within 1\nTarget: Each creature and object"
+        }
+    ]
+}

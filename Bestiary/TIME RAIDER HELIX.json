@@ -1,0 +1,28 @@
+{
+    "Name": "TIME RAIDER HELIX",
+    "Level": "3 Controller",
+    "Type": "Humanoid, Time Raider EV 17",
+    "Stamina": "40",
+    "Immunity": "Psychic 4",
+    "Speed": "5 (fly)",
+    "Size": "1M / Stability 0",
+    "Free Strike": "5",
+    "Keywords": "Area, Psionic, Ranged",
+    "Distance": "4 \u00d7 2 line within 10",
+    "Target": "Special",
+    "Effect": "Until the start of the helix\u2019s next turn, the area becomes a psionically charged treadmill that pushes creatures and objects at high speed in one direction of the helix\u2019s choice. Any creature that moves into the area or starts their turn there is immediately slid 3 squares toward the square at the end of the area in the appropriate direction, starting with creatures closest to the helix. Any non-time raider standing in the area when it first appears takes 3 damage before they are moved.",
+    "5 VP": "The helix creates a second kinetic lane.",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+2",
+        "Reason": "+2",
+        "Intuition": "+2",
+        "Presence": "+2"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Controller**\nHumanoid, Time Raider EV 17\n**Stamina**: 40\n**Immunity**: Psychic 4\n**Speed**: 5 (fly)\n**Size**: 1M / Stability 0\n**Free Strike**: 5\n\n- **Might**: +0\n- **Agility**: +2\n- **Reason**: +2\n- **Intuition**: +2\n- **Presence**: +2\n\n**Blaster Volley (Action)",
+            "Details": "**Level 3 Controller**\nHumanoid, Time Raider EV 17\n**Stamina**: 40\n**Immunity**: Psychic 4\n**Speed**: 5 (fly)\n**Size**: 1M / Stability 0\n**Free Strike**: 5\n\n- **Might**: +0\n- **Agility**: +2\n- **Reason**: +2\n- **Intuition**: +2\n- **Presence**: +2\n\n**Blaster Volley (Action)** \u25c6 2d10 + 2 \u25c6 Signature\n**Keywords**: Attack, Ranged, Psionic, Weapon\n**Distance**: Ranged 10\n**Target**: Three creatures"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "Name": "DEMON PITLING",
+    "Level": "1 Artillery Minion",
+    "Type": "*Demon, Planar*",
+    "EV": "2",
+    "Stamina": "4",
+    "Weakness": "Holy 3",
+    "Speed": "5 (fly)",
+    "Size": "1T / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might** \u2212": "2",
+        "Agility": "+1",
+        "Reason** \u2212": "2",
+        "Intuition** \u2212": "2",
+        "Presence** \u2212": "2"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Artillery Minion**\n*Demon, Planar*\n**EV 2**\n**Stamina**: 4\n**Weakness**: Holy 3\n**Speed**: 5 (fly)\n**Size**: 1T / Stability 0\n**Free Strike**: 2\n\n- **Might** \u22122\n- **Agility** +1\n- **Reason** \u22122\n- **Intuition** \u22122\n- **Presence** \u22122\n\n**Spit (Action)",
+            "Details": "**Level 1 Artillery Minion**\n*Demon, Planar*\n**EV 2**\n**Stamina**: 4\n**Weakness**: Holy 3\n**Speed**: 5 (fly)\n**Size**: 1T / Stability 0\n**Free Strike**: 2\n\n- **Might** \u22122\n- **Agility** +1\n- **Reason** \u22122\n- **Intuition** \u22122\n- **Presence** \u22122\n\n**Spit (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Ranged, Weapon\nDistance: Ranged 10\nTarget: One creature or object per minion"
+        }
+    ]
+}

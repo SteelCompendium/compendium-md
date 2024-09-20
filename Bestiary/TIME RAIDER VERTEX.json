@@ -1,0 +1,27 @@
+{
+    "Name": "TIME RAIDER VERTEX",
+    "Level": "3 Support",
+    "Type": "Humanoid, Time Raider EV 19",
+    "Stamina": "50",
+    "Immunity": "Psychic 5",
+    "Speed": "5 (fly)",
+    "Size": "2 / Stability 3",
+    "Free Strike": "5",
+    "Keywords": "Area, Psionic",
+    "Distance": "4 burst",
+    "Target": "Each ally",
+    "Effect": "Each target can shift half their speed.",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+1",
+        "Reason": "+2",
+        "Intuition": "+1",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Support**\nHumanoid, Time Raider EV 19\n**Stamina**: 50\n**Immunity**: Psychic 5\n**Speed**: 5 (fly)\n**Size**: 2 / Stability 3\n**Free Strike**: 5\n\n- **Might**: +1\n- **Agility**: +1\n- **Reason**: +2\n- **Intuition**: +1\n- **Presence**: +0\n\n**Psionic Slam (Action)",
+            "Details": "**Level 3 Support**\nHumanoid, Time Raider EV 19\n**Stamina**: 50\n**Immunity**: Psychic 5\n**Speed**: 5 (fly)\n**Size**: 2 / Stability 3\n**Free Strike**: 5\n\n- **Might**: +1\n- **Agility**: +1\n- **Reason**: +2\n- **Intuition**: +1\n- **Presence**: +0\n\n**Psionic Slam (Action)** \u25c6 2d10 + 2 \u25c6 Signature\n**Keywords**: Attack, Melee, Psionic\n**Distance**: Reach 2\n**Target**: One creature"
+        }
+    ]
+}

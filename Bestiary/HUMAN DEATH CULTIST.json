@@ -1,0 +1,26 @@
+{
+    "Name": "HUMAN DEATH CULTIST",
+    "Level": "2 Support",
+    "Type": "*Human, Humanoid*",
+    "EV": "16",
+    "Stamina": "40",
+    "Immunity": "Magic 2, Psionic 2",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "4",
+    "2 VP": "The death cultist regains Stamina equal to half the damage dealt by this ability.",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+1",
+        "": "2"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 2 Support**\n*Human, Humanoid*\n**EV 16**\n**Stamina**: 40\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 4\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +1\n\n**Death Scythe (Action)",
+            "Details": "**Level 2 Support**\n*Human, Humanoid*\n**EV 16**\n**Stamina**: 40\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 4\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +1\n\n**Death Scythe (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Magic, Melee, Ranged, Weapon\nDistance: Reach 1 or Ranged 10\nTarget: One creature or object"
+        }
+    ]
+}

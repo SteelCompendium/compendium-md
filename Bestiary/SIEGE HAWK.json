@@ -1,0 +1,27 @@
+{
+    "Name": "SIEGE HAWK",
+    "Level": "1 Mount",
+    "Type": "*Animal*",
+    "EV": "28",
+    "Stamina": "60",
+    "Speed": "7 (flying)",
+    "Size": "3 / Stability 0",
+    "Free Strike": "4",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+1",
+        "Reason** \u2212": "3",
+        "Intuition": "+0",
+        "Presence** \u2212": "2"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Mount**\n*Animal*\n**EV 28**\n**Stamina**: 60\n**Speed**: 7 (flying)\n**Size**: 3 / Stability 0\n**Free Strike**: 4\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22123\n- **Intuition** +0\n- **Presence** \u22122\n\n**Talons (Action)",
+            "Details": "**Level 1 Mount**\n*Animal*\n**EV 28**\n**Stamina**: 60\n**Speed**: 7 (flying)\n**Size**: 3 / Stability 0\n**Free Strike**: 4\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22123\n- **Intuition** +0\n- **Presence** \u22122\n\n**Talons (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: Two creatures or objects"
+        },
+        {
+            "Name": "Bombs Away! (Action)",
+            "Details": "**Bombs Away! (Action)** \u25c6 AGL RR \u25c6 7 VP\nKeywords: Area, Magic, Ranged, Resistance\nDistance: 5 cube within 10\nTarget: Each creature and object"
+        }
+    ]
+}

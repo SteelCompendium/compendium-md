@@ -1,0 +1,26 @@
+{
+    "Name": "TIME RAIDER ARCHON",
+    "Level": "3 Harrier Minion",
+    "Type": "Humanoid, Time Raider EV 8",
+    "Stamina": "15",
+    "Immunity": "Psychic 3",
+    "Speed": "7",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Keywords": "Attack, Melee, Psionic, Weapon",
+    "Distance": "Reach 1",
+    "Target": "One creature or object per minion",
+    "Attributes": {
+        "Might": "+2",
+        "Agility": "+2",
+        "Reason": "+2",
+        "Intuition": "+1",
+        "Presence**: \u2212": "1"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Harrier Minion**\nHumanoid, Time Raider EV 8\n**Stamina**: 15\n**Immunity**: Psychic 3\n**Speed**: 7\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +2\n- **Agility**: +2\n- **Reason**: +2\n- **Intuition**: +1\n- **Presence**: \u22121\n\n**Brutal Flail (Action)",
+            "Details": "**Level 3 Harrier Minion**\nHumanoid, Time Raider EV 8\n**Stamina**: 15\n**Immunity**: Psychic 3\n**Speed**: 7\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +2\n- **Agility**: +2\n- **Reason**: +2\n- **Intuition**: +1\n- **Presence**: \u22121\n\n**Brutal Flail (Action)** \u25c6 2d10 + 2 \u25c6 Signature\n**Keywords**: Attack, Melee, Psionic, Weapon\n**Distance**: Reach 1\n**Target**: One creature or object per minion"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Name": "GOBLIN MONARCH",
+    "Level": "1 Boss",
+    "Type": "*Goblin, Humanoid*",
+    "EV": "24",
+    "Stamina": "50",
+    "Speed": "6 (climb)",
+    "Size": "1S / Stability 1",
+    "Free Strike": "3",
+    "Attributes": {
+        "Might": "+2",
+        "Agility": "+1",
+        "Reason** \u2212": "4",
+        "Intuition": "+0",
+        "Presence** \u2212": "3"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Boss**\n*Goblin, Humanoid*\n**EV 24**\n**Stamina**: 50\n**Speed**: 6 (climb)\n**Size**: 1S / Stability 1\n**Free Strike**: 3\n\n- **Might** +2\n- **Agility** +1\n- **Reason** \u22124\n- **Intuition** +0\n- **Presence** \u22123\n\n**Handaxe (Action)",
+            "Details": "**Level 1 Boss**\n*Goblin, Humanoid*\n**EV 24**\n**Stamina**: 50\n**Speed**: 6 (climb)\n**Size**: 1S / Stability 1\n**Free Strike**: 3\n\n- **Might** +2\n- **Agility** +1\n- **Reason** \u22124\n- **Intuition** +0\n- **Presence** \u22123\n\n**Handaxe (Action)** \u25c6 2d10 + 2 \u25c6 Signature\nKeywords: Attack, Melee, Ranged, Weapon\nDistance: Reach 1 or Ranged 5\nTarget: Two creatures or objects"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "Name": "WAR DOG TETHERITE",
+    "Level": "1 Brute Minion",
+    "Type": "Humanoid, War Dog EV 6",
+    "Stamina": "8",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Keywords": "Attack, Melee, Weapon",
+    "Distance": "Reach 2",
+    "Target": "One creature or object per minion",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+0",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Brute Minion**\nHumanoid, War Dog EV 6\n**Stamina**: 8\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +1\n- **Agility**: +0\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +0\n\n**Daggers (Action)",
+            "Details": "**Level 1 Brute Minion**\nHumanoid, War Dog EV 6\n**Stamina**: 8\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +1\n- **Agility**: +0\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +0\n\n**Daggers (Action)** \u25c6 2d10 + 1 \u25c6 Signature\n**Keywords**: Attack, Melee, Weapon\n**Distance**: Reach 2\n**Target**: One creature or object per minion"
+        }
+    ]
+}

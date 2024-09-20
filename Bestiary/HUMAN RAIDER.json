@@ -1,0 +1,24 @@
+{
+    "Name": "HUMAN RAIDER",
+    "Level": "1 Harrier Minion",
+    "Type": "*Human, Humanoid*",
+    "EV": "6",
+    "Stamina": "10",
+    "Immunity": "Magic 2, Psionic 2",
+    "Speed": "7",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Harrier Minion**\n*Human, Humanoid*\n**EV 6**\n**Stamina**: 10\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 7\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +0\n\n**Handaxe (Action)",
+            "Details": "**Level 1 Harrier Minion**\n*Human, Humanoid*\n**EV 6**\n**Stamina**: 10\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 7\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +0\n\n**Handaxe (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Charge, Melee, Ranged, Weapon\nDistance: Reach 1 or Ranged 5\nTarget: One creature or object per minion"
+        }
+    ]
+}

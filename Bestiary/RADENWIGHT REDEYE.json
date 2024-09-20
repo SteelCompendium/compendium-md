@@ -1,0 +1,23 @@
+{
+    "Name": "RADENWIGHT REDEYE",
+    "Level": "1 Artillery Minion",
+    "Type": "*Humanoid, Radenwight*",
+    "EV": "6",
+    "Stamina": "8",
+    "Speed": "5 (climb)",
+    "Size": "1S / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+1",
+        "Reason** \u2212": "1",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Artillery Minion**\n*Humanoid, Radenwight*\n**EV 6**\n**Stamina**: 8\n**Speed**: 5 (climb)\n**Size**: 1S / Stability 0\n**Free Strike**: 2\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22121\n- **Intuition** +0\n- **Presence** +0\n\n**Eyes-On-Me Shot (Action)",
+            "Details": "**Level 1 Artillery Minion**\n*Humanoid, Radenwight*\n**EV 6**\n**Stamina**: 8\n**Speed**: 5 (climb)\n**Size**: 1S / Stability 0\n**Free Strike**: 2\n\n- **Might** +1\n- **Agility** +1\n- **Reason** \u22121\n- **Intuition** +0\n- **Presence** +0\n\n**Eyes-On-Me Shot (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Ranged, Weapon\nDistance: Ranged 10\nTarget: One creature or object per minion"
+        }
+    ]
+}

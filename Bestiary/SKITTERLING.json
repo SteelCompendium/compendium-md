@@ -1,0 +1,23 @@
+{
+    "Name": "SKITTERLING",
+    "Level": "1 Hexer Minion",
+    "Type": "*Animal, Goblin*",
+    "EV": "3",
+    "Stamina": "5",
+    "Speed": "5 (fly)",
+    "Size": "1T / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might** \u2212": "5",
+        "Agility": "+1",
+        "Reason** \u2212": "4",
+        "Intuition": "+0",
+        "Presence** \u2212": "2"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Hexer Minion**\n*Animal, Goblin*\n**EV 3**\n**Stamina**: 5\n**Speed**: 5 (fly)\n**Size**: 1T / Stability 0\n**Free Strike**: 2\n\n- **Might** \u22125\n- **Agility** +1\n- **Reason** \u22124\n- **Intuition** +0\n- **Presence** \u22122\n\n**Claws (Action)",
+            "Details": "**Level 1 Hexer Minion**\n*Animal, Goblin*\n**EV 3**\n**Stamina**: 5\n**Speed**: 5 (fly)\n**Size**: 1T / Stability 0\n**Free Strike**: 2\n\n- **Might** \u22125\n- **Agility** +1\n- **Reason** \u22124\n- **Intuition** +0\n- **Presence** \u22122\n\n**Claws (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: One creature or object per minion"
+        }
+    ]
+}

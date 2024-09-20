@@ -1,0 +1,30 @@
+{
+    "Name": "DEMON CHOROGAUNT",
+    "Level": "3 Boss",
+    "Type": "*Demon, Planar*",
+    "EV": "36",
+    "Stamina": "90",
+    "Weakness": "Holy 3",
+    "Speed": "5",
+    "Size": "1M / Stability 2",
+    "Free Strike": "4",
+    "Goblin Mode (3 VP)": "Each goblin in the encounter gains a +2 bonus to speed until the end of the round.",
+    "Tiny Stabs (5 VP)": "Each enemy in the encounter takes 1 damage for each goblin who is adjacent to them.",
+    "Swamp Stink (7 VP)": "The encounter map becomes covered in a green mist that lasts until the end of the round, and which can\u2019t be dispersed by wind. All areas of the map become difficult terrain for non-goblins, and each non-goblin on the map must make a Might resistance roll.",
+    "Attributes": {
+        "Might": "+2",
+        "Agility": "+2",
+        "Reason": "+2",
+        "Intuition": "+2",
+        "Presence": "+2",
+        "Goblin Mode (": "3",
+        "Tiny Stabs (": "5",
+        "Swamp Stink (": "7"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Boss**\n*Demon, Planar*\n**EV 36**\n**Stamina**: 90\n**Weakness**: Holy 3\n**Speed**: 5\n**Size**: 1M / Stability 2\n**Free Strike**: 4\n\n- **Might** +2\n- **Agility** +2\n- **Reason** +2\n- **Intuition** +2\n- **Presence** +2\n\n**Agonizing Harmony (Action)",
+            "Details": "**Level 3 Boss**\n*Demon, Planar*\n**EV 36**\n**Stamina**: 90\n**Weakness**: Holy 3\n**Speed**: 5\n**Size**: 1M / Stability 2\n**Free Strike**: 4\n\n- **Might** +2\n- **Agility** +2\n- **Reason** +2\n- **Intuition** +2\n- **Presence** +2\n\n**Agonizing Harmony (Action)** \u25c6 2d10 + 2 \u25c6 Signature\nKeywords: Area, Weapon\nDistance: 5 burst\nTarget: Each enemy"
+        }
+    ]
+}

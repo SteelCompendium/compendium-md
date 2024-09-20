@@ -1,0 +1,27 @@
+{
+    "Name": "GOBLIN CURSESPITTER",
+    "Level": "1 Hexer",
+    "Type": "*Goblin, Humanoid*",
+    "EV": "9",
+    "Stamina": "15",
+    "Speed": "5 (climb)",
+    "Size": "1S / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might** \u2212": "2",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+1",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Hexer**\n*Goblin, Humanoid*\n**EV 9**\n**Stamina**: 15\n**Speed**: 5 (climb)\n**Size**: 1S / Stability 0\n**Free Strike**: 2\n\n- **Might** \u22122\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +1\n- **Presence** +0\n\n**Eye of Surlach (Action)",
+            "Details": "**Level 1 Hexer**\n*Goblin, Humanoid*\n**EV 9**\n**Stamina**: 15\n**Speed**: 5 (climb)\n**Size**: 1S / Stability 0\n**Free Strike**: 2\n\n- **Might** \u22122\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +1\n- **Presence** +0\n\n**Eye of Surlach (Action)** \u25c6 INU RR \u25c6 Signature\nKeywords: Magic, Ranged, Resistance\nDistance: Ranged 10\nTarget: One creature"
+        },
+        {
+            "Name": "Dizzying Hex (Maneuver)",
+            "Details": "**Dizzying Hex (Maneuver)** \u25c6 INU RR \u25c6 1 VP\nKeywords: Magic, Ranged, Resistance\nDistance: Ranged 10\nTarget: One creature"
+        }
+    ]
+}

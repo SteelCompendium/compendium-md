@@ -223,3 +223,10 @@ auto_link:
 
     mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
     rm -rf "../Formatted"
+
+format_bestiary:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    rm -rf "../Bestiary"
+    mkdir "../Bestiary"
+    python3 format_bestiary.py

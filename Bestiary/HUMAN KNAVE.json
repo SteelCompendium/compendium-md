@@ -1,0 +1,24 @@
+{
+    "Name": "HUMAN KNAVE",
+    "Level": "2 Defender",
+    "Type": "*Human, Humanoid*",
+    "EV": "18",
+    "Stamina": "50",
+    "Immunity": "Magic 2, Psionic 2",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "4",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+0",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 2 Defender**\n*Human, Humanoid*\n**EV 18**\n**Stamina**: 50\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 4\n\n- **Might** +1\n- **Agility** +0\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +0\n\n**Morningstar & Javelin (Action)",
+            "Details": "**Level 2 Defender**\n*Human, Humanoid*\n**EV 18**\n**Stamina**: 50\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 4\n\n- **Might** +1\n- **Agility** +0\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +0\n\n**Morningstar & Javelin (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Attack, Melee, Ranged, Weapon\nDistance: Reach 1 or Ranged 5\nTarget: One creature or object"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "Name": "TIME RAIDER NEMESIS",
+    "Level": "3 Harrier",
+    "Type": "Humanoid, Time Raider EV 19",
+    "Stamina": "50",
+    "Immunity": "Psychic 5",
+    "Speed": "7",
+    "Size": "1M / Stability 0",
+    "Free Strike": "5",
+    "Keywords": "Psionic, Ranged, Resistance",
+    "Distance": "Ranged 10",
+    "Target": "One creature",
+    "Effect": "This ability can affect creatures on parallel planes of existence and pull them onto the nemesis\u2019s plane.",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+2",
+        "Reason": "+2",
+        "Intuition": "+1",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 3 Harrier**\nHumanoid, Time Raider EV 19\n**Stamina**: 50\n**Immunity**: Psychic 5\n**Speed**: 7\n**Size**: 1M / Stability 0\n**Free Strike**: 5\n\n- **Might**: +1\n- **Agility**: +2\n- **Reason**: +2\n- **Intuition**: +1\n- **Presence**: +0\n\n**Golden Scythe (Action)",
+            "Details": "**Level 3 Harrier**\nHumanoid, Time Raider EV 19\n**Stamina**: 50\n**Immunity**: Psychic 5\n**Speed**: 7\n**Size**: 1M / Stability 0\n**Free Strike**: 5\n\n- **Might**: +1\n- **Agility**: +2\n- **Reason**: +2\n- **Intuition**: +1\n- **Presence**: +0\n\n**Golden Scythe (Action)** \u25c6 2d10 + 2 \u25c6 Signature\n**Keywords**: Attack, Melee, Psionic, Weapon\n**Distance**: Reach 2\n**Target**: One creature or object"
+        },
+        {
+            "Name": "Effect**: This ability can affect creatures on parallel planes of existence and pull them onto the nemesis\u2019s plane.\n\n**Kinetic Crush (Action)",
+            "Details": "**Effect**: This ability can affect creatures on parallel planes of existence and pull them onto the nemesis\u2019s plane.\n\n**Kinetic Crush (Action)** \u25c6 MGT RR \u25c6 2 VP\n**Keywords**: Psionic, Ranged, Resistance\n**Distance**: Ranged 10\n**Target**: One creature"
+        }
+    ]
+}

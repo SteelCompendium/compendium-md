@@ -1,0 +1,24 @@
+{
+    "Name": "DEMON TORLAS",
+    "Level": "1 Controller",
+    "Type": "*Demon, Planar*",
+    "EV": "9",
+    "Stamina": "15",
+    "Weakness": "Holy 3",
+    "Speed": "5",
+    "Size": "1S / Stability 0",
+    "Free Strike": "2",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+1"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Controller**\n*Demon, Planar*\n**EV 9**\n**Stamina**: 15\n**Weakness**: Holy 3\n**Speed**: 5\n**Size**: 1S / Stability 0\n**Free Strike**: 2\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +1\n\n**Cronenstorm (Action)",
+            "Details": "**Level 1 Controller**\n*Demon, Planar*\n**EV 9**\n**Stamina**: 15\n**Weakness**: Holy 3\n**Speed**: 5\n**Size**: 1S / Stability 0\n**Free Strike**: 2\n\n- **Might** +0\n- **Agility** +1\n- **Reason** +0\n- **Intuition** +0\n- **Presence** +1\n\n**Cronenstorm (Action)** \u25c6 2d10 + 1 \u25c6 Signature\nKeywords: Area, Magic, Ranged\nDistance: 3 cube within 10\nTarget: Each creature"
+        }
+    ]
+}

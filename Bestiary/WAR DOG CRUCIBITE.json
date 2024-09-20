@@ -1,0 +1,28 @@
+{
+    "Name": "WAR DOG CRUCIBITE",
+    "Level": "1 Artillery",
+    "Type": "Humanoid, War Dog EV 10",
+    "Stamina": "15",
+    "Immunity": "Psychic 3",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Keywords": "Magic, Ranged",
+    "Distance": "Ranged 10",
+    "Target": "One war dog with a loyalty collar",
+    "Effect": "The target\u2019s loyalty collar detonates, killing them instantly.",
+    "2 VP": "The area increases to a 10 \u00d7 1 line, and if any ally of the crucibite is in the area when it is created, the crucibite gains an edge on the power roll.",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Artillery**\nHumanoid, War Dog EV 10\n**Stamina**: 15\n**Immunity**: Psychic 3\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +0\n- **Agility**: +1\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +0\n\n**Flamebelcher (Action)",
+            "Details": "**Level 1 Artillery**\nHumanoid, War Dog EV 10\n**Stamina**: 15\n**Immunity**: Psychic 3\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +0\n- **Agility**: +1\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +0\n\n**Flamebelcher (Action)** \u25c6 2d10 + 1 \u25c6 Signature\n**Keywords**: Area, Weapon\n**Distance**: 5 \u00d7 1 line\n**Target**: Each creature and object"
+        }
+    ]
+}

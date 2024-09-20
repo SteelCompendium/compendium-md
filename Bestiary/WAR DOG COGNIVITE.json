@@ -1,0 +1,26 @@
+{
+    "Name": "WAR DOG COGNIVITE",
+    "Level": "1 Defender",
+    "Type": "Humanoid, War Dog EV 11",
+    "Stamina": "25",
+    "Speed": "5 (fly)",
+    "Size": "1M / Stability 0",
+    "Free Strike": "2",
+    "Keywords": "Psionic, Ranged",
+    "Distance": "Ranged 10",
+    "Target": "Each enemy",
+    "Effect": "The cognivite chooses an ally within 10 squares, then chooses whether each target is taunted by the ally (EoT) or has a double bane on attacks against the ally (EoT). The same choice must be made for all targets.",
+    "Attributes": {
+        "Might": "+0",
+        "Agility": "+1",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+1"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Defender**\nHumanoid, War Dog EV 11\n**Stamina**: 25\n**Speed**: 5 (fly)\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +0\n- **Agility**: +1\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +1\n\n**Synlirii Grafts (Action)",
+            "Details": "**Level 1 Defender**\nHumanoid, War Dog EV 11\n**Stamina**: 25\n**Speed**: 5 (fly)\n**Size**: 1M / Stability 0\n**Free Strike**: 2\n\n- **Might**: +0\n- **Agility**: +1\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +1\n\n**Synlirii Grafts (Action)** \u25c6 2d10 + 1 \u25c6 Signature\n**Keywords**: Area, Psionic\n**Distance**: 1 burst\n**Target**: Each enemy"
+        }
+    ]
+}

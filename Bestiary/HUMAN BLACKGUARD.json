@@ -1,0 +1,26 @@
+{
+    "Name": "HUMAN BLACKGUARD",
+    "Level": "1 Boss",
+    "Type": "*Human, Humanoid*",
+    "EV": "38",
+    "Stamina": "80",
+    "Immunity": "Magic 2, Psionic 2",
+    "Speed": "5",
+    "Size": "1M / Stability 2",
+    "Free Strike": "4",
+    "1 VP": "The ally can use their signature action instead.",
+    "Attributes": {
+        "Might": "+2",
+        "Agility": "+2",
+        "Reason": "+2",
+        "Intuition": "+0",
+        "Presence": "+2",
+        "": "1"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 1 Boss**\n*Human, Humanoid*\n**EV 38**\n**Stamina**: 80\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 2\n**Free Strike**: 4\n\n- **Might** +2\n- **Agility** +2\n- **Reason** +2\n- **Intuition** +0\n- **Presence** +2\n\n**Zweihander (Action)",
+            "Details": "**Level 1 Boss**\n*Human, Humanoid*\n**EV 38**\n**Stamina**: 80\n**Immunity**: Magic 2, Psionic 2\n**Speed**: 5\n**Size**: 1M / Stability 2\n**Free Strike**: 4\n\n- **Might** +2\n- **Agility** +2\n- **Reason** +2\n- **Intuition** +0\n- **Presence** +2\n\n**Zweihander (Action)** \u25c6 2d10 + 2 \u25c6 Signature\nKeywords: Attack, Melee, Weapon\nDistance: Reach 1\nTarget: Each adjacent enemy"
+        }
+    ]
+}

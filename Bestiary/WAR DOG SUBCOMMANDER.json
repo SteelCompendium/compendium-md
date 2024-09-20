@@ -1,0 +1,26 @@
+{
+    "Name": "WAR DOG SUBCOMMANDER",
+    "Level": "2 Support",
+    "Type": "Humanoid, War Dog EV 12",
+    "Stamina": "25",
+    "Speed": "5",
+    "Size": "1M / Stability 0",
+    "Free Strike": "3",
+    "Keywords": "Magic, Ranged",
+    "Distance": "Ranged 10",
+    "Target": "One war dog with a loyalty collar",
+    "Effect": "The target\u2019s loyalty collar detonates, killing them instantly.",
+    "Attributes": {
+        "Might": "+1",
+        "Agility": "+0",
+        "Reason": "+0",
+        "Intuition": "+0",
+        "Presence": "+0"
+    },
+    "Abilities": [
+        {
+            "Name": "Level 2 Support**\nHumanoid, War Dog EV 12\n**Stamina**: 25\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 3\n\n- **Might**: +1\n- **Agility**: +0\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +0\n\n**Command Saber (Action)",
+            "Details": "**Level 2 Support**\nHumanoid, War Dog EV 12\n**Stamina**: 25\n**Speed**: 5\n**Size**: 1M / Stability 0\n**Free Strike**: 3\n\n- **Might**: +1\n- **Agility**: +0\n- **Reason**: +0\n- **Intuition**: +0\n- **Presence**: +0\n\n**Command Saber (Action)** \u25c6 2d10 + 1 \u25c6 Signature\n**Keywords**: Attack, Melee, Weapon\n**Distance**: Reach 1\n**Target**: One creature or object"
+        }
+    ]
+}
