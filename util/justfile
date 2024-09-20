@@ -229,4 +229,4 @@ format_bestiary:
     set -euo pipefail
     rm -rf "../Bestiary"
     mkdir "../Bestiary"
-    python3 format_bestiary.py
+    python3 format_bestiary4.py
