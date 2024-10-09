@@ -17,6 +17,7 @@
       ". $VENV_DIR/bin/activate",
       "pip install markdown-to-json",
       "pip install lxml",
+      "pip install pyyaml",
       "pip install mdformat mdformat-wikilink mdformat-tables mdformat-frontmatter"
     ],
     "scripts": {
