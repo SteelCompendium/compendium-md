@@ -117,8 +117,8 @@ def main():
     statblocks = extract_statblocks(markdown_text)
 
     # Ensure output directories exist
-    markdown_output_dir = os.path.join('..', 'bestiary', 'markdown')
-    yaml_output_dir = os.path.join('..', 'bestiary', 'yaml')
+    markdown_output_dir = os.path.join('..', 'Bestiary', 'markdown')
+    yaml_output_dir = os.path.join('..', 'Bestiary', 'yaml')
     os.makedirs(markdown_output_dir, exist_ok=True)
     os.makedirs(yaml_output_dir, exist_ok=True)
 
