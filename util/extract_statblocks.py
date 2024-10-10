@@ -127,7 +127,7 @@ def main():
     # Ensure output directories exist
     markdown_output_dir = os.path.join('..', 'Bestiary', 'markdown')
     yaml_output_dir = os.path.join('..', 'Bestiary', 'yaml')
-    markdown_statblock_output_dir = os.path.join('..', 'Bestiary', 'draw-steel-elements-markdown')
+    markdown_statblock_output_dir = os.path.join('..', 'Bestiary', 'markdown-dse')
     os.makedirs(markdown_output_dir, exist_ok=True)
     os.makedirs(yaml_output_dir, exist_ok=True)
     os.makedirs(markdown_statblock_output_dir, exist_ok=True)
