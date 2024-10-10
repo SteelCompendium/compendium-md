@@ -4,6 +4,14 @@ import sys
 from md_statblock_to_yaml import process_markdown
 import yaml
 
+# General purpose of this file is to take a markdown file, parse out sections (denoted by headers) of
+# statblocks, then passes those section strings to `md_statblock_to_yaml.py` to generate yaml representations
+# of the statblocks.  The script then writes BOTH the markdown for the statblock and the yaml to output files.
+#
+# Does not modify the original markdown file.
+############################################################################################################
+
+
 def has_statblock_stuff(markdown_line):
     return any(word in markdown_line for word in ["Speed", "Level", "EV", "Size", "Free Strike"])
 
@@ -119,8 +127,10 @@ def main():
     # Ensure output directories exist
     markdown_output_dir = os.path.join('..', 'Bestiary', 'markdown')
     yaml_output_dir = os.path.join('..', 'Bestiary', 'yaml')
+    markdown_statblock_output_dir = os.path.join('..', 'Bestiary', 'draw-steel-elements-markdown')
     os.makedirs(markdown_output_dir, exist_ok=True)
     os.makedirs(yaml_output_dir, exist_ok=True)
+    os.makedirs(markdown_statblock_output_dir, exist_ok=True)
 
     for statblock_text in statblocks:
         # Get the statblock name
@@ -154,6 +164,17 @@ def main():
         yaml_filepath = os.path.join(yaml_output_dir, yaml_filename)
         with open(yaml_filepath, 'w', encoding='utf-8') as yaml_file:
             yaml_file.write(yaml_string)
+
+        # Write the markdown as draw-steel-element statblock to file
+        yaml_filename = f"{name}.md"
+        yaml_filepath = os.path.join(markdown_statblock_output_dir, yaml_filename)
+        with open(yaml_filepath, 'w', encoding='utf-8') as yaml_file:
+            file_content = f"# {name}"
+            file_content += "\n"
+            file_content += "\n~~~ds-statblock"
+            file_content += f"\n{yaml_string}"
+            file_content += "\n~~~"
+            yaml_file.write(file_content)
 
 if __name__ == "__main__":
     main()

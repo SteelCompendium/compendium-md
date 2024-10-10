@@ -224,6 +224,14 @@ auto_link:
     mv "../Formatted/Formatted Draw Steel Rules.md" "../Rules/Draw Steel Rules - Linked.md"
     rm -rf "../Formatted"
 
+generate_bestiary:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    echo >&2 "[JUST] --- Generating Bestiary --- "
+    rm -rf "../Bestiary"
+    python3 extract_statblocks.py "../Rules/Draw Steel Bestiary.md"
+
+# This was parsing markdown into json, but it doesnt work too well...
 format_bestiary:
     #!/usr/bin/env bash
     set -euo pipefail

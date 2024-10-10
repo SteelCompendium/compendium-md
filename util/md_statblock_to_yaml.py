@@ -1,6 +1,10 @@
 import re
 import yaml
 
+# General purpose of this file is to pass a markdown string containing a statblock and it returns the parsed
+# yaml of the statblock data.
+############################################################################################################
+
 def parse_header(markdown_text):
     """
     Extracts the name of the statblock from the header.
