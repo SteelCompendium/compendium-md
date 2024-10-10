@@ -40,13 +40,3 @@ abilities:
   distance: Self
   target: Self
   effect: The warg moves up to their speed.
-- name: Alchemical Device
-  type: Maneuver
-  roll: INU RR
-  keywords:
-  - Area
-  - Magic
-  - Ranged
-  - Resistance
-  distance: 3 cube within 10
-  target: Each creature in the cube

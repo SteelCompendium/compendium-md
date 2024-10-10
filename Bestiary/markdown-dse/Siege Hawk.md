@@ -44,20 +44,5 @@ abilities:
   target: Each creature and object
 - name: Dive
   type: Maneuver
-- name: Trouser Cut
-  type: 3 VP
-- name: Trouser Cut
-  type: Action
-  roll: 2d10 + 2
-  keywords:
-  - Attack
-  - Melee
-  - Weapon
-  distance: Reach 1
-  target: One creature
-- name: Rat Race
-  type: 5 VP
-- name: Wall of Rats
-  type: 7 VP
 
 ```

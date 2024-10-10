@@ -52,30 +52,44 @@ def extract_statblocks(markdown_text):
             header_level = len(header_match.group(1))
             header_text = header_match.group(2).strip()
 
-            # If the header is at the statblock level, it indicates the start of a statblock
-            if header_level == statblock_header_level:
-                # If we were inside a statblock, save it before starting a new one
-                if inside_statblock and current_statblock:
-                    if current_statblock_confidence >= required_statblock_confidence:
-                        statblocks.append('\n'.join(current_statblock))
-                    current_statblock = []
-                    current_statblock_confidence = 0
+            # If we were inside a statblock, save it before starting a new one
+            if inside_statblock and current_statblock:
+                if current_statblock_confidence >= required_statblock_confidence:
+                    statblocks.append('\n'.join(current_statblock))
+                current_statblock = []
+                current_statblock_confidence = 0
 
-                # Start a new statblock
-                inside_statblock = True
-                current_statblock.append(line)
-                if has_statblock_stuff(line):
-                    current_statblock_confidence += 1
-            else:
-                # If we encounter a header of any other level while inside a statblock,
-                # we continue collecting lines as part of the statblock
-                if inside_statblock:
-                    current_statblock.append(line)
-                    if has_statblock_stuff(line):
-                        current_statblock_confidence += 1
-                else:
-                    # Not inside a statblock, skip
-                    continue
+            # Start a new statblock
+            inside_statblock = True
+            current_statblock.append(line)
+            if has_statblock_stuff(line):
+                current_statblock_confidence += 1
+
+
+            # # If the header is at the statblock level, it indicates the start of a statblock
+            # if header_level == statblock_header_level:
+            #     # If we were inside a statblock, save it before starting a new one
+            #     if inside_statblock and current_statblock:
+            #         if current_statblock_confidence >= required_statblock_confidence:
+            #             statblocks.append('\n'.join(current_statblock))
+            #         current_statblock = []
+            #         current_statblock_confidence = 0
+            #
+            #     # Start a new statblock
+            #     inside_statblock = True
+            #     current_statblock.append(line)
+            #     if has_statblock_stuff(line):
+            #         current_statblock_confidence += 1
+            # else:
+            #     # If we encounter a header of any other level while inside a statblock,
+            #     # we continue collecting lines as part of the statblock
+            #     if inside_statblock:
+            #         current_statblock.append(line)
+            #         if has_statblock_stuff(line):
+            #             current_statblock_confidence += 1
+            #     else:
+            #         # Not inside a statblock, skip
+            #         continue
         else:
             if inside_statblock:
                 current_statblock.append(line)

@@ -49,9 +49,5 @@ abilities:
 - name: Armageddon
   type: Villain Action
   cost: 3 VP
-- name: Fire for Effect
-  type: Maneuver
-  roll: AGL RR
-  cost: 12 VP
 
 ```
