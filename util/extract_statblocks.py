@@ -32,12 +32,8 @@ def extract_statblocks(markdown_text):
     current_statblock_confidence = 0
     inside_statblock = False
 
-
     # Define a regex pattern to match headers of various levels
     header_pattern = re.compile(r'^(#{1,6})\s*(.+)$')
-
-    # The header level that indicates the start of a statblock
-    statblock_header_level = 4
 
     # number of "statblock stuff" is required to count the markdown section as a statblock (see has_statblock_stuff)
     required_statblock_confidence = 5
@@ -49,9 +45,6 @@ def extract_statblocks(markdown_text):
         # Check if the line is a header
         header_match = header_pattern.match(stripped_line)
         if header_match:
-            header_level = len(header_match.group(1))
-            header_text = header_match.group(2).strip()
-
             # If we were inside a statblock, save it before starting a new one
             if inside_statblock and current_statblock:
                 if current_statblock_confidence >= required_statblock_confidence:
@@ -64,32 +57,6 @@ def extract_statblocks(markdown_text):
             current_statblock.append(line)
             if has_statblock_stuff(line):
                 current_statblock_confidence += 1
-
-
-            # # If the header is at the statblock level, it indicates the start of a statblock
-            # if header_level == statblock_header_level:
-            #     # If we were inside a statblock, save it before starting a new one
-            #     if inside_statblock and current_statblock:
-            #         if current_statblock_confidence >= required_statblock_confidence:
-            #             statblocks.append('\n'.join(current_statblock))
-            #         current_statblock = []
-            #         current_statblock_confidence = 0
-            #
-            #     # Start a new statblock
-            #     inside_statblock = True
-            #     current_statblock.append(line)
-            #     if has_statblock_stuff(line):
-            #         current_statblock_confidence += 1
-            # else:
-            #     # If we encounter a header of any other level while inside a statblock,
-            #     # we continue collecting lines as part of the statblock
-            #     if inside_statblock:
-            #         current_statblock.append(line)
-            #         if has_statblock_stuff(line):
-            #             current_statblock_confidence += 1
-            #     else:
-            #         # Not inside a statblock, skip
-            #         continue
         else:
             if inside_statblock:
                 current_statblock.append(line)
