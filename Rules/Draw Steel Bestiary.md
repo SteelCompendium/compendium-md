@@ -2387,7 +2387,8 @@ At the start of any time raider’s turn, you can spend VP to activate one of th
 #### TIME RAIDER ARCHON
 
 **Level 3 Harrier Minion**
-Humanoid, Time Raider EV 8
+*Humanoid, Time Raider* 
+**EV 8**
 **Stamina**: 15
 **Immunity**: Psychic 3
 **Speed**: 7
@@ -2415,7 +2416,8 @@ The archon doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER MYRIAD
 
 **Level 3 Brute Minion**
-Humanoid, Time Raider EV 10
+*Humanoid, Time Raider* 
+**EV 10**
 **Stamina**: 20
 **Immunity**: Psychic 3
 **Speed**: 5
@@ -2442,7 +2444,8 @@ The myriad doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER ARMIGER
 
 **Level 3 Defender**
-Humanoid, Time Raider EV 21
+*Humanoid, Time Raider*
+**EV 21**
 **Stamina**: 60
 **Immunity**: Psychic 5
 **Speed**: 5
@@ -2483,7 +2486,8 @@ While any time raider starts their turn with line of effect to the armiger, that
 #### TIME RAIDER CANNONFALL
 
 **Level 3 Artillery**
-Humanoid, Time Raider EV 18
+*Humanoid, Time Raider* 
+**EV 18**
 **Stamina**: 40
 **Immunity**: Psychic 4
 **Speed**: 5
@@ -2518,7 +2522,8 @@ The cannonfall doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER HELIX
 
 **Level 3 Controller**
-Humanoid, Time Raider EV 17
+*Humanoid, Time Raider* 
+**EV 17**
 **Stamina**: 40
 **Immunity**: Psychic 4
 **Speed**: 5 (fly)
@@ -2553,7 +2558,8 @@ The helix doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER HIJACK
 
 **Level 3 Ambusher**
-Humanoid, Time Raider EV 20
+*Humanoid, Time Raider* 
+**EV 20**
 **Stamina**: 50
 **Immunity**: Psychic 5
 **Speed**: 6
@@ -2588,7 +2594,8 @@ The hijack doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER MIND PUNK
 
 **Level 3 Hexer**
-Humanoid, Time Raider EV 17
+*Humanoid, Time Raider* 
+**EV 17**
 **Stamina**: 40
 **Immunity**: Psychic 4
 **Speed**: 5
@@ -2627,7 +2634,8 @@ The mind punk doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER NEMESIS
 
 **Level 3 Harrier**
-Humanoid, Time Raider EV 19
+*Humanoid, Time Raider* 
+**EV 19**
 **Stamina**: 50
 **Immunity**: Psychic 5
 **Speed**: 7
@@ -2665,7 +2673,8 @@ The nemesis doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER VERTEX
 
 **Level 3 Support**
-Humanoid, Time Raider EV 19
+*Humanoid, Time Raider* 
+**EV 19**
 **Stamina**: 50
 **Immunity**: Psychic 5
 **Speed**: 5 (fly)
@@ -2706,7 +2715,8 @@ The vertex doesn’t take a bane on attacks against concealed creatures.
 #### TIME RAIDER TYRANNIS
 
 **Level 3 Boss**
-Humanoid, Time Raider EV 54
+*Humanoid, Time Raider* 
+**EV 54**
 **Stamina**: 120
 **Immunity**: Psychic 7
 **Speed**: 10 (fly, teleport)
@@ -2806,7 +2816,8 @@ At the start of any war dog’s turn, you can spend VP to activate one of the fo
 #### WAR DOG COMMANDO
 
 **Level 1 Ambusher Minion**
-Humanoid, War Dog EV 5
+*Humanoid, War Dog*
+**EV 5**
 **Stamina**: 8
 **Speed**: 5
 **Size**: 1M / Stability 0
@@ -2834,7 +2845,8 @@ When the commando dies, they explode, dealing 1d6 damage to each adjacent enemy.
 #### WAR DOG CONSCRIPT
 
 **Level 1 Harrier Minion**
-Humanoid, War Dog EV 4
+*Humanoid, War Dog*
+**EV 4**
 **Stamina**: 8
 **Speed**: 7
 **Size**: 1M / Stability 0
@@ -2862,7 +2874,8 @@ When the conscript dies, they explode, dealing 1d6 damage to each adjacent enemy
 #### WAR DOG SHARPSHOOTER
 
 **Level 1 Artillery Minion**
-Humanoid, War Dog EV 4
+*Humanoid, War Dog*
+**EV 4**
 **Stamina**: 8
 **Speed**: 7
 **Size**: 1M / Stability 0
@@ -2890,7 +2903,8 @@ When the sharpshooter dies, they explode, dealing 1d6 damage to each adjacent en
 #### WAR DOG TETHERITE
 
 **Level 1 Brute Minion**
-Humanoid, War Dog EV 6
+*Humanoid, War Dog*
+**EV 6**
 **Stamina**: 8
 **Speed**: 5
 **Size**: 1M / Stability 0
@@ -2920,7 +2934,8 @@ When the tetherite dies, they explode, dealing 1d6 damage to each adjacent enemy
 #### WAR DOG COGNIVITE
 
 **Level 1 Defender**
-Humanoid, War Dog EV 11
+*Humanoid, War Dog*
+**EV 11**
 **Stamina**: 25
 **Speed**: 5 (fly)
 **Size**: 1M / Stability 0
@@ -2959,7 +2974,8 @@ When the cognivite dies, they explode, dealing 1d6 damage to each adjacent enemy
 #### WAR DOG CRUCIBITE
 
 **Level 1 Artillery**
-Humanoid, War Dog EV 10
+*Humanoid, War Dog*
+**EV 10**
 **Stamina**: 15
 **Immunity**: Psychic 3
 **Speed**: 5
@@ -2995,7 +3011,8 @@ When the crucibite dies, they explode, dealing 1d6 damage to each adjacent enemy
 #### WAR DOG EVISCERITE
 
 **Level 1 Harrier**
-Humanoid, War Dog EV 10
+*Humanoid, War Dog*
+**EV 10**
 **Stamina**: 20
 **Speed**: 7
 **Size**: 1M / Stability 0
@@ -3029,7 +3046,8 @@ When the eviscerite dies, they explode, dealing 1d6 damage to each adjacent enem
 #### WAR DOG PORTALITE
 
 **Level 1 Ambusher**
-Humanoid, War Dog EV 11
+*Humanoid, War Dog*
+**EV 11**
 **Stamina**: 20
 **Speed**: 5 (teleport)
 **Size**: 1M / Stability 0
@@ -3070,7 +3088,8 @@ When the portalite dies, they explode, dealing 1d6 damage to each adjacent enemy
 #### WAR DOG AMALGAMITE
 
 **Level 2 Brute**
-Humanoid, War Dog EV 15
+*Humanoid, War Dog*
+**EV 15**
 **Stamina**: 35
 **Speed**: 5
 **Size**: 1M / Stability 0
@@ -3105,7 +3124,8 @@ When the amalgamite dies, they explode, dealing 1d6 damage to each adjacent enem
 #### WAR DOG PHOSPHORITE
 
 **Level 2 Hexer**
-Humanoid, War Dog EV 10
+*Humanoid, War Dog*
+**EV 10**
 **Stamina**: 20
 **Immunity**: Acid 3
 **Speed**: 5
@@ -3141,7 +3161,8 @@ When the phosphorite dies, they explode, dealing 1d6 damage to each adjacent ene
 #### WAR DOG SUBCOMMANDER
 
 **Level 2 Support**
-Humanoid, War Dog EV 12
+*Humanoid, War Dog*
+**EV 12**
 **Stamina**: 25
 **Speed**: 5
 **Size**: 1M / Stability 0
@@ -3178,7 +3199,8 @@ When the subcommander dies, they explode, dealing 1d6 damage to each adjacent en
 #### WAR DOG PESTILITE
 
 **Level 3 Controller**
-Humanoid, War Dog EV 13
+*Humanoid, War Dog*
+**EV 13**
 **Stamina**: 25
 **Immunity**: Poison 3
 **Speed**: 5
@@ -3213,7 +3235,8 @@ When the pestilite dies, they explode, dealing 1d6 damage to each adjacent enemy
 #### WAR DOG GROUND COMMANDER
 
 **Level 3 Boss**
-Humanoid, War Dog EV 36
+*Humanoid, War Dog*
+**EV 36**
 **Stamina**: 90
 **Speed**: 5
 **Size**: 1M / Stability 2

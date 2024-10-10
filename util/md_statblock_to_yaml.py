@@ -8,9 +8,9 @@ def parse_header(markdown_text):
     lines = markdown_text.strip().split('\n')
     for line in lines:
         line = line.strip()
-        if line.startswith('####'):
+        if re.match(r'^#{2,6}', line):
             name = line.lstrip('#').strip()
-            return name
+            return name.title()
     return None
 
 def parse_basic_stats(section_text):
@@ -30,7 +30,7 @@ def parse_basic_stats(section_text):
             match = re.match(r'\*\*Level (\d+) (.+)\*\*', line)
             if match:
                 level = int(match.group(1))
-                roles = match.group(2).split(',')
+                roles = match.group(2).split(' ')
                 roles = [role.strip() for role in roles]
                 data['level'] = level
                 data['roles'] = roles
@@ -56,7 +56,7 @@ def parse_basic_stats(section_text):
             if match:
                 key = match.group(1).strip().lower().replace(' ', '_')
                 value = match.group(2).strip()
-                if key in ['stamina', 'speed', 'free_strike']:
+                if key in ['stamina', 'free_strike']:
                     data[key] = int(value)
                 elif key == 'immunity' or key == 'immunities':
                     immunities = [s.strip() for s in value.split(',')]
@@ -205,11 +205,11 @@ def parse_ability(section_text):
                     if 'additional_effects' not in ability:
                         ability['additional_effects'] = []
                     ability['additional_effects'].append({'cost': cost, 'effect': additional_effect})
-                    continue  # We've already incremented i
+                    continue  # Already incremented i
             else:
-                # Tier lines may start with '- ✦', '- ★', '- ✸'
-                # Match lines like '- ✦ ≤11: description'
-                match = re.match(r'-\s*([✦★✸])\s*(.+?):\s*(.+)', line)
+                # Tier lines may start with '- ✦', '- ★', '- ✸', or '- ≤11:'
+                # Match lines like '- ✦ ≤11: description' or '- ≤11: description'
+                match = re.match(r'-\s*([✦★✸])?\s*(.+?):\s*(.+)', line)
                 if match:
                     symbol = match.group(1)
                     threshold = match.group(2).strip()
@@ -219,18 +219,18 @@ def parse_ability(section_text):
                     while i < len(lines) and not lines[i].strip().startswith('-'):
                         description += ' ' + lines[i].strip()
                         i += 1
-                    # Map symbol to tier
-                    if symbol == '✦':
+                    # Map threshold to tier
+                    if symbol == '✦' or '≤11' in threshold or '≤ 11' in threshold:
                         ability['t1'] = description
-                    elif symbol == '★':
+                    elif symbol == '★' or '12–16' in threshold or '12-16' in threshold:
                         ability['t2'] = description
-                    elif symbol == '✸':
+                    elif symbol == '✸' or '17+' in threshold:
                         ability['t3'] = description
                     else:
-                        # Unknown symbol, store as is
+                        # Store threshold and description as is
                         if 'tiers' not in ability:
                             ability['tiers'] = []
-                        ability['tiers'].append({'threshold': f"{symbol} {threshold}", 'description': description})
+                        ability['tiers'].append({'threshold': f"{threshold}", 'description': description})
                     continue  # Already incremented i
                 else:
                     # Maybe it's an additional effect without cost
@@ -298,138 +298,16 @@ def parse_markdown_statblock(markdown_text):
 
     return data
 
-def extract_statblocks(markdown_text):
+def process_markdown(markdown_text):
     """
-    Extracts statblocks from a markdown document.
+    Processes the markdown statblock and returns a YAML string.
 
     Args:
-        markdown_text (str): The markdown document as a string.
+        markdown_text (str): The markdown text of the statblock.
 
     Returns:
-        List[str]: A list of statblock texts.
+        str: The YAML representation of the statblock.
     """
-    # Split the document into lines
-    lines = markdown_text.split('\n')
-    statblocks = []
-    current_statblock = []
-    inside_statblock = False
-
-    # Define a regex pattern to match headers of various levels
-    header_pattern = re.compile(r'^(#{2,6})\s*(.+)$')
-
-    # Iterate over each line
-    for line in lines:
-        stripped_line = line.strip()
-
-        # Check if the line is a header
-        header_match = header_pattern.match(stripped_line)
-        if header_match:
-            header_level = len(header_match.group(1))
-            header_text = header_match.group(2).strip()
-
-            # Decide if this header indicates the start of a statblock
-            # You can adjust the header levels based on your document structure
-            if header_level >= 2:
-                # If we were inside a statblock, save it before starting a new one
-                if inside_statblock and current_statblock:
-                    statblocks.append('\n'.join(current_statblock))
-                    current_statblock = []
-
-                # Start a new statblock
-                inside_statblock = True
-                current_statblock.append(stripped_line)
-            else:
-                # Lower-level headers might be inside statblocks
-                if inside_statblock:
-                    current_statblock.append(stripped_line)
-        else:
-            if inside_statblock:
-                # Check for an empty line indicating the end of a statblock
-                if stripped_line == '' and current_statblock:
-                    # Append the collected statblock
-                    statblocks.append('\n'.join(current_statblock))
-                    current_statblock = []
-                    inside_statblock = False
-                else:
-                    current_statblock.append(line)
-
-    # Add the last statblock if the document ends without an empty line
-    if inside_statblock and current_statblock:
-        statblocks.append('\n'.join(current_statblock))
-
-    return statblocks
-
-def process_markdown(markdown_text):
     data = parse_markdown_statblock(markdown_text)
-    yaml_output = yaml.dump(data, sort_keys=False, allow_unicode=True)
-    return yaml_output
-
-# Example usage:
-markdown_text_test = """
-#### HUMAN BANDIT CHIEF
-
-**Level 3 Boss**
-*Human, Humanoid*
-**EV 54**
-**Stamina**: 120
-**Immunity**: Magic 2, Psionic 2
-**Speed**: 5
-**Size**: 1M / Stability 2
-**Free Strike**: 5
-
-- **Might** +2
-- **Agility** +2
-- **Reason** +2
-- **Intuition** +2
-- **Presence** +2
-
-**Whip & Magic Longsword (Action)** ◆ 2d10 + 2 ◆ Signature
-Keywords: Attack, Magic, Melee, Weapon
-Distance: Reach 1
-Target: Two enemies or objects
-
-- ✦ ≤11: 5 damage; pull 1
-- ★ 12–16: 9 damage; pull 2
-- ✸ 17+: 12 damage; pull 3
-  Effect: A target who is adjacent to the bandit chief after the attack is resolved takes 9 corruption damage.
-- **2 VP:** This ability targets three enemies or objects.
-
-**Kneel, Peasant! (Maneuver)**
-Keywords: Attack, Melee, Weapon
-Distance: Reach 1
-Target: One enemy or object
-
-- ✦ ≤11: Push 1
-- ★ 12–16: Push 2; prone
-- ✸ 17+: Push 3; prone
-- **2 VP:** This ability targets each enemy adjacent to the bandit chief.
-
-**Bloodstones (Triggered Action)**
-Keywords: Magic
-Distance: Self
-Target: Self
-Trigger: The bandit chief makes a power roll for an attack.
-Effect: The bandit chief takes 4 corruption damage and increases the result of the power roll by one tier.
-
-**End Effect**
-At the end of their turn, the bandit chief can take 5 damage to end one EoE effect affecting them. This damage can’t be reduced in any way.
-
-**Shoot! (Villain Action 1)**
-Keywords: Area
-Distance: 10 burst
-Target: Each ally
-Effect: Each target can make a ranged free strike.
-
-**Form Up! (Villain Action 2)**
-Keywords: Area
-Distance: 10 burst
-Target: Each ally
-Effect: Each target shifts up to their speed. Until the end of the encounter, any enemy takes a bane on attacks against the bandit chief or any of the bandit chief’s allies if they are adjacent to that target.
-
-**Lead From the Front (Villain Action 3)**
-Keywords: Attack, Weapon
-Distance: Self
-Target: Self
-Effect: The bandit chief shifts twice their speed. During or after this movement, they can attack up to four targets with Whip & Magic Longsword. Any ally of the bandit chief adjacent to a target can make a free strike against that target.
-"""
-
+    yaml_string = yaml.dump(data, sort_keys=False, allow_unicode=True)
+    return yaml_string
