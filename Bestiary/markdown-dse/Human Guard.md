@@ -1,9 +1,9 @@
 # Human Guard
 
-~~~ds-statblock
-name: Human Guard
+```ds-statblock
+name: [[Human]] Guard
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Brute
@@ -35,4 +35,4 @@ abilities:
   distance: Reach 2
   target: One creature or object per minion
 
-~~~
+```

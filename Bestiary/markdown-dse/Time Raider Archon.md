@@ -1,10 +1,10 @@
 # Time Raider Archon
 
-~~~ds-statblock
-name: Time Raider Archon
+```ds-statblock
+name: [[Time Raider]] Archon
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Harrier
 - Minion
@@ -26,4 +26,4 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
 
-~~~
+```

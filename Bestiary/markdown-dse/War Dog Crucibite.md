@@ -1,6 +1,6 @@
 # War Dog Crucibite
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Crucibite
 ancestry:
 - Humanoid
@@ -28,4 +28,4 @@ abilities:
 - name: Posthumous Promotion
   type: Maneuver
 
-~~~
+```

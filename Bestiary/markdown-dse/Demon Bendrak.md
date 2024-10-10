@@ -1,6 +1,6 @@
 # Demon Bendrak
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Bendrak
 ancestry:
 - Demon
@@ -48,4 +48,4 @@ abilities:
   effect: The target immediately becomes hidden, regardless of whether they have cover
     or concealment.
 
-~~~
+```

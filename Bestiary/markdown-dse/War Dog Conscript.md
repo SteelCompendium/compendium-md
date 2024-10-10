@@ -1,6 +1,6 @@
 # War Dog Conscript
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Conscript
 ancestry:
 - Humanoid
@@ -25,4 +25,4 @@ abilities:
   roll: 2d10 + 1
   cost: Signature
 
-~~~
+```

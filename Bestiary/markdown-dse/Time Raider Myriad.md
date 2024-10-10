@@ -1,10 +1,10 @@
 # Time Raider Myriad
 
-~~~ds-statblock
-name: Time Raider Myriad
+```ds-statblock
+name: [[Time Raider]] Myriad
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Brute
 - Minion
@@ -26,4 +26,4 @@ abilities:
   roll: 2d10 + 2
   cost: Signature
 
-~~~
+```

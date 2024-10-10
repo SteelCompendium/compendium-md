@@ -7,7 +7,7 @@
 **Weakness**: Holy 3
 **Speed**: 5
 **Size**: 1S / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might** +0
 - **Agility** +1

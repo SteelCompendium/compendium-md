@@ -1,6 +1,6 @@
 # Radenwight Bruxer
 
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Bruxer
 ancestry:
 - Humanoid
@@ -46,6 +46,6 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The bruxer makes a free strike against the target.
+  effect: The bruxer makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

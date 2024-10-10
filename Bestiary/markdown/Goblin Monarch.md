@@ -6,7 +6,7 @@
 **Stamina**: 50
 **Speed**: 6 (climb)
 **Size**: 1S / Stability 1
-**Free Strike**: 3
+**[[Free Strike]]**: 3
 
 - **Might** +2
 - **Agility** +1
@@ -22,7 +22,7 @@ Target: Two creatures or objects
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 7 damage
-  Effect: An ally within 10 squares of the monarch can make a free strike.
+  Effect: An ally within 10 squares of the monarch can make a [[Free Strike|free strike]].
 
 **Get in Here (Maneuver)** ◆ 1 VP
 Keywords: Ranged
@@ -47,7 +47,7 @@ The monarch doesn’t provoke opportunity attacks by moving.
 Keywords: Area
 Distance: 10 burst
 Target: Each ally
-Effect: Each target can move up to their speed or make a free strike.
+Effect: Each target can move up to their speed or make a [[Free Strike|free strike]].
 
 **Focus Fire (Villain Action 2)**
 Keywords: Ranged
@@ -59,4 +59,4 @@ Effect: Each ally within 10 squares of the enemy can move up to their speed towa
 Keywords: Area
 Distance: 10 burst
 Target: Each ally
-Effect: Each target can make a free strike that deals an extra 1 damage.
+Effect: Each target can make a [[Free Strike|free strike]] that deals an extra 1 damage.

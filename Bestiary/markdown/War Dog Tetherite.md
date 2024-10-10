@@ -6,7 +6,7 @@
 **Stamina**: 8
 **Speed**: 5
 **Size**: 1M / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might**: +1
 - **Agility**: +0
@@ -15,9 +15,10 @@
 - **Presence**: +0
 
 **Daggers (Action)** ◆ 2d10 + 1 ◆ Signature
-**Keywords**: Attack, Melee, Weapon
-**Distance**: Reach 2
-**Target**: One creature or object per minion
+
+| **Keywords:** Attack, Melee, Weapon | **Type:**                                     |
+| :---------------------------------- | :-------------------------------------------- |
+| **Distance:** Reach 2               | **Target:** One creature or object per minion |
 
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage

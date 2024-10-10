@@ -1,6 +1,6 @@
 # Goblin Runner
 
-~~~ds-statblock
+```ds-statblock
 name: Goblin Runner
 ancestry:
 - Goblin
@@ -28,10 +28,10 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Weapon
   distance: Reach 1
   target: One creature or object per minion
 
-~~~
+```

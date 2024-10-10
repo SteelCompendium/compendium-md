@@ -6,7 +6,7 @@
 **Stamina**: 20
 **Speed**: 6 (climb)
 **Size**: 1S / Stability 0
-**Free Strike**: 3
+**[[Free Strike]]**: 3
 
 - **Might** −2
 - **Agility** +1
@@ -29,12 +29,12 @@ Keywords: Magic, Ranged, Resistance
 Distance: Ranged 10
 Target: Three creatures
 
-- ✸ ≤11: 7 corruption damage; restrained (AGL ends)
-- ★ 12–16: 5 corruption damage; restrained (EoT)
+- ✸ ≤11: 7 corruption damage; [[Restrained|restrained]] (AGL ends)
+- ★ 12–16: 5 corruption damage; [[Restrained|restrained]] (EoT)
 - ✦ 17+: 3 corruption damage
 
 **Crafty**
 The assassin doesn’t provoke opportunity attacks by moving.
 
-**Hide While Observed**
-The assassin can take the Hide maneuver even while observed, though they still must have cover or concealment.
+**[[Hide]] While Observed**
+The assassin can take the [[Hide]] maneuver even while observed, though they still must have cover or concealment.

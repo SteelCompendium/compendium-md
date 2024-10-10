@@ -1,6 +1,6 @@
 # Demon Ruinant
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Ruinant
 ancestry:
 - Demon
@@ -48,4 +48,4 @@ abilities:
   distance: Ranged 10
   target: Three creatures without full Stamina
 
-~~~
+```

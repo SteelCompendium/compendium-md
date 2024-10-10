@@ -1,6 +1,6 @@
 # War Dog Phosphorite
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Phosphorite
 ancestry:
 - Humanoid
@@ -25,4 +25,4 @@ abilities:
 - name: Posthumous Promotion
   type: Maneuver
 
-~~~
+```

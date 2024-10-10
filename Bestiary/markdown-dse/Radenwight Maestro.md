@@ -1,6 +1,6 @@
 # Radenwight Maestro
 
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Maestro
 ancestry:
 - Humanoid
@@ -49,7 +49,7 @@ abilities:
   distance: Ranged 10
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The maestro makes a free strike against the target.
+  effect: The maestro makes a [[Free Strike|free strike]] against the target.
 - name: Overture
   type: Villain Action
   cost: 1 VP
@@ -57,7 +57,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target shifts up to their speed or takes the Defend action.
+  effect: Each target shifts up to their speed or takes the [[Defend]] action.
 - name: Solo Act
   type: Villain Action
   cost: 2 VP
@@ -75,8 +75,8 @@ abilities:
   - Area
   distance: 10 burst
   target: Each dead ally
-  effect: Each target stands, makes a free strike, then collapses again. Allies of
+  effect: Each target stands, makes a [[Free Strike|free strike]], then collapses again. Allies of
     the targets can use Ready Rodent as a free triggered action once in conjunction
     with these free strikes.
 
-~~~
+```

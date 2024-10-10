@@ -1,9 +1,9 @@
 # Human Raider
 
-~~~ds-statblock
-name: Human Raider
+```ds-statblock
+name: [[Human]] [[Raider]]
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Harrier
@@ -30,11 +30,11 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Ranged
   - Weapon
   distance: Reach 1 or Ranged 5
   target: One creature or object per minion
 
-~~~
+```

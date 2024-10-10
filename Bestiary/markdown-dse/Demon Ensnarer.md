@@ -1,6 +1,6 @@
 # Demon Ensnarer
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Ensnarer
 ancestry:
 - Demon
@@ -33,4 +33,4 @@ abilities:
   distance: Reach 3
   target: One creature or object per minion
 
-~~~
+```

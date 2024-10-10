@@ -1,7 +1,10 @@
 export PATH := "./node_modules/.bin:" + env_var('PATH')
 
 generate:
+    # Convert the Rules markdown to html so it can be parsed with xpath
     just generate_html_pandoc
+
+    # Generate sections from the Rules html
     just generate_abilities
     just generate_movement
     just generate_kits
@@ -13,9 +16,16 @@ generate:
     just generate_skills
     just generate_negotiation
 
+    # Generate Bestiary files
+    just generate_bestiary
+
+    # Rewrite keyword-type-distance-target data to markdown tables
     just format_ability_tables
+
+    # Linting and formatting of markdown
     just format_markdown
 
+    # link up all the files with obsidian-style links
     just auto_link
 
 generate_html_pandoc:
@@ -230,11 +240,3 @@ generate_bestiary:
     echo >&2 "[JUST] --- Generating Bestiary --- "
     rm -rf "../Bestiary"
     python3 extract_statblocks.py "../Rules/Draw Steel Bestiary.md"
-
-# This was parsing markdown into json, but it doesnt work too well...
-format_bestiary:
-    #!/usr/bin/env bash
-    set -euo pipefail
-    rm -rf "../Bestiary"
-    mkdir "../Bestiary"
-    python3 format_bestiary4.py

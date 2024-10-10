@@ -1,9 +1,9 @@
 # Human Blackguard
 
-~~~ds-statblock
-name: Human Blackguard
+```ds-statblock
+name: [[Human]] Blackguard
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Boss
@@ -46,7 +46,7 @@ abilities:
   effect: The target is marked until the start of the blackguard’s next turn. The
     blackguard and each of their allies gain an edge on attacks against any target
     marked by the blackguard, and such attacks deal an extra 2 damage.
-- name: Parry!
+- name: [[Parry]]!
   type: Triggered Action
   keywords:
   - Melee
@@ -86,6 +86,6 @@ abilities:
   target: Each enemy in the cube
   effect: The blackguard makes a Zweihander attack against each enemy in the area,
     making one power roll against all targets. Additionally, each ally within 5 squares
-    of the area can make a free strike against any enemy in the area.
+    of the area can make a [[Free Strike|free strike]] against any enemy in the area.
 
-~~~
+```

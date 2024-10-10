@@ -1,6 +1,6 @@
 # Goblin Warrior
 
-~~~ds-statblock
+```ds-statblock
 name: Goblin Warrior
 ancestry:
 - Goblin
@@ -27,7 +27,7 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Weapon
   distance: Reach 1
@@ -43,4 +43,4 @@ abilities:
   distance: Reach 1
   target: One creature
 
-~~~
+```

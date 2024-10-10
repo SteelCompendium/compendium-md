@@ -157,7 +157,7 @@ Once inside the hold, the heroes can search it. Any hero who succeeds on a mediu
 
 ### MOVING ON
 
-If the heroes find out what’s in the hold, don’t give them time to react. Start Act 2 and the pirate attack immediately.
+If the heroes find out what’s in the hold, don’t give them time to react. Start Act 2 and the [[Pirate Attack|pirate attack]] immediately.
 
 If the heroes don’t engage with the mystery of the hold, move on to Act 2 whenever you like.
 
@@ -177,7 +177,7 @@ _Another ship sails dangerously close to the Revelation, its crew gleefully load
 
 _Two gangplanks are lowered between the ships, a ragtag group of raiders sprinting across to terrorize [[Frightened|frightened]] passengers attempting to flee the deck._
 
-Use the Pirate Attack Map for this encounter.
+Use the [[Pirate Attack]] Map for this encounter.
 
 Three groups of [[Human|human]] pirates have crossed the gangplanks by the time the characters arrive on the scene: a scoundrel captain and two guards, a brawler captain and two raiders, and three archers. The pirates want the passengers’ valuables, not their lives, but they’re not above using [[Human|human]] shields or gravely wounding innocents if the heroes take them on.
 
@@ -287,10 +287,10 @@ The Revelation (or the flotilla of lifeboats that hold her crew and passengers) 
 
 Even as the heroes and Captain Oriel step onto the docks alongside the ship’s passengers and crew, two Hawklords serving Ajax the Invincible drop from the sky to confront them. They are:
 
-- **Coriad**, a [[Human|human]] trickshot atop a giant hawk
-- **Tyria**, a [[Human|human]] brawler atop a giant hawk
+- **Coriad**, a [[Human|human]] trickshot atop a [[Giant Hawk|giant hawk]]
+- **Tyria**, a [[Human|human]] brawler atop a [[Giant Hawk|giant hawk]]
 
-Coriad and Tyria both caught sight of the Revelation’s misfortune while on patrol above the city, though they were unable to reach the ship during the pirate attack. After ensuring that everyone is safe, they demand an explanation.
+Coriad and Tyria both caught sight of the Revelation’s misfortune while on patrol above the city, though they were unable to reach the ship during the [[Pirate Attack|pirate attack]]. After ensuring that everyone is safe, they demand an explanation.
 
 *Two humans riding giant hawks fitted with saddles and bridles descend to the docks as you arrive. Concern is etched on their faces as they see the damaged ship. “Is everyone safe? We can help with the wounded. And what happened here?” These are Hawklords, the elite guards of Ajax the Invincible, and agents of the Overlord’s authority.*
 

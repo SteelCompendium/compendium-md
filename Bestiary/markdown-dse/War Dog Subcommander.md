@@ -1,6 +1,6 @@
 # War Dog Subcommander
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Subcommander
 ancestry:
 - Humanoid
@@ -28,4 +28,4 @@ abilities:
 - name: Posthumous Promotion
   type: Maneuver
 
-~~~
+```

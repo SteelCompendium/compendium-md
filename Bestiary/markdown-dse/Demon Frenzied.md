@@ -1,6 +1,6 @@
 # Demon Frenzied
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Frenzied
 ancestry:
 - Demon
@@ -28,10 +28,10 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Weapon
   distance: Reach 1
   target: One creature or object per minion
 
-~~~
+```

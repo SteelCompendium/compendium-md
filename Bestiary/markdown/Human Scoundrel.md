@@ -1,13 +1,13 @@
 #### HUMAN SCOUNDREL
 
 **Level 1 Ambusher**
-*Human, Humanoid*
+*[[Human]], Humanoid*
 **EV 14**
 **Stamina**: 30
 **Immunity**: Magic 2, Psionic 2
 **Speed**: 5
 **Size**: 1M / Stability 0
-**Free Strike**: 4
+**[[Free Strike]]**: 4
 
 - **Might** +0
 - **Agility** +1

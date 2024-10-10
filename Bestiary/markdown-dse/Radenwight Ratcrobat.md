@@ -1,6 +1,6 @@
 # Radenwight Ratcrobat
 
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Ratcrobat
 ancestry:
 - Humanoid
@@ -47,6 +47,6 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The ratcrobat makes a free strike against the target.
+  effect: The ratcrobat makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```

@@ -1,13 +1,13 @@
 #### HUMAN GUARD
 
 **Level 1 Brute Minion**
-*Human, Humanoid*
+*[[Human]], Humanoid*
 **EV 6**
 **Stamina**: 12
 **Immunity**: Magic 2, Psionic 2
 **Speed**: 5
 **Size**: 1M / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might** +1
 - **Agility** +0

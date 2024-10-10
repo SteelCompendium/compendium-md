@@ -1,9 +1,9 @@
 # Human Death Cultist
 
-~~~ds-statblock
-name: Human Death Cultist
+```ds-statblock
+name: [[Human]] Death Cultist
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Support
@@ -46,4 +46,4 @@ abilities:
     end of the encounter or if the death cultist is killed. If the target dies a second
     time, they can be brought back to life by this ability again.
 
-~~~
+```

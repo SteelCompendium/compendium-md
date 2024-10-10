@@ -6,7 +6,7 @@
 **Stamina**: 5
 **Speed**: 5 (climb)
 **Size**: 1S / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might** −2
 - **Agility** +1
@@ -22,7 +22,7 @@ Target: One creature or object per minion
 - ✦ ≤11: 2 damage
 - ★ 12–16: 4 damage
 - ✸ 17+: 5 damage
-  Effect: If the sniper doesn’t use a maneuver or a move action this turn, the ability deals an extra 2 damage.
+  Effect: If the [[Sniper|sniper]] doesn’t use a maneuver or a move action this turn, the ability deals an extra 2 damage.
 
 **Crafty**
-The sniper doesn’t provoke opportunity attacks by moving.
+The [[Sniper|sniper]] doesn’t provoke opportunity attacks by moving.

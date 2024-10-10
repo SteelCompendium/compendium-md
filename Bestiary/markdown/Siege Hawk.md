@@ -6,7 +6,7 @@
 **Stamina**: 60
 **Speed**: 7 (flying)
 **Size**: 3 / Stability 0
-**Free Strike**: 4
+**[[Free Strike]]**: 4
 
 - **Might** +1
 - **Agility** +1
@@ -22,15 +22,15 @@ Target: Two creatures or objects
 - ✦ ≤11: 4 damage
 - ★ 12–16: 7 damage
 - ✸ 17+: 10 damage
-  Effect: The target is grabbed by the siege hawk. The siege hawk can have two targets grabbed at a time.
+  Effect: The target is [[Grabbed|grabbed]] by the siege hawk. The siege hawk can have two targets [[Grabbed|grabbed]] at a time.
 
 **Bombs Away! (Action)** ◆ AGL RR ◆ 7 VP
 Keywords: Area, Magic, Ranged, Resistance
 Distance: 5 cube within 10
 Target: Each creature and object
 
-- ✸ ≤11: 7 fire damage; restrained (EoT)
-- ★ 12–16: 6 fire damage; slowed (EoT)
+- ✸ ≤11: 7 fire damage; [[Restrained|restrained]] (EoT)
+- ★ 12–16: 6 fire damage; [[Slowed|slowed]] (EoT)
 - ✦ 17+: 3 fire damage
   Special: The siege hawk must be flying to use this ability.
 
@@ -38,7 +38,7 @@ Target: Each creature and object
 The hawk moves up to their speed.
 
 **Mounted Platform**
-Any creature riding the hawk can make a free strike during or after the hawk’s movement.
+Any creature riding the hawk can make a [[Free Strike|free strike]] during or after the hawk’s movement.
 
 ## RADENWIGHTS
 
@@ -71,12 +71,12 @@ Distance: Reach 1
 Target: One creature
 
 - ✦ ≤11: 5 damage; push 3
-- ★ 12–16: 10 damage; push 3; taunted (EoT)
-- ✸ 17+: 12 damage; push 3; taunted (REA ends)
+- ★ 12–16: 10 damage; push 3; [[Taunted|taunted]] (EoT)
+- ✸ 17+: 12 damage; push 3; [[Taunted|taunted]] (REA ends)
   Effect: If a target is wearing clothing covering the lower half of their body, they must use a maneuver to pull that clothing up before they can move.
 
 **Rat Race (5 VP)**
-Each radenwight shifts up to their speed. Wherever a radenwight ends this movement adjacent to at least one other radenwight, they can make a melee free strike against a target.
+Each radenwight shifts up to their speed. Wherever a radenwight ends this movement adjacent to at least one other radenwight, they can make a melee [[Free Strike|free strike]] against a target.
 
 **Wall of Rats (7 VP)**
 A 10-foot wall of living rats scurrying atop one another in a coordinated manner appears in unoccupied spaces anywhere on the encounter map and lasts until the end of the encounter. The wall doesn’t block line of effect for radenwights and their allies, but it does for other creatures, as the rats coordinate their movements with the radenwights. Each square of the wall has 10 Stamina. If the last radenwight in the encounter dies and the wall is still standing, the rats let out a hideous screech as they disperse. Each enemy on the encounter map must then make an Intuition resistance roll.

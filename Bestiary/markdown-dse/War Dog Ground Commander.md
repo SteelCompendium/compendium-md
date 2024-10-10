@@ -1,6 +1,6 @@
 # War Dog Ground Commander
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Ground Commander
 ancestry:
 - Humanoid
@@ -37,4 +37,4 @@ abilities:
   type: Villain Action
   cost: 3 VP
 
-~~~
+```

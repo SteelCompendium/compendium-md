@@ -1,6 +1,6 @@
 # War Dog Sharpshooter
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Sharpshooter
 ancestry:
 - Humanoid
@@ -25,4 +25,4 @@ abilities:
   roll: 2d10 + 1
   cost: Signature
 
-~~~
+```

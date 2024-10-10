@@ -1,6 +1,6 @@
 # War Dog Eviscerite
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Eviscerite
 ancestry:
 - Humanoid
@@ -26,4 +26,4 @@ abilities:
 - name: Posthumous Promotion
   type: Maneuver
 
-~~~
+```

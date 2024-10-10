@@ -1,10 +1,10 @@
 # Time Raider Vertex
 
-~~~ds-statblock
-name: Time Raider Vertex
+```ds-statblock
+name: [[Time Raider]] Vertex
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Support
 level: 3
@@ -12,7 +12,7 @@ ev: 19
 stamina: 50
 immunities:
 - Psychic 5
-speed: 5 (fly)
+speed: 5 ([[Fly|fly]])
 size: '2'
 stability: 3
 free_strike: 5
@@ -30,4 +30,4 @@ abilities:
 - name: Invigorated March
   type: Maneuver
 
-~~~
+```

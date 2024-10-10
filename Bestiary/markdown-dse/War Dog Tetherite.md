@@ -1,6 +1,6 @@
 # War Dog Tetherite
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Tetherite
 ancestry:
 - Humanoid
@@ -28,4 +28,4 @@ abilities:
   roll: 2d10 + 1
   cost: Signature
 
-~~~
+```

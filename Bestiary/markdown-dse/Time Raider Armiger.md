@@ -1,10 +1,10 @@
 # Time Raider Armiger
 
-~~~ds-statblock
-name: Time Raider Armiger
+```ds-statblock
+name: [[Time Raider]] Armiger
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Defender
 level: 3
@@ -20,8 +20,8 @@ traits:
 - name: Foresight
   effect: The armiger doesn’t take a bane on attacks against concealed creatures.
 - name: Kuran’zoi Heraldry
-  effect: While any time raider starts their turn with line of effect to the armiger,
-    that time raider can end one condition affecting them.
+  effect: While any [[Time Raider|time raider]] starts their turn with line of effect to the armiger,
+    that [[Time Raider|time raider]] can end one condition affecting them.
 abilities:
 - name: Serrated Saber
   type: Action
@@ -31,4 +31,4 @@ abilities:
   type: Triggered Action
   roll: REA RR
 
-~~~
+```

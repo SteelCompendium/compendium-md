@@ -1,9 +1,9 @@
 # Human Trickshot
 
-~~~ds-statblock
-name: Human Trickshot
+```ds-statblock
+name: [[Human]] Trickshot
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Artillery
@@ -34,4 +34,4 @@ abilities:
   distance: Ranged 15
   target: One creature or object
 
-~~~
+```

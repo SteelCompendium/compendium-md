@@ -7,7 +7,7 @@
 **Weakness**: Holy 3
 **Speed**: 5
 **Size**: 1M / Stability 2
-**Free Strike**: 4
+**[[Free Strike]]**: 4
 
 - **Might** +2
 - **Agility** +2
@@ -21,8 +21,8 @@ Distance: 5 burst
 Target: Each enemy
 
 - ✦ ≤11: 3 psychic damage
-- ★ 12–16: 5 psychic damage; slowed (EoT)
-- ✸ 17+: 7 psychic damage; slowed (INU ends)
+- ★ 12–16: 5 psychic damage; [[Slowed|slowed]] (EoT)
+- ✸ 17+: 7 psychic damage; [[Slowed|slowed]] (INU ends)
   Effect: An ally within 10 squares of the chorogaunt can shift up to their speed.
 
 **Chaotic Entrancing Harmony (Maneuver)**
@@ -51,7 +51,7 @@ Each creature within 2 squares of the chorogaunt can’t be hidden from them.
 Keywords: Ranged
 Distance: Ranged 10
 Target: Three enemies
-Effect: Each target either takes 5 psychic damage or is frightened of the chorogaunt (EoT). Each target gets to choose which to do.
+Effect: Each target either takes 5 psychic damage or is [[Frightened|frightened]] of the chorogaunt (EoT). Each target gets to choose which to do.
 
 **Bully the Weak (Villain Action 2)**
 Keywords: Magic, Ranged
@@ -77,7 +77,7 @@ Whether within a society or living in exile, goblins survive and thrive because 
 
 ### MOBILE AND SNEAKY
 
-Short, lithe, and long-armed, goblins are built for mobility, stealth, and climbing. Goblins who dwell in untamed wilderness and twisting caves utilize their natural agility to hide from threats and flee when found. These crafty skirmishers might run wild through battle, hacking at their enemies’ knees, or unleash arrows as they dart from tree to tree.
+Short, lithe, and long-armed, goblins are built for mobility, stealth, and climbing. Goblins who dwell in untamed wilderness and twisting caves utilize their natural agility to [[Hide|hide]] from threats and flee when found. These crafty skirmishers might run wild through battle, hacking at their enemies’ knees, or unleash arrows as they dart from tree to tree.
 
 ### GOBLIN MAGIC
 
@@ -85,11 +85,11 @@ Some exiled goblins forge pacts with evil entities for magical power, including 
 
 ### SKITTERLING
 
-A six-legged winged rodent the size of a housecat, a skitterling moves their clawed feet as they fly, making them appear to scurry through the air. Goblins train these pets to claw at the faces of enemies, as their feet secrete a toxin that causes temporary sluggishness.
+A six-legged winged rodent the size of a housecat, a [[Skitterling|skitterling]] moves their clawed feet as they [[Fly|fly]], making them appear to scurry through the air. Goblins train these pets to claw at the faces of enemies, as their feet secrete a toxin that causes temporary sluggishness.
 
 ### WAR SPIDER
 
-Goblins ride enormous arachnids as mounts in battle. With blades attached to their legs, a war spider cuts a swath through enemy forces while archers fire from atop a platform on the beast’s back. During a raid, a spider arches their body to launch warriors off their back and into the fray.
+Goblins ride enormous arachnids as mounts in battle. With blades attached to their legs, a [[War Spider|war spider]] cuts a swath through enemy forces while archers fire from atop a platform on the beast’s back. During a raid, a spider arches their body to launch warriors off their back and into the fray.
 
 ### WARG
 
@@ -107,7 +107,7 @@ At the start of any goblin’s turn, you can spend VP to activate one of the fol
 
 - **Tiny Stabs (5 VP):** Each enemy in the encounter takes 1 damage for each goblin who is adjacent to them.
 
-- **Swamp Stink (7 VP):** The encounter map becomes covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map become difficult terrain for non-goblins, and each non-goblin on the map must make a Might resistance roll.
+- **Swamp Stink (7 VP):** The encounter map becomes covered in a green mist that lasts until the end of the round, and which can’t be dispersed by wind. All areas of the map become [[Difficult Terrain|difficult terrain]] for non-goblins, and each non-goblin on the map must make a Might resistance roll.
 
   - ✦ ≤11: 5 poison; weakened until mist disappears
   - ★ 12–16: Weakened until mist disappears

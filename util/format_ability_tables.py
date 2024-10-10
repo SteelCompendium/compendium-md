@@ -2,6 +2,8 @@ import os
 import re
 import sys
 
+# This file converts the keyword, type, distance, target data of abilities into markdown tables
+
 def find_markdown_files(directory):
     """Find all markdown files in a given directory."""
     markdown_files = []

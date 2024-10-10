@@ -1,10 +1,10 @@
 # Time Raider Cannonfall
 
-~~~ds-statblock
-name: Time Raider Cannonfall
+```ds-statblock
+name: [[Time Raider]] Cannonfall
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Artillery
 level: 3
@@ -27,4 +27,4 @@ abilities:
 - name: Buss Buffer
   type: Triggered Action
 
-~~~
+```

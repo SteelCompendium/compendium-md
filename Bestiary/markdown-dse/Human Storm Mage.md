@@ -1,9 +1,9 @@
 # Human Storm Mage
 
-~~~ds-statblock
-name: Human Storm Mage
+```ds-statblock
+name: [[Human]] Storm Mage
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Controller
@@ -49,4 +49,4 @@ abilities:
   distance: 5 cube within 1
   target: Each creature and object
 
-~~~
+```

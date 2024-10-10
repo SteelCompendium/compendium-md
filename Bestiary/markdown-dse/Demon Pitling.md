@@ -1,6 +1,6 @@
 # Demon Pitling
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Pitling
 ancestry:
 - Demon
@@ -12,7 +12,7 @@ level: 1
 ev: 2
 stamina: 4
 weakness: Holy 3
-speed: 5 (fly)
+speed: 5 ([[Fly|fly]])
 size: 1T
 stability: 0
 free_strike: 2
@@ -35,4 +35,4 @@ abilities:
   distance: Ranged 10
   target: One creature or object per minion
 
-~~~
+```

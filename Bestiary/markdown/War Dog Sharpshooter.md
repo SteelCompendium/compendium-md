@@ -6,7 +6,7 @@
 **Stamina**: 8
 **Speed**: 7
 **Size**: 1M / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might**: +0
 - **Agility**: +1
@@ -15,9 +15,10 @@
 - **Presence**: +0
 
 **Bolt Launcher (Action)** ◆ 2d10 + 1 ◆ Signature
-**Keywords**: Attack, Ranged, Weapon
-**Distance**: Ranged 5
-**Target**: One creature or object per minion
+
+| **Keywords:** Attack, Ranged, Weapon | **Type:**                                     |
+| :----------------------------------- | :-------------------------------------------- |
+| **Distance:** Ranged 5               | **Target:** One creature or object per minion |
 
 - ✦ ≤11: 2 damage
 - ★ 12–16: 3 damage

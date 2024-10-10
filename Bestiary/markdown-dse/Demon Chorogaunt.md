@@ -1,6 +1,6 @@
 # Demon Chorogaunt
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Chorogaunt
 ancestry:
 - Demon
@@ -63,7 +63,7 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Three enemies
-  effect: Each target either takes 5 psychic damage or is frightened of the chorogaunt
+  effect: Each target either takes 5 psychic damage or is [[Frightened|frightened]] of the chorogaunt
     (EoT). Each target gets to choose which to do.
 - name: Bully the Weak
   type: Villain Action
@@ -85,4 +85,4 @@ abilities:
   effect: The chorogaunt shifts up to their speed, makes an Agonizing Harmony attack,
     shifts up to their speed, and makes a second Agonizing Harmony attack.
 
-~~~
+```

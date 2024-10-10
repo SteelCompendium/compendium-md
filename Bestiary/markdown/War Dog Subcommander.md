@@ -6,7 +6,7 @@
 **Stamina**: 25
 **Speed**: 5
 **Size**: 1M / Stability 0
-**Free Strike**: 3
+**[[Free Strike]]**: 3
 
 - **Might**: +1
 - **Agility**: +0
@@ -15,19 +15,18 @@
 - **Presence**: +0
 
 **Command Saber (Action)** ◆ 2d10 + 1 ◆ Signature
-**Keywords**: Attack, Melee, Weapon
-**Distance**: Reach 1
-**Target**: One creature or object
+
+| **Keywords:** Magic, Ranged | **Type:**                                     |
+| :-------------------------- | :-------------------------------------------- |
+| **Distance:** Ranged 10     | **Target:** One war dog with a loyalty collar |
 
 - ✦ ≤11: 3 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 7 damage
-  **Effect**: One ally of the subcommander within 5 squares of them can make a free strike against the target.
+  **Effect**: One ally of the subcommander within 5 squares of them can make a [[Free Strike|free strike]] against the target.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged
-**Distance**: Ranged 10
-**Target**: One war dog with a loyalty collar
+
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **The Iron Saint Does Not Recognize Retreat**

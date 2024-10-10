@@ -1,10 +1,10 @@
 # Time Raider Hijack
 
-~~~ds-statblock
-name: Time Raider Hijack
+```ds-statblock
+name: [[Time Raider]] Hijack
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Ambusher
 level: 3
@@ -27,4 +27,4 @@ abilities:
 - name: Psi-Sickle
   type: Maneuver
 
-~~~
+```

@@ -1,9 +1,9 @@
 # Human Archer
 
-~~~ds-statblock
-name: Human Archer
+```ds-statblock
+name: [[Human]] Archer
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Artillery
@@ -35,4 +35,4 @@ abilities:
   distance: Ranged 10
   target: One creature or object per minion
 
-~~~
+```

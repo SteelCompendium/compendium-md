@@ -6,7 +6,7 @@
 **Stamina**: 20
 **Speed**: 5 (climb)
 **Size**: 1S / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might** −1
 - **Agility** +1
@@ -22,7 +22,7 @@ Target: One creature or object
 - ✦ ≤11: 2 damage
 - ★ 12–16: 5 damage
 - ✸ 17+: 6 damage
-  Effect: One ally of the underboss adjacent to the target can make a free strike against them.
+  Effect: One ally of the underboss adjacent to the target can make a [[Free Strike|free strike]] against them.
 
 **Get Reckless! (Maneuver)**
 Keywords: Ranged

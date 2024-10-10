@@ -1,6 +1,6 @@
 # Goblin Underboss
 
-~~~ds-statblock
+```ds-statblock
 name: Goblin Underboss
 ancestry:
 - Goblin
@@ -40,4 +40,4 @@ abilities:
   effect: Until the start of the underboss’s next turn, each target gains an edge
     on attacks, and attacks against them gain an edge.
 
-~~~
+```

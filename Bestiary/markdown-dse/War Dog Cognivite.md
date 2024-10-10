@@ -1,6 +1,6 @@
 # War Dog Cognivite
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Cognivite
 ancestry:
 - Humanoid
@@ -10,7 +10,7 @@ roles:
 level: 1
 ev: 11
 stamina: 25
-speed: 5 (fly)
+speed: 5 ([[Fly|fly]])
 size: 1M
 stability: 0
 free_strike: 2
@@ -27,4 +27,4 @@ abilities:
   type: Maneuver
 - name: The Voice (Maneuver) ◆ 1 VP
 
-~~~
+```

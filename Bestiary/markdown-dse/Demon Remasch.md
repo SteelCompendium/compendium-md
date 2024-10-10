@@ -1,6 +1,6 @@
 # Demon Remasch
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Remasch
 ancestry:
 - Demon
@@ -11,7 +11,7 @@ level: 2
 ev: 13
 stamina: 25
 weakness: Holy 3
-speed: 5 (teleport)
+speed: 5 ([[Teleport|teleport]])
 size: 1S
 stability: 0
 free_strike: 3
@@ -45,6 +45,6 @@ abilities:
   - Ranged
   distance: Ranged 10
   target: Self
-  effect: The remasch can teleport 2 squares then use Abyssal Strike.
+  effect: The remasch can [[Teleport|teleport]] 2 squares then use Abyssal Strike.
 
-~~~
+```

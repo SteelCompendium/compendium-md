@@ -6,7 +6,7 @@
 **Stamina**: 20
 **Speed**: 7
 **Size**: 1L / Stability 1
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might** +1
 - **Agility** +1
@@ -15,7 +15,7 @@
 - **Presence** −1
 
 **Bite (Action)** ◆ 2d10 + 1 ◆ Signature
-Keywords: Attack, Charge, Melee, Weapon
+Keywords: Attack, [[Charge]], Melee, Weapon
 Distance: Reach 1
 Target: One creature or object
 
@@ -42,7 +42,7 @@ Humans flourish in every habitable part of the world, from inviting coastal citi
 ### VILLAINS AND HEROES
 
 Recognizing their limited lifespan, humans often set their eyes on immortality. They unfurl empires at the tip of a sword, sacrifice lives to erect grand monuments, and even aspire to godhood, all in hopes their names will be remembered forever.
-Violence and greed are close cousins in the human family. Those with power and wealth often strive for more by the sword. Others turn to theft, often driven to desperation by rapacious neighbors. Travelers in human lands are likely to encounter robbers and barons—both exact a toll.
+Violence and greed are close cousins in the [[Human|human]] family. Those with power and wealth often strive for more by the sword. Others turn to theft, often driven to desperation by rapacious neighbors. Travelers in [[Human|human]] lands are likely to encounter robbers and barons—both exact a toll.
 Other humans pursue power more subtly, turning their cunning toward selfish ends. When ambitions exceed circumstances, there is always some ancient evil power to call on. Cultists seek dark desires in exchange for service, sacrificing to forbidden gods and courting apocalypse.
 Fortunately, many humans devote themselves to righting wrongs and reshaping the world for the better. Heroes plunge themselves into danger time and time again, standing against natural and supernatural perils in pursuit of justice.
 
@@ -53,7 +53,7 @@ Humans see unrealized potential everywhere, whether envisioning an untamed fores
 
 ### SWORDS FOR HIRE
 
-With an appetite for warfare and gold, human adventurers are well represented in most mercenary bands. A human mercenary makes a stout ally… if you can afford their price.
+With an appetite for warfare and gold, [[Human|human]] adventurers are well represented in most mercenary bands. A [[Human|human]] mercenary makes a stout ally… if you can afford their price.
 
 ### CONNECTED TO THE NATURAL WORLD
 
@@ -63,29 +63,29 @@ Humans are connected to the natural world in a way that other species are not. A
 
 Most humans have the following trait:
 
-- **Supernatural Insight:** A human has Magic immunity 2 and Psionic immunity 2. As a maneuver, a human can detect supernatural creatures within 5 squares of them.
+- **Supernatural Insight:** A [[Human|human]] has Magic immunity 2 and Psionic immunity 2. As a maneuver, a [[Human|human]] can detect supernatural creatures within 5 squares of them.
 
 ### HUMAN LANGUAGES
 
-Most humans speak Caelian and one Vaslorian human language.
+Most humans speak Caelian and one Vaslorian [[Human|human]] language.
 
 ### HUMAN VILLAIN POWER
 
-At the start of any human’s turn, you can spend VP to activate one of the following features:
+At the start of any [[Human|human]]’s turn, you can spend VP to activate one of the following features:
 
-- **Alchemical Device (3 VP):** A non-minion human acting this turn can use a maneuver to throw an alchemical device.
+- **Alchemical Device (3 VP):** A non-minion [[Human|human]] acting this turn can use a maneuver to throw an alchemical device.
 
   **Alchemical Device (Maneuver)** ◆ INU RR
   Keywords: Area, Magic, Ranged, Resistance
   Distance: 3 cube within 10
   Target: Each creature in the cube
 
-  - ✸ ≤11: 5 corruption damage; restrained (EoT)
-  - ★ 12–16: 3 corruption damage; slowed (EoT)
+  - ✸ ≤11: 5 corruption damage; [[Restrained|restrained]] (EoT)
+  - ★ 12–16: 3 corruption damage; [[Slowed|slowed]] (EoT)
   - ✦ 17+: 1 corruption damage
 
-- **Exploit Opening (5 VP):** Each human making an attack this turn has an edge on ability rolls, or a double edge on abilities that target enemies affected by a condition.
+- **Exploit Opening (5 VP):** Each [[Human|human]] making an attack this turn has an edge on ability rolls, or a double edge on abilities that target enemies affected by a condition.
 
-- **Staying Power (7 VP):** Each non-minion human in the encounter regains Stamina equal to 5 times their level.
+- **Staying Power (7 VP):** Each non-minion [[Human|human]] in the encounter regains Stamina equal to 5 times their level.
 
 ### Statblocks

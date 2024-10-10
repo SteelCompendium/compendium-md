@@ -6,7 +6,7 @@
 **Stamina**: 35
 **Speed**: 5
 **Size**: 1M / Stability 0
-**Free Strike**: 4
+**[[Free Strike]]**: 4
 
 - **Might**: +2
 - **Agility**: +0
@@ -15,20 +15,19 @@
 - **Presence**: +0
 
 **Several Arms (Action)** ◆ 2d10 + 2 ◆ Signature
-**Keywords**: Attack, Melee, Weapon
-**Distance**: Reach 2
-**Target**: One creature or object
+
+| **Keywords:** Magic, Ranged | **Type:**                                     |
+| :-------------------------- | :-------------------------------------------- |
+| **Distance:** Ranged 10     | **Target:** One war dog with a loyalty collar |
 
 - ✦ ≤11: 4 damage
-- ★ 12–16: 7 damage; grabbed
-- ✸ 17+: 10 damage; grabbed
-  **Special**: The amalgamite can grab up to four creatures.
-  **5 VP**: The amalgamite deals 4 damage to each creature they have grabbed, and regains Stamina equal to the damage dealt.
+- ★ 12–16: 7 damage; [[Grabbed|grabbed]]
+- ✸ 17+: 10 damage; [[Grabbed|grabbed]]
+  **Special**: The amalgamite can [[Grab|grab]] up to four creatures.
+  **5 VP**: The amalgamite deals 4 damage to each creature they have [[Grabbed|grabbed]], and regains Stamina equal to the damage dealt.
 
 **Posthumous Promotion (Maneuver)**
-**Keywords**: Magic, Ranged
-**Distance**: Ranged 10
-**Target**: One war dog with a loyalty collar
+
 **Effect**: The target’s loyalty collar detonates, killing them instantly.
 
 **Loyalty Collar**

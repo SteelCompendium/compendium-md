@@ -1,10 +1,10 @@
 # Time Raider Nemesis
 
-~~~ds-statblock
-name: Time Raider Nemesis
+```ds-statblock
+name: [[Time Raider]] Nemesis
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Harrier
 level: 3
@@ -29,4 +29,4 @@ abilities:
   roll: MGT RR
   cost: 2 VP
 
-~~~
+```

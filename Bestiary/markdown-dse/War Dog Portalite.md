@@ -1,6 +1,6 @@
 # War Dog Portalite
 
-~~~ds-statblock
+```ds-statblock
 name: War Dog Portalite
 ancestry:
 - Humanoid
@@ -10,7 +10,7 @@ roles:
 level: 1
 ev: 11
 stamina: 20
-speed: 5 (teleport)
+speed: 5 ([[Teleport|teleport]])
 size: 1M
 stability: 0
 free_strike: 3
@@ -25,6 +25,6 @@ abilities:
   cost: Signature
 - name: Posthumous Promotion
   type: Maneuver
-- name: Corrupted Ash Teleport (Maneuver) ◆ 1 VP
+- name: Corrupted Ash [[Teleport]] (Maneuver) ◆ 1 VP
 
-~~~
+```

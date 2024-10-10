@@ -1,6 +1,6 @@
 # Warg
 
-~~~ds-statblock
+```ds-statblock
 name: Warg
 ancestry:
 - Animal
@@ -30,7 +30,7 @@ abilities:
   cost: Signature
   keywords:
   - Attack
-  - Charge
+  - [[Charge]]
   - Melee
   - Weapon
   distance: Reach 1
@@ -54,4 +54,4 @@ abilities:
   distance: 3 cube within 10
   target: Each creature in the cube
 
-~~~
+```

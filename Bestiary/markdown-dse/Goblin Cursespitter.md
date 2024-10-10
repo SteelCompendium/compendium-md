@@ -1,6 +1,6 @@
 # Goblin Cursespitter
 
-~~~ds-statblock
+```ds-statblock
 name: Goblin Cursespitter
 ancestry:
 - Goblin
@@ -43,4 +43,4 @@ abilities:
   distance: Ranged 10
   target: One creature
 
-~~~
+```

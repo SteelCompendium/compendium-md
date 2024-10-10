@@ -1,13 +1,13 @@
 #### HUMAN DEATH CULTIST
 
 **Level 2 Support**
-*Human, Humanoid*
+*[[Human]], Humanoid*
 **EV 16**
 **Stamina**: 40
 **Immunity**: Magic 2, Psionic 2
 **Speed**: 5
 **Size**: 1M / Stability 0
-**Free Strike**: 4
+**[[Free Strike]]**: 4
 
 - **Might** +0
 - **Agility** +1

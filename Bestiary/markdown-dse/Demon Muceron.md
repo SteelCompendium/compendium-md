@@ -1,6 +1,6 @@
 # Demon Muceron
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Muceron
 ancestry:
 - Demon
@@ -48,4 +48,4 @@ abilities:
   target: Three creatures
   effect: Each target is pulled 3 squares.
 
-~~~
+```

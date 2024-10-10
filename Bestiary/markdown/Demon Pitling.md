@@ -5,9 +5,9 @@
 **EV 2**
 **Stamina**: 4
 **Weakness**: Holy 3
-**Speed**: 5 (fly)
+**Speed**: 5 ([[Fly|fly]])
 **Size**: 1T / Stability 0
-**Free Strike**: 2
+**[[Free Strike]]**: 2
 
 - **Might** −2
 - **Agility** +1

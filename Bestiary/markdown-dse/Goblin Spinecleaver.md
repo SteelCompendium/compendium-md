@@ -1,6 +1,6 @@
 # Goblin Spinecleaver
 
-~~~ds-statblock
+```ds-statblock
 name: Goblin Spinecleaver
 ancestry:
 - Goblin
@@ -34,4 +34,4 @@ abilities:
   distance: Reach 1
   target: One creature or object per minion
 
-~~~
+```

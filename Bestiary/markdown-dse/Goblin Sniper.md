@@ -1,7 +1,7 @@
 # Goblin Sniper
 
-~~~ds-statblock
-name: Goblin Sniper
+```ds-statblock
+name: Goblin [[Sniper]]
 ancestry:
 - Goblin
 - Humanoid
@@ -20,7 +20,7 @@ reason: 0
 intuition: 0
 traits:
 - name: Crafty
-  effect: The sniper doesn’t provoke opportunity attacks by moving.
+  effect: The [[Sniper|sniper]] doesn’t provoke opportunity attacks by moving.
 abilities:
 - name: Bow
   type: Action
@@ -33,4 +33,4 @@ abilities:
   distance: Ranged 10
   target: One creature or object per minion
 
-~~~
+```

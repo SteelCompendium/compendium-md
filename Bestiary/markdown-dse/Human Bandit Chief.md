@@ -1,9 +1,9 @@
 # Human Bandit Chief
 
-~~~ds-statblock
-name: Human Bandit Chief
+```ds-statblock
+name: [[Human]] Bandit Chief
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Boss
@@ -62,7 +62,7 @@ abilities:
   - Area
   distance: 10 burst
   target: Each ally
-  effect: Each target can make a ranged free strike.
+  effect: Each target can make a ranged [[Free Strike|free strike]].
 - name: Form Up!
   type: Villain Action
   cost: 2 VP
@@ -83,6 +83,6 @@ abilities:
   target: Self
   effect: The bandit chief shifts twice their speed. During or after this movement,
     they can attack up to four targets with Whip & Magic Longsword. Any ally of the
-    bandit chief adjacent to a target can make a free strike against that target.
+    bandit chief adjacent to a target can make a [[Free Strike|free strike]] against that target.
 
-~~~
+```

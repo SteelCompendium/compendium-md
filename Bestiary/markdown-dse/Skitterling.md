@@ -1,6 +1,6 @@
 # Skitterling
 
-~~~ds-statblock
+```ds-statblock
 name: Skitterling
 ancestry:
 - Animal
@@ -11,7 +11,7 @@ roles:
 level: 1
 ev: 3
 stamina: 5
-speed: 5 (fly)
+speed: 5 ([[Fly|fly]])
 size: 1T
 stability: 0
 free_strike: 2
@@ -29,4 +29,4 @@ abilities:
   distance: Reach 1
   target: One creature or object per minion
 
-~~~
+```

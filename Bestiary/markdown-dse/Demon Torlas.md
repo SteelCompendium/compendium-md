@@ -1,6 +1,6 @@
 # Demon Torlas
 
-~~~ds-statblock
+```ds-statblock
 name: Demon Torlas
 ancestry:
 - Demon
@@ -46,4 +46,4 @@ abilities:
   target: Three creatures
   effect: The torlas pulls the target up to 2 squares.
 
-~~~
+```

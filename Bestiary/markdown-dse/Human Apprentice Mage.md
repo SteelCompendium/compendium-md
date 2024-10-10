@@ -1,9 +1,9 @@
 # Human Apprentice Mage
 
-~~~ds-statblock
-name: Human Apprentice Mage
+```ds-statblock
+name: [[Human]] Apprentice Mage
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Controller
@@ -35,4 +35,4 @@ abilities:
   distance: Ranged 10
   target: One creature or object per minion
 
-~~~
+```

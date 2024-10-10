@@ -1,9 +1,9 @@
 # Human Death Acolyte
 
-~~~ds-statblock
-name: Human Death Acolyte
+```ds-statblock
+name: [[Human]] Death Acolyte
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Hexer
@@ -35,4 +35,4 @@ abilities:
   distance: Ranged 10
   target: One creature or object per minion
 
-~~~
+```

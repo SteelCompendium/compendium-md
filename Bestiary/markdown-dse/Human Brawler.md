@@ -1,9 +1,9 @@
 # Human Brawler
 
-~~~ds-statblock
-name: Human Brawler
+```ds-statblock
+name: [[Human]] Brawler
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Brute
@@ -24,8 +24,8 @@ intuition: 0
 presence: 0
 traits:
 - name: Shoot the Hostage
-  effect: The brawler takes half damage from attacks if they have an enemy grabbed.
-    They then apply the remaining damage to the grabbed enemy.
+  effect: The brawler takes half damage from attacks if they have an enemy [[Grabbed|grabbed]].
+    They then apply the remaining damage to the [[Grabbed|grabbed]] enemy.
 abilities:
 - name: Haymaker
   type: Action
@@ -43,8 +43,8 @@ abilities:
   keywords:
   - Melee
   distance: Reach 1
-  target: One creature grabbed by the brawler
-  effect: The brawler pushes the creature they have grabbed 5 squares. This breaks
-    the grab.
+  target: One creature [[Grabbed|grabbed]] by the brawler
+  effect: The brawler pushes the creature they have [[Grabbed|grabbed]] 5 squares. This breaks
+    the [[Grab|grab]].
 
-~~~
+```

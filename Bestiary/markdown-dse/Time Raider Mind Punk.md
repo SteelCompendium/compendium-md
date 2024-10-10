@@ -1,10 +1,10 @@
 # Time Raider Mind Punk
 
-~~~ds-statblock
-name: Time Raider Mind Punk
+```ds-statblock
+name: [[Time Raider]] Mind Punk
 ancestry:
 - Humanoid
-- Time Raider
+- [[Time Raider]]
 roles:
 - Hexer
 level: 3
@@ -28,4 +28,4 @@ abilities:
   type: Action
   roll: REA RR
 
-~~~
+```

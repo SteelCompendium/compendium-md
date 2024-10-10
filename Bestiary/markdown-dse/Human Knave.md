@@ -1,9 +1,9 @@
 # Human Knave
 
-~~~ds-statblock
-name: Human Knave
+```ds-statblock
+name: [[Human]] Knave
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Defender
@@ -38,4 +38,4 @@ abilities:
   distance: Reach 1 or Ranged 5
   target: One creature or object
 
-~~~
+```

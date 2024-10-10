@@ -1,9 +1,9 @@
 # Human Scoundrel
 
-~~~ds-statblock
-name: Human Scoundrel
+```ds-statblock
+name: [[Human]] Scoundrel
 ancestry:
-- Human
+- [[Human]]
 - Humanoid
 roles:
 - Ambusher
@@ -37,4 +37,4 @@ abilities:
   type: Action
   roll: 5 VP
 
-~~~
+```

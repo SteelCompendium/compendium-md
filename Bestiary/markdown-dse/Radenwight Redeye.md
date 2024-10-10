@@ -1,6 +1,6 @@
 # Radenwight Redeye
 
-~~~ds-statblock
+```ds-statblock
 name: Radenwight Redeye
 ancestry:
 - Humanoid
@@ -38,6 +38,6 @@ abilities:
   distance: Reach 1
   target: One creature
   trigger: An ally deals damage to the target.
-  effect: The redeye makes a free strike against the target.
+  effect: The redeye makes a [[Free Strike|free strike]] against the target.
 
-~~~
+```
